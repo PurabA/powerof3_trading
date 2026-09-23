@@ -1,0 +1,3836 @@
+{
+  "360ONE": {
+    "symbol": "360ONE",
+    "last_close": 1165.0,
+    "atr_14d": 49.14285714285716,
+    "avg_vol_14d": 1804302.5,
+    "avg_turnover_14d": 2062577052.514286,
+    "avg_open_vol_14d": 91680.07142857143,
+    "history_days": 1016
+  },
+  "AADHARHFC": {
+    "symbol": "AADHARHFC",
+    "last_close": 473.0,
+    "atr_14d": 10.207142857142852,
+    "avg_vol_14d": 420649.71428571426,
+    "avg_turnover_14d": 200375103.38928574,
+    "avg_open_vol_14d": 25546.428571428572,
+    "history_days": 431
+  },
+  "AARTIIND": {
+    "symbol": "AARTIIND",
+    "last_close": 441.4,
+    "atr_14d": 14.31071428571428,
+    "avg_vol_14d": 1584875.5714285714,
+    "avg_turnover_14d": 637719526.4964286,
+    "avg_open_vol_14d": 173211.14285714287,
+    "history_days": 1016
+  },
+  "AAVAS": {
+    "symbol": "AAVAS",
+    "last_close": 1419.4,
+    "atr_14d": 52.07142857142859,
+    "avg_vol_14d": 357921.5,
+    "avg_turnover_14d": 514892869.45,
+    "avg_open_vol_14d": 6125.285714285715,
+    "history_days": 1016
+  },
+  "ABB": {
+    "symbol": "ABB",
+    "last_close": 5740.0,
+    "atr_14d": 203.53571428571428,
+    "avg_vol_14d": 454938.85714285716,
+    "avg_turnover_14d": 2399543867.0,
+    "avg_open_vol_14d": 15490.857142857143,
+    "history_days": 1016
+  },
+  "ABCAPITAL": {
+    "symbol": "ABCAPITAL",
+    "last_close": 346.0,
+    "atr_14d": 13.042857142857141,
+    "avg_vol_14d": 5621724.714285715,
+    "avg_turnover_14d": 1953124061.475,
+    "avg_open_vol_14d": 220248.0,
+    "history_days": 1016
+  },
+  "ABFRL": {
+    "symbol": "ABFRL",
+    "last_close": 68.5,
+    "atr_14d": 3.7564285714285726,
+    "avg_vol_14d": 15375093.57142857,
+    "avg_turnover_14d": 1015611811.8250002,
+    "avg_open_vol_14d": 4361679.428571428,
+    "history_days": 1016
+  },
+  "ABLBL": {
+    "symbol": "ABLBL",
+    "last_close": 115.67,
+    "atr_14d": 5.800714285714287,
+    "avg_vol_14d": 3282125.3571428573,
+    "avg_turnover_14d": 358517547.6314286,
+    "avg_open_vol_14d": 344067.14285714284,
+    "history_days": 156
+  },
+  "ABREL": {
+    "symbol": "ABREL",
+    "last_close": 1228.0,
+    "atr_14d": 67.98571428571434,
+    "avg_vol_14d": 278601.71428571426,
+    "avg_turnover_14d": 363275758.82857144,
+    "avg_open_vol_14d": 10523.357142857143,
+    "history_days": 1016
+  },
+  "ABSLAMC": {
+    "symbol": "ABSLAMC",
+    "last_close": 821.0,
+    "atr_14d": 30.914285714285718,
+    "avg_vol_14d": 371001.14285714284,
+    "avg_turnover_14d": 291312020.0642857,
+    "avg_open_vol_14d": 21955.14285714286,
+    "history_days": 1016
+  },
+  "ACC": {
+    "symbol": "ACC",
+    "last_close": 1690.0,
+    "atr_14d": 42.76428571428575,
+    "avg_vol_14d": 197381.42857142858,
+    "avg_turnover_14d": 332951837.1642857,
+    "avg_open_vol_14d": 8519.285714285714,
+    "history_days": 1016
+  },
+  "ACE": {
+    "symbol": "ACE",
+    "last_close": 879.5,
+    "atr_14d": 36.142857142857146,
+    "avg_vol_14d": 288282.28571428574,
+    "avg_turnover_14d": 243570587.06428555,
+    "avg_open_vol_14d": 13731.42857142857,
+    "history_days": 1016
+  },
+  "ACMESOLAR": {
+    "symbol": "ACMESOLAR",
+    "last_close": 229.0,
+    "atr_14d": 9.936428571428566,
+    "avg_vol_14d": 717095.5714285715,
+    "avg_turnover_14d": 154436626.42857143,
+    "avg_open_vol_14d": 37516.21428571428,
+    "history_days": 305
+  },
+  "ADANIENSOL": {
+    "symbol": "ADANIENSOL",
+    "last_close": 988.45,
+    "atr_14d": 49.32857142857143,
+    "avg_vol_14d": 2345124.5714285714,
+    "avg_turnover_14d": 2079038302.0607145,
+    "avg_open_vol_14d": 131440.5,
+    "history_days": 1016
+  },
+  "ADANIENT": {
+    "symbol": "ADANIENT",
+    "last_close": 2225.0,
+    "atr_14d": 89.8,
+    "avg_vol_14d": 2368867.5,
+    "avg_turnover_14d": 4781595562.057143,
+    "avg_open_vol_14d": 141508.64285714287,
+    "history_days": 1016
+  },
+  "ADANIGREEN": {
+    "symbol": "ADANIGREEN",
+    "last_close": 953.45,
+    "atr_14d": 47.95357142857142,
+    "avg_vol_14d": 5648885.285714285,
+    "avg_turnover_14d": 4714583283.099999,
+    "avg_open_vol_14d": 297771.71428571426,
+    "history_days": 1016
+  },
+  "ADANIPORTS": {
+    "symbol": "ADANIPORTS",
+    "last_close": 1565.2,
+    "atr_14d": 58.378571428571455,
+    "avg_vol_14d": 3260217.9285714286,
+    "avg_turnover_14d": 4626418144.635715,
+    "avg_open_vol_14d": 171987.64285714287,
+    "history_days": 1016
+  },
+  "ADANIPOWER": {
+    "symbol": "ADANIPOWER",
+    "last_close": 154.3,
+    "atr_14d": 5.6028571428571485,
+    "avg_vol_14d": 19939577.714285713,
+    "avg_turnover_14d": 2745973857.4564285,
+    "avg_open_vol_14d": 1209217.2857142857,
+    "history_days": 1016
+  },
+  "AEGISLOG": {
+    "symbol": "AEGISLOG",
+    "last_close": 698.9,
+    "atr_14d": 26.332142857142863,
+    "avg_vol_14d": 591916.0,
+    "avg_turnover_14d": 411867258.89642817,
+    "avg_open_vol_14d": 18826.0,
+    "history_days": 1016
+  },
+  "AEGISVOPAK": {
+    "symbol": "AEGISVOPAK",
+    "last_close": 228.0,
+    "atr_14d": 13.9,
+    "avg_vol_14d": 2135094.9285714286,
+    "avg_turnover_14d": 472098808.1471429,
+    "avg_open_vol_14d": 45430.28571428572,
+    "history_days": 171
+  },
+  "AFCONS": {
+    "symbol": "AFCONS",
+    "last_close": 343.6,
+    "atr_14d": 10.450000000000005,
+    "avg_vol_14d": 496477.14285714284,
+    "avg_turnover_14d": 168901460.93214288,
+    "avg_open_vol_14d": 14776.642857142857,
+    "history_days": 312
+  },
+  "AFFLE": {
+    "symbol": "AFFLE",
+    "last_close": 1650.3,
+    "atr_14d": 60.17142857142859,
+    "avg_vol_14d": 222633.2142857143,
+    "avg_turnover_14d": 356251121.10714287,
+    "avg_open_vol_14d": 9211.285714285714,
+    "history_days": 1016
+  },
+  "AGARWALEYE": {
+    "symbol": "AGARWALEYE",
+    "last_close": 450.0,
+    "atr_14d": 22.67142857142857,
+    "avg_vol_14d": 271955.78571428574,
+    "avg_turnover_14d": 126344284.64999999,
+    "avg_open_vol_14d": 7225.5,
+    "history_days": 248
+  },
+  "AIIL": {
+    "symbol": "AIIL",
+    "last_close": 503.0,
+    "atr_14d": 31.614285714285703,
+    "avg_vol_14d": 653832.2857142857,
+    "avg_turnover_14d": 372296714.4928571,
+    "avg_open_vol_14d": 54156.92857142857,
+    "history_days": 446
+  },
+  "ALKEM": {
+    "symbol": "ALKEM",
+    "last_close": 5660.0,
+    "atr_14d": 143.71428571428572,
+    "avg_vol_14d": 122980.28571428571,
+    "avg_turnover_14d": 702157664.8571428,
+    "avg_open_vol_14d": 3785.0,
+    "history_days": 1016
+  },
+  "AMBER": {
+    "symbol": "AMBER",
+    "last_close": 6403.5,
+    "atr_14d": 234.85714285714286,
+    "avg_vol_14d": 364847.28571428574,
+    "avg_turnover_14d": 2134137266.4642856,
+    "avg_open_vol_14d": 17843.071428571428,
+    "history_days": 1016
+  },
+  "AMBUJACEM": {
+    "symbol": "AMBUJACEM",
+    "last_close": 536.0,
+    "atr_14d": 18.47142857142857,
+    "avg_vol_14d": 2707616.9285714286,
+    "avg_turnover_14d": 1425815444.9392853,
+    "avg_open_vol_14d": 107541.92857142857,
+    "history_days": 1016
+  },
+  "ANANDRATHI": {
+    "symbol": "ANANDRATHI",
+    "last_close": 2941.0,
+    "atr_14d": 104.60000000000004,
+    "avg_vol_14d": 276924.78571428574,
+    "avg_turnover_14d": 817158967.1857141,
+    "avg_open_vol_14d": 8512.07142857143,
+    "history_days": 1016
+  },
+  "ANANTRAJ": {
+    "symbol": "ANANTRAJ",
+    "last_close": 555.0,
+    "atr_14d": 30.024999999999988,
+    "avg_vol_14d": 7001977.642857143,
+    "avg_turnover_14d": 3758487667.15,
+    "avg_open_vol_14d": 439344.5,
+    "history_days": 1016
+  },
+  "ANGELONE": {
+    "symbol": "ANGELONE",
+    "last_close": 2670.0,
+    "atr_14d": 131.94285714285715,
+    "avg_vol_14d": 1560074.4285714286,
+    "avg_turnover_14d": 3989318609.3999987,
+    "avg_open_vol_14d": 115384.64285714286,
+    "history_days": 1016
+  },
+  "APARINDS": {
+    "symbol": "APARINDS",
+    "last_close": 9477.0,
+    "atr_14d": 433.82142857142856,
+    "avg_vol_14d": 149399.5,
+    "avg_turnover_14d": 1278766973.142857,
+    "avg_open_vol_14d": 10200.857142857143,
+    "history_days": 1016
+  },
+  "APLAPOLLO": {
+    "symbol": "APLAPOLLO",
+    "last_close": 2171.8,
+    "atr_14d": 66.04285714285717,
+    "avg_vol_14d": 1034545.6428571428,
+    "avg_turnover_14d": 2095446211.428572,
+    "avg_open_vol_14d": 77402.21428571429,
+    "history_days": 1016
+  },
+  "APOLLOHOSP": {
+    "symbol": "APOLLOHOSP",
+    "last_close": 7101.0,
+    "atr_14d": 171.75,
+    "avg_vol_14d": 464281.21428571426,
+    "avg_turnover_14d": 3221331139.892857,
+    "avg_open_vol_14d": 30192.14285714286,
+    "history_days": 1016
+  },
+  "APOLLOTYRE": {
+    "symbol": "APOLLOTYRE",
+    "last_close": 514.0,
+    "atr_14d": 14.978571428571415,
+    "avg_vol_14d": 766190.3571428572,
+    "avg_turnover_14d": 385680087.0500001,
+    "avg_open_vol_14d": 44534.142857142855,
+    "history_days": 1016
+  },
+  "APTUS": {
+    "symbol": "APTUS",
+    "last_close": 277.0,
+    "atr_14d": 8.917857142857141,
+    "avg_vol_14d": 876650.5,
+    "avg_turnover_14d": 235635709.57142857,
+    "avg_open_vol_14d": 25075.35714285714,
+    "history_days": 1016
+  },
+  "ARE&M": {
+    "symbol": "ARE&M",
+    "last_close": 883.0,
+    "atr_14d": 22.400000000000002,
+    "avg_vol_14d": 346951.21428571426,
+    "avg_turnover_14d": 293262964.2,
+    "avg_open_vol_14d": 15935.714285714286,
+    "history_days": 1016
+  },
+  "ASHOKLEY": {
+    "symbol": "ASHOKLEY",
+    "last_close": 201.15,
+    "atr_14d": 7.255,
+    "avg_vol_14d": 17142355.785714287,
+    "avg_turnover_14d": 3268637432.4864283,
+    "avg_open_vol_14d": 1088849.857142857,
+    "history_days": 1016
+  },
+  "ASIANPAINT": {
+    "symbol": "ASIANPAINT",
+    "last_close": 2450.0,
+    "atr_14d": 92.7642857142857,
+    "avg_vol_14d": 1810558.357142857,
+    "avg_turnover_14d": 4636646667.6,
+    "avg_open_vol_14d": 95517.57142857143,
+    "history_days": 1016
+  },
+  "ASTERDM": {
+    "symbol": "ASTERDM",
+    "last_close": 540.0,
+    "atr_14d": 25.435714285714294,
+    "avg_vol_14d": 805806.7142857143,
+    "avg_turnover_14d": 450325804.2035714,
+    "avg_open_vol_14d": 34602.71428571428,
+    "history_days": 1016
+  },
+  "ASTRAL": {
+    "symbol": "ASTRAL",
+    "last_close": 1505.0,
+    "atr_14d": 48.750000000000014,
+    "avg_vol_14d": 398177.85714285716,
+    "avg_turnover_14d": 570452582.15,
+    "avg_open_vol_14d": 19995.285714285714,
+    "history_days": 1016
+  },
+  "ATGL": {
+    "symbol": "ATGL",
+    "last_close": 549.6,
+    "atr_14d": 18.935714285714283,
+    "avg_vol_14d": 753496.2142857143,
+    "avg_turnover_14d": 400316718.44642866,
+    "avg_open_vol_14d": 53655.357142857145,
+    "history_days": 1016
+  },
+  "ATHERENERG": {
+    "symbol": "ATHERENERG",
+    "last_close": 695.3,
+    "atr_14d": 30.975000000000016,
+    "avg_vol_14d": 1777749.7857142857,
+    "avg_turnover_14d": 1130036403.725,
+    "avg_open_vol_14d": 71361.78571428571,
+    "history_days": 190
+  },
+  "AUBANK": {
+    "symbol": "AUBANK",
+    "last_close": 981.0,
+    "atr_14d": 35.8357142857143,
+    "avg_vol_14d": 2788376.8571428573,
+    "avg_turnover_14d": 2767071314.857143,
+    "avg_open_vol_14d": 152649.92857142858,
+    "history_days": 1016
+  },
+  "AUROPHARMA": {
+    "symbol": "AUROPHARMA",
+    "last_close": 1212.7,
+    "atr_14d": 34.921428571428564,
+    "avg_vol_14d": 1357832.142857143,
+    "avg_turnover_14d": 1606320480.95,
+    "avg_open_vol_14d": 96947.57142857143,
+    "history_days": 1016
+  },
+  "AWL": {
+    "symbol": "AWL",
+    "last_close": 217.0,
+    "atr_14d": 5.679285714285718,
+    "avg_vol_14d": 1596076.0714285714,
+    "avg_turnover_14d": 337983790.83785725,
+    "avg_open_vol_14d": 81079.14285714286,
+    "history_days": 991
+  },
+  "AXISBANK": {
+    "symbol": "AXISBANK",
+    "last_close": 1340.0,
+    "atr_14d": 47.82142857142859,
+    "avg_vol_14d": 9841323.785714285,
+    "avg_turnover_14d": 13007058041.821428,
+    "avg_open_vol_14d": 1144942.7857142857,
+    "history_days": 1016
+  },
+  "BAJAJ-AUTO": {
+    "symbol": "BAJAJ-AUTO",
+    "last_close": 9625.0,
+    "atr_14d": 259.10714285714283,
+    "avg_vol_14d": 364010.5,
+    "avg_turnover_14d": 3443152951.892857,
+    "avg_open_vol_14d": 13698.142857142857,
+    "history_days": 1016
+  },
+  "BAJAJFINSV": {
+    "symbol": "BAJAJFINSV",
+    "last_close": 2017.0,
+    "atr_14d": 47.3357142857143,
+    "avg_vol_14d": 1382600.0714285714,
+    "avg_turnover_14d": 2706257512.721429,
+    "avg_open_vol_14d": 35645.07142857143,
+    "history_days": 1016
+  },
+  "BAJAJHFL": {
+    "symbol": "BAJAJHFL",
+    "last_close": 91.75,
+    "atr_14d": 2.695714285714286,
+    "avg_vol_14d": 7903907.857142857,
+    "avg_turnover_14d": 713718518.0378572,
+    "avg_open_vol_14d": 443232.71428571426,
+    "history_days": 346
+  },
+  "BAJFINANCE": {
+    "symbol": "BAJFINANCE",
+    "last_close": 964.0,
+    "atr_14d": 27.285714285714278,
+    "avg_vol_14d": 8392244.42857143,
+    "avg_turnover_14d": 7859215479.078572,
+    "avg_open_vol_14d": 535894.6428571428,
+    "history_days": 1016
+  },
+  "BALKRISIND": {
+    "symbol": "BALKRISIND",
+    "last_close": 2684.9,
+    "atr_14d": 87.44285714285714,
+    "avg_vol_14d": 330987.78571428574,
+    "avg_turnover_14d": 814734799.9071429,
+    "avg_open_vol_14d": 43243.57142857143,
+    "history_days": 1016
+  },
+  "BALRAMCHIN": {
+    "symbol": "BALRAMCHIN",
+    "last_close": 441.0,
+    "atr_14d": 14.439285714285704,
+    "avg_vol_14d": 272490.0714285714,
+    "avg_turnover_14d": 113087565.35000001,
+    "avg_open_vol_14d": 8594.857142857143,
+    "history_days": 1016
+  },
+  "BANDHANBNK": {
+    "symbol": "BANDHANBNK",
+    "last_close": 157.24,
+    "atr_14d": 4.909285714285711,
+    "avg_vol_14d": 13146715.357142856,
+    "avg_turnover_14d": 1943187362.8992856,
+    "avg_open_vol_14d": 883371.5,
+    "history_days": 1016
+  },
+  "BANKBARODA": {
+    "symbol": "BANKBARODA",
+    "last_close": 289.5,
+    "atr_14d": 9.84999999999999,
+    "avg_vol_14d": 11836054.785714285,
+    "avg_turnover_14d": 3516628429.9535713,
+    "avg_open_vol_14d": 654395.0,
+    "history_days": 1016
+  },
+  "BANKINDIA": {
+    "symbol": "BANKINDIA",
+    "last_close": 160.94,
+    "atr_14d": 7.408571428571433,
+    "avg_vol_14d": 20266492.285714287,
+    "avg_turnover_14d": 3248105721.6400003,
+    "avg_open_vol_14d": 1428329.4285714286,
+    "history_days": 1016
+  },
+  "BATAINDIA": {
+    "symbol": "BATAINDIA",
+    "last_close": 860.0,
+    "atr_14d": 24.974999999999998,
+    "avg_vol_14d": 101643.92857142857,
+    "avg_turnover_14d": 88505906.60000001,
+    "avg_open_vol_14d": 4979.071428571428,
+    "history_days": 1016
+  },
+  "BDL": {
+    "symbol": "BDL",
+    "last_close": 1305.5,
+    "atr_14d": 74.02857142857144,
+    "avg_vol_14d": 2413926.3571428573,
+    "avg_turnover_14d": 3440434342.107143,
+    "avg_open_vol_14d": 143519.7857142857,
+    "history_days": 1016
+  },
+  "BEL": {
+    "symbol": "BEL",
+    "last_close": 439.0,
+    "atr_14d": 18.378571428571423,
+    "avg_vol_14d": 33372109.714285713,
+    "avg_turnover_14d": 14378147413.542856,
+    "avg_open_vol_14d": 1890039.357142857,
+    "history_days": 1016
+  },
+  "BEML": {
+    "symbol": "BEML",
+    "last_close": 1767.0,
+    "atr_14d": 88.33571428571427,
+    "avg_vol_14d": 317837.9285714286,
+    "avg_turnover_14d": 555511537.2428571,
+    "avg_open_vol_14d": 19801.571428571428,
+    "history_days": 1016
+  },
+  "BERGEPAINT": {
+    "symbol": "BERGEPAINT",
+    "last_close": 478.5,
+    "atr_14d": 13.007142857142863,
+    "avg_vol_14d": 241463.07142857142,
+    "avg_turnover_14d": 118821625.99285743,
+    "avg_open_vol_14d": 11900.714285714286,
+    "history_days": 1016
+  },
+  "BHARATFORG": {
+    "symbol": "BHARATFORG",
+    "last_close": 1595.0,
+    "atr_14d": 59.142857142857125,
+    "avg_vol_14d": 1110775.2142857143,
+    "avg_turnover_14d": 1630160576.642857,
+    "avg_open_vol_14d": 75421.28571428571,
+    "history_days": 1016
+  },
+  "BHARTIARTL": {
+    "symbol": "BHARTIARTL",
+    "last_close": 2022.8,
+    "atr_14d": 43.842857142857156,
+    "avg_vol_14d": 6455053.785714285,
+    "avg_turnover_14d": 12822006762.978573,
+    "avg_open_vol_14d": 470455.64285714284,
+    "history_days": 1016
+  },
+  "BHARTIHEXA": {
+    "symbol": "BHARTIHEXA",
+    "last_close": 1610.0,
+    "atr_14d": 58.8142857142857,
+    "avg_vol_14d": 222507.14285714287,
+    "avg_turnover_14d": 354167533.53571427,
+    "avg_open_vol_14d": 7538.357142857143,
+    "history_days": 452
+  },
+  "BHEL": {
+    "symbol": "BHEL",
+    "last_close": 271.6,
+    "atr_14d": 11.139285714285709,
+    "avg_vol_14d": 11069563.785714285,
+    "avg_turnover_14d": 2841020462.0714293,
+    "avg_open_vol_14d": 516343.28571428574,
+    "history_days": 1016
+  },
+  "BIKAJI": {
+    "symbol": "BIKAJI",
+    "last_close": 657.6,
+    "atr_14d": 26.34285714285715,
+    "avg_vol_14d": 234987.7857142857,
+    "avg_turnover_14d": 156662765.84285715,
+    "avg_open_vol_14d": 22549.571428571428,
+    "history_days": 801
+  },
+  "BIOCON": {
+    "symbol": "BIOCON",
+    "last_close": 368.0,
+    "atr_14d": 10.878571428571425,
+    "avg_vol_14d": 3706090.714285714,
+    "avg_turnover_14d": 1368175909.4750001,
+    "avg_open_vol_14d": 137968.0,
+    "history_days": 1016
+  },
+  "BLS": {
+    "symbol": "BLS",
+    "last_close": 289.0,
+    "atr_14d": 13.464285714285717,
+    "avg_vol_14d": 1951009.0,
+    "avg_turnover_14d": 538116923.225,
+    "avg_open_vol_14d": 85279.28571428571,
+    "history_days": 1016
+  },
+  "BLUEJET": {
+    "symbol": "BLUEJET",
+    "last_close": 412.9,
+    "atr_14d": 19.88571428571428,
+    "avg_vol_14d": 348959.64285714284,
+    "avg_turnover_14d": 152402996.07142857,
+    "avg_open_vol_14d": 15491.42857142857,
+    "history_days": 563
+  },
+  "BLUESTARCO": {
+    "symbol": "BLUESTARCO",
+    "last_close": 1884.0,
+    "atr_14d": 68.12857142857148,
+    "avg_vol_14d": 466480.0,
+    "avg_turnover_14d": 820325694.3857143,
+    "avg_open_vol_14d": 13260.42857142857,
+    "history_days": 1016
+  },
+  "BPCL": {
+    "symbol": "BPCL",
+    "last_close": 381.85,
+    "atr_14d": 11.46785714285714,
+    "avg_vol_14d": 8843033.0,
+    "avg_turnover_14d": 3201054612.664286,
+    "avg_open_vol_14d": 563500.5714285715,
+    "history_days": 1016
+  },
+  "BRIGADE": {
+    "symbol": "BRIGADE",
+    "last_close": 788.2,
+    "atr_14d": 28.68571428571428,
+    "avg_vol_14d": 633940.9285714285,
+    "avg_turnover_14d": 490680165.09285706,
+    "avg_open_vol_14d": 14932.642857142857,
+    "history_days": 1016
+  },
+  "BRITANNIA": {
+    "symbol": "BRITANNIA",
+    "last_close": 5857.5,
+    "atr_14d": 140.42857142857142,
+    "avg_vol_14d": 421013.28571428574,
+    "avg_turnover_14d": 2462902564.5,
+    "avg_open_vol_14d": 9047.5,
+    "history_days": 1016
+  },
+  "BSE": {
+    "symbol": "BSE",
+    "last_close": 2895.0,
+    "atr_14d": 128.38571428571422,
+    "avg_vol_14d": 5020224.642857143,
+    "avg_turnover_14d": 13641019966.878572,
+    "avg_open_vol_14d": 321928.5,
+    "history_days": 1016
+  },
+  "BSOFT": {
+    "symbol": "BSOFT",
+    "last_close": 439.9,
+    "atr_14d": 19.303571428571423,
+    "avg_vol_14d": 1123419.7142857143,
+    "avg_turnover_14d": 469763384.1178571,
+    "avg_open_vol_14d": 101746.64285714286,
+    "history_days": 1016
+  },
+  "CAMPUS": {
+    "symbol": "CAMPUS",
+    "last_close": 272.0,
+    "atr_14d": 9.360714285714286,
+    "avg_vol_14d": 579986.6428571428,
+    "avg_turnover_14d": 152441317.61428574,
+    "avg_open_vol_14d": 17956.5,
+    "history_days": 932
+  },
+  "CAMS": {
+    "symbol": "CAMS",
+    "last_close": 732.05,
+    "atr_14d": 28.617857142857158,
+    "avg_vol_14d": 1411084.642857143,
+    "avg_turnover_14d": 997542866.2928572,
+    "avg_open_vol_14d": 73364.71428571429,
+    "history_days": 1016
+  },
+  "CANBK": {
+    "symbol": "CANBK",
+    "last_close": 147.65,
+    "atr_14d": 6.3335714285714255,
+    "avg_vol_14d": 33530781.42857143,
+    "avg_turnover_14d": 5071022794.366429,
+    "avg_open_vol_14d": 2203095.6428571427,
+    "history_days": 1016
+  },
+  "CANFINHOME": {
+    "symbol": "CANFINHOME",
+    "last_close": 933.5,
+    "atr_14d": 38.089285714285715,
+    "avg_vol_14d": 260785.2857142857,
+    "avg_turnover_14d": 239699408.8285714,
+    "avg_open_vol_14d": 13822.142857142857,
+    "history_days": 1016
+  },
+  "CARBORUNIV": {
+    "symbol": "CARBORUNIV",
+    "last_close": 800.0,
+    "atr_14d": 30.75714285714286,
+    "avg_vol_14d": 302117.28571428574,
+    "avg_turnover_14d": 240499159.94642863,
+    "avg_open_vol_14d": 5671.928571428572,
+    "history_days": 1016
+  },
+  "CASTROLIND": {
+    "symbol": "CASTROLIND",
+    "last_close": 187.5,
+    "atr_14d": 2.7778571428571377,
+    "avg_vol_14d": 1921032.0714285714,
+    "avg_turnover_14d": 354808077.6578571,
+    "avg_open_vol_14d": 102375.42857142857,
+    "history_days": 1016
+  },
+  "CCL": {
+    "symbol": "CCL",
+    "last_close": 1014.95,
+    "atr_14d": 33.435714285714276,
+    "avg_vol_14d": 184120.85714285713,
+    "avg_turnover_14d": 177265732.3285714,
+    "avg_open_vol_14d": 7578.785714285715,
+    "history_days": 1016
+  },
+  "CDSL": {
+    "symbol": "CDSL",
+    "last_close": 1366.5,
+    "atr_14d": 54.35714285714284,
+    "avg_vol_14d": 2503202.285714286,
+    "avg_turnover_14d": 3307186878.407143,
+    "avg_open_vol_14d": 171959.2142857143,
+    "history_days": 1016
+  },
+  "CEATLTD": {
+    "symbol": "CEATLTD",
+    "last_close": 3908.9,
+    "atr_14d": 141.40714285714282,
+    "avg_vol_14d": 175333.57142857142,
+    "avg_turnover_14d": 651038889.8142859,
+    "avg_open_vol_14d": 18901.071428571428,
+    "history_days": 1016
+  },
+  "CESC": {
+    "symbol": "CESC",
+    "last_close": 153.0,
+    "atr_14d": 5.156428571428569,
+    "avg_vol_14d": 2563735.0,
+    "avg_turnover_14d": 376729871.2035714,
+    "avg_open_vol_14d": 156172.85714285713,
+    "history_days": 1016
+  },
+  "CGCL": {
+    "symbol": "CGCL",
+    "last_close": 172.2,
+    "atr_14d": 7.170714285714291,
+    "avg_vol_14d": 1351325.642857143,
+    "avg_turnover_14d": 233880042.25499997,
+    "avg_open_vol_14d": 100835.28571428571,
+    "history_days": 1016
+  },
+  "CGPOWER": {
+    "symbol": "CGPOWER",
+    "last_close": 667.8,
+    "atr_14d": 31.203571428571415,
+    "avg_vol_14d": 7293745.071428572,
+    "avg_turnover_14d": 4300985721.192857,
+    "avg_open_vol_14d": 493445.64285714284,
+    "history_days": 1016
+  },
+  "CHALET": {
+    "symbol": "CHALET",
+    "last_close": 872.0,
+    "atr_14d": 29.882142857142874,
+    "avg_vol_14d": 143297.85714285713,
+    "avg_turnover_14d": 123414461.19999993,
+    "avg_open_vol_14d": 5399.785714285715,
+    "history_days": 1016
+  },
+  "CHAMBLFERT": {
+    "symbol": "CHAMBLFERT",
+    "last_close": 437.55,
+    "atr_14d": 13.235714285714286,
+    "avg_vol_14d": 953661.1428571428,
+    "avg_turnover_14d": 414606477.8071428,
+    "avg_open_vol_14d": 33576.357142857145,
+    "history_days": 1016
+  },
+  "CHENNPETRO": {
+    "symbol": "CHENNPETRO",
+    "last_close": 880.35,
+    "atr_14d": 46.27500000000001,
+    "avg_vol_14d": 1641746.857142857,
+    "avg_turnover_14d": 1398529073.542857,
+    "avg_open_vol_14d": 99296.64285714286,
+    "history_days": 1016
+  },
+  "CHOICEIN": {
+    "symbol": "CHOICEIN",
+    "last_close": 783.0,
+    "atr_14d": 26.653571428571436,
+    "avg_vol_14d": 454597.4285714286,
+    "avg_turnover_14d": 354285780.0571428,
+    "avg_open_vol_14d": 27203.0,
+    "history_days": 950
+  },
+  "CHOLAFIN": {
+    "symbol": "CHOLAFIN",
+    "last_close": 1730.0,
+    "atr_14d": 53.00714285714287,
+    "avg_vol_14d": 1759484.7142857143,
+    "avg_turnover_14d": 2914589910.121429,
+    "avg_open_vol_14d": 126476.5,
+    "history_days": 1016
+  },
+  "CHOLAHLDNG": {
+    "symbol": "CHOLAHLDNG",
+    "last_close": 1716.6,
+    "atr_14d": 64.38571428571429,
+    "avg_vol_14d": 288855.14285714284,
+    "avg_turnover_14d": 480916433.13571435,
+    "avg_open_vol_14d": 7144.857142857143,
+    "history_days": 1016
+  },
+  "CIPLA": {
+    "symbol": "CIPLA",
+    "last_close": 1329.0,
+    "atr_14d": 38.07142857142857,
+    "avg_vol_14d": 2557029.0714285714,
+    "avg_turnover_14d": 3448205722.4571424,
+    "avg_open_vol_14d": 117792.78571428571,
+    "history_days": 1016
+  },
+  "CLEAN": {
+    "symbol": "CLEAN",
+    "last_close": 801.0,
+    "atr_14d": 26.521428571428576,
+    "avg_vol_14d": 379376.64285714284,
+    "avg_turnover_14d": 312962903.5285715,
+    "avg_open_vol_14d": 13223.785714285714,
+    "history_days": 1016
+  },
+  "COALINDIA": {
+    "symbol": "COALINDIA",
+    "last_close": 434.0,
+    "atr_14d": 13.992857142857146,
+    "avg_vol_14d": 10415789.0,
+    "avg_turnover_14d": 4496495237.1214285,
+    "avg_open_vol_14d": 381165.35714285716,
+    "history_days": 1016
+  },
+  "COCHINSHIP": {
+    "symbol": "COCHINSHIP",
+    "last_close": 1503.5,
+    "atr_14d": 75.05000000000003,
+    "avg_vol_14d": 1138450.0,
+    "avg_turnover_14d": 1770762374.2071416,
+    "avg_open_vol_14d": 75111.71428571429,
+    "history_days": 1016
+  },
+  "COFORGE": {
+    "symbol": "COFORGE",
+    "last_close": 1609.0,
+    "atr_14d": 57.75,
+    "avg_vol_14d": 2024806.9285714286,
+    "avg_turnover_14d": 3405960683.5,
+    "avg_open_vol_14d": 132708.2857142857,
+    "history_days": 1016
+  },
+  "COHANCE": {
+    "symbol": "COHANCE",
+    "last_close": 366.5,
+    "atr_14d": 18.35714285714286,
+    "avg_vol_14d": 468314.21428571426,
+    "avg_turnover_14d": 183136438.23928508,
+    "avg_open_vol_14d": 22856.428571428572,
+    "history_days": 1016
+  },
+  "COLPAL": {
+    "symbol": "COLPAL",
+    "last_close": 2115.0,
+    "atr_14d": 55.57857142857142,
+    "avg_vol_14d": 475752.4285714286,
+    "avg_turnover_14d": 1017197671.2785714,
+    "avg_open_vol_14d": 24717.5,
+    "history_days": 1016
+  },
+  "CONCOR": {
+    "symbol": "CONCOR",
+    "last_close": 527.0,
+    "atr_14d": 17.021428571428576,
+    "avg_vol_14d": 1746062.2142857143,
+    "avg_turnover_14d": 876874122.0749999,
+    "avg_open_vol_14d": 83679.78571428571,
+    "history_days": 1016
+  },
+  "COROMANDEL": {
+    "symbol": "COROMANDEL",
+    "last_close": 2268.0,
+    "atr_14d": 69.0857142857143,
+    "avg_vol_14d": 265768.21428571426,
+    "avg_turnover_14d": 602137834.5857148,
+    "avg_open_vol_14d": 7299.214285714285,
+    "history_days": 1016
+  },
+  "CREDITACC": {
+    "symbol": "CREDITACC",
+    "last_close": 1342.0,
+    "atr_14d": 83.17857142857143,
+    "avg_vol_14d": 2934980.714285714,
+    "avg_turnover_14d": 4041867088.192857,
+    "avg_open_vol_14d": 111171.57142857143,
+    "history_days": 1016
+  },
+  "CROMPTON": {
+    "symbol": "CROMPTON",
+    "last_close": 245.0,
+    "atr_14d": 8.030000000000003,
+    "avg_vol_14d": 3568921.0714285714,
+    "avg_turnover_14d": 820623654.4942857,
+    "avg_open_vol_14d": 149383.14285714287,
+    "history_days": 1016
+  },
+  "CUB": {
+    "symbol": "CUB",
+    "last_close": 292.0,
+    "atr_14d": 14.857142857142858,
+    "avg_vol_14d": 2306374.0714285714,
+    "avg_turnover_14d": 660279747.0964285,
+    "avg_open_vol_14d": 145318.42857142858,
+    "history_days": 1016
+  },
+  "CUMMINSIND": {
+    "symbol": "CUMMINSIND",
+    "last_close": 4200.0,
+    "atr_14d": 120.92142857142868,
+    "avg_vol_14d": 515467.64285714284,
+    "avg_turnover_14d": 2085608977.057143,
+    "avg_open_vol_14d": 18709.85714285714,
+    "history_days": 1016
+  },
+  "CYIENT": {
+    "symbol": "CYIENT",
+    "last_close": 1150.0,
+    "atr_14d": 39.42142857142859,
+    "avg_vol_14d": 360391.78571428574,
+    "avg_turnover_14d": 411989119.37142855,
+    "avg_open_vol_14d": 14655.785714285714,
+    "history_days": 1016
+  },
+  "DABUR": {
+    "symbol": "DABUR",
+    "last_close": 499.85,
+    "atr_14d": 13.789285714285699,
+    "avg_vol_14d": 2025640.9285714286,
+    "avg_turnover_14d": 1039200973.5714285,
+    "avg_open_vol_14d": 83745.64285714286,
+    "history_days": 1016
+  },
+  "DALBHARAT": {
+    "symbol": "DALBHARAT",
+    "last_close": 2150.1,
+    "atr_14d": 83.57857142857141,
+    "avg_vol_14d": 512435.71428571426,
+    "avg_turnover_14d": 1092020492.9642856,
+    "avg_open_vol_14d": 17581.785714285714,
+    "history_days": 1016
+  },
+  "DATAPATTNS": {
+    "symbol": "DATAPATTNS",
+    "last_close": 2622.1,
+    "atr_14d": 183.22857142857146,
+    "avg_vol_14d": 961705.5,
+    "avg_turnover_14d": 2396354786.6714287,
+    "avg_open_vol_14d": 54617.78571428572,
+    "history_days": 1016
+  },
+  "DBREALTY": {
+    "symbol": "DBREALTY",
+    "last_close": 125.3,
+    "atr_14d": 6.417142857142861,
+    "avg_vol_14d": 2394954.0714285714,
+    "avg_turnover_14d": 247233587.90142855,
+    "avg_open_vol_14d": 116320.64285714286,
+    "history_days": 1016
+  },
+  "DEEPAKFERT": {
+    "symbol": "DEEPAKFERT",
+    "last_close": 1045.1,
+    "atr_14d": 49.64285714285713,
+    "avg_vol_14d": 427821.14285714284,
+    "avg_turnover_14d": 459410148.36428577,
+    "avg_open_vol_14d": 20859.785714285714,
+    "history_days": 1016
+  },
+  "DEEPAKNTR": {
+    "symbol": "DEEPAKNTR",
+    "last_close": 1625.1,
+    "atr_14d": 54.20714285714285,
+    "avg_vol_14d": 213252.85714285713,
+    "avg_turnover_14d": 341979765.5642856,
+    "avg_open_vol_14d": 5888.928571428572,
+    "history_days": 1016
+  },
+  "DELHIVERY": {
+    "symbol": "DELHIVERY",
+    "last_close": 447.25,
+    "atr_14d": 16.678571428571434,
+    "avg_vol_14d": 3363070.0714285714,
+    "avg_turnover_14d": 1417773233.0750003,
+    "avg_open_vol_14d": 272864.14285714284,
+    "history_days": 921
+  },
+  "DEVYANI": {
+    "symbol": "DEVYANI",
+    "last_close": 122.7,
+    "atr_14d": 4.928571428571429,
+    "avg_vol_14d": 2324402.214285714,
+    "avg_turnover_14d": 276915714.2028571,
+    "avg_open_vol_14d": 79297.42857142857,
+    "history_days": 1016
+  },
+  "DIVISLAB": {
+    "symbol": "DIVISLAB",
+    "last_close": 6060.0,
+    "atr_14d": 166.32142857142858,
+    "avg_vol_14d": 364417.28571428574,
+    "avg_turnover_14d": 2226832367.285714,
+    "avg_open_vol_14d": 10475.642857142857,
+    "history_days": 1016
+  },
+  "DIXON": {
+    "symbol": "DIXON",
+    "last_close": 11680.0,
+    "atr_14d": 540.7142857142857,
+    "avg_vol_14d": 910911.9285714285,
+    "avg_turnover_14d": 9624425019.785715,
+    "avg_open_vol_14d": 57046.142857142855,
+    "history_days": 1016
+  },
+  "DLF": {
+    "symbol": "DLF",
+    "last_close": 658.7,
+    "atr_14d": 24.028571428571436,
+    "avg_vol_14d": 5844191.571428572,
+    "avg_turnover_14d": 3639598679.8464284,
+    "avg_open_vol_14d": 301524.14285714284,
+    "history_days": 1016
+  },
+  "DMART": {
+    "symbol": "DMART",
+    "last_close": 3824.0,
+    "atr_14d": 100.40714285714284,
+    "avg_vol_14d": 421798.5,
+    "avg_turnover_14d": 1567815343.9428573,
+    "avg_open_vol_14d": 14606.07142857143,
+    "history_days": 1016
+  },
+  "DRREDDY": {
+    "symbol": "DRREDDY",
+    "last_close": 1239.8,
+    "atr_14d": 36.47142857142857,
+    "avg_vol_14d": 2303585.3571428573,
+    "avg_turnover_14d": 2775277291.1857142,
+    "avg_open_vol_14d": 173451.35714285713,
+    "history_days": 1016
+  },
+  "ECLERX": {
+    "symbol": "ECLERX",
+    "last_close": 4531.1,
+    "atr_14d": 212.1571428571428,
+    "avg_vol_14d": 115093.14285714286,
+    "avg_turnover_14d": 528762863.9785713,
+    "avg_open_vol_14d": 7701.642857142857,
+    "history_days": 1016
+  },
+  "EICHERMOT": {
+    "symbol": "EICHERMOT",
+    "last_close": 7271.0,
+    "atr_14d": 220.17857142857142,
+    "avg_vol_14d": 465297.4285714286,
+    "avg_turnover_14d": 3315692800.607143,
+    "avg_open_vol_14d": 25815.071428571428,
+    "history_days": 1016
+  },
+  "EIDPARRY": {
+    "symbol": "EIDPARRY",
+    "last_close": 911.5,
+    "atr_14d": 28.55714285714286,
+    "avg_vol_14d": 183751.7142857143,
+    "avg_turnover_14d": 167680252.90714285,
+    "avg_open_vol_14d": 5283.785714285715,
+    "history_days": 1016
+  },
+  "EIHOTEL": {
+    "symbol": "EIHOTEL",
+    "last_close": 331.5,
+    "atr_14d": 10.632142857142842,
+    "avg_vol_14d": 349680.0,
+    "avg_turnover_14d": 113272045.6178571,
+    "avg_open_vol_14d": 6605.714285714285,
+    "history_days": 1016
+  },
+  "ELECON": {
+    "symbol": "ELECON",
+    "last_close": 455.0,
+    "atr_14d": 19.14285714285715,
+    "avg_vol_14d": 666859.7142857143,
+    "avg_turnover_14d": 265641886.42857155,
+    "avg_open_vol_14d": 40162.857142857145,
+    "history_days": 1016
+  },
+  "ELGIEQUIP": {
+    "symbol": "ELGIEQUIP",
+    "last_close": 493.9,
+    "atr_14d": 19.414285714285707,
+    "avg_vol_14d": 587764.8571428572,
+    "avg_turnover_14d": 265460386.31428573,
+    "avg_open_vol_14d": 34952.07142857143,
+    "history_days": 1016
+  },
+  "EMAMILTD": {
+    "symbol": "EMAMILTD",
+    "last_close": 495.5,
+    "atr_14d": 13.37857142857143,
+    "avg_vol_14d": 345685.64285714284,
+    "avg_turnover_14d": 169806420.58214286,
+    "avg_open_vol_14d": 8879.214285714286,
+    "history_days": 1016
+  },
+  "EMCURE": {
+    "symbol": "EMCURE",
+    "last_close": 1532.0,
+    "atr_14d": 59.94285714285713,
+    "avg_vol_14d": 156747.92857142858,
+    "avg_turnover_14d": 238411494.44285712,
+    "avg_open_vol_14d": 8696.42857142857,
+    "history_days": 392
+  },
+  "ENGINERSIN": {
+    "symbol": "ENGINERSIN",
+    "last_close": 176.98,
+    "atr_14d": 7.517857142857141,
+    "avg_vol_14d": 2464867.4285714286,
+    "avg_turnover_14d": 433262527.4299997,
+    "avg_open_vol_14d": 172534.5,
+    "history_days": 1016
+  },
+  "ENRIN": {
+    "symbol": "ENRIN",
+    "last_close": 2603.0,
+    "atr_14d": 111.97857142857141,
+    "avg_vol_14d": 565322.3571428572,
+    "avg_turnover_14d": 1325631530.3714287,
+    "avg_open_vol_14d": 18958.35714285714,
+    "history_days": 158
+  },
+  "ESCORTS": {
+    "symbol": "ESCORTS",
+    "last_close": 3597.9,
+    "atr_14d": 134.49285714285722,
+    "avg_vol_14d": 126643.78571428571,
+    "avg_turnover_14d": 446391580.06428576,
+    "avg_open_vol_14d": 5032.071428571428,
+    "history_days": 1016
+  },
+  "ETERNAL": {
+    "symbol": "ETERNAL",
+    "last_close": 293.5,
+    "atr_14d": 15.692857142857138,
+    "avg_vol_14d": 73401945.57142857,
+    "avg_turnover_14d": 20090998283.610714,
+    "avg_open_vol_14d": 7220357.5,
+    "history_days": 1016
+  },
+  "EXIDEIND": {
+    "symbol": "EXIDEIND",
+    "last_close": 341.75,
+    "atr_14d": 9.839285714285719,
+    "avg_vol_14d": 1888531.642857143,
+    "avg_turnover_14d": 616092260.6214286,
+    "avg_open_vol_14d": 80243.71428571429,
+    "history_days": 1016
+  },
+  "FACT": {
+    "symbol": "FACT",
+    "last_close": 795.85,
+    "atr_14d": 34.9357142857143,
+    "avg_vol_14d": 170274.07142857142,
+    "avg_turnover_14d": 137944717.97142857,
+    "avg_open_vol_14d": 9382.285714285714,
+    "history_days": 1016
+  },
+  "FEDERALBNK": {
+    "symbol": "FEDERALBNK",
+    "last_close": 288.25,
+    "atr_14d": 10.117857142857149,
+    "avg_vol_14d": 16149604.357142856,
+    "avg_turnover_14d": 4464580106.339286,
+    "avg_open_vol_14d": 805409.1428571428,
+    "history_days": 1016
+  },
+  "FINCABLES": {
+    "symbol": "FINCABLES",
+    "last_close": 742.0,
+    "atr_14d": 24.664285714285718,
+    "avg_vol_14d": 153984.07142857142,
+    "avg_turnover_14d": 112473835.61785711,
+    "avg_open_vol_14d": 8235.5,
+    "history_days": 1016
+  },
+  "FINPIPE": {
+    "symbol": "FINPIPE",
+    "last_close": 178.1,
+    "atr_14d": 4.874285714285713,
+    "avg_vol_14d": 329722.9285714286,
+    "avg_turnover_14d": 57708797.37357143,
+    "avg_open_vol_14d": 15002.857142857143,
+    "history_days": 1016
+  },
+  "FIRSTCRY": {
+    "symbol": "FIRSTCRY",
+    "last_close": 272.0,
+    "atr_14d": 11.285714285714286,
+    "avg_vol_14d": 996170.0714285715,
+    "avg_turnover_14d": 269866477.98928565,
+    "avg_open_vol_14d": 24763.0,
+    "history_days": 369
+  },
+  "FIVESTAR": {
+    "symbol": "FIVESTAR",
+    "last_close": 461.2,
+    "atr_14d": 21.660714285714274,
+    "avg_vol_14d": 1911641.642857143,
+    "avg_turnover_14d": 886890030.7071431,
+    "avg_open_vol_14d": 78787.14285714286,
+    "history_days": 798
+  },
+  "FORTIS": {
+    "symbol": "FORTIS",
+    "last_close": 857.5,
+    "atr_14d": 24.225000000000016,
+    "avg_vol_14d": 1869722.9285714286,
+    "avg_turnover_14d": 1608428627.8071434,
+    "avg_open_vol_14d": 73455.57142857143,
+    "history_days": 1016
+  },
+  "FSL": {
+    "symbol": "FSL",
+    "last_close": 305.1,
+    "atr_14d": 10.892857142857148,
+    "avg_vol_14d": 684560.1428571428,
+    "avg_turnover_14d": 216282059.55357143,
+    "avg_open_vol_14d": 30349.714285714286,
+    "history_days": 1016
+  },
+  "GAIL": {
+    "symbol": "GAIL",
+    "last_close": 165.71,
+    "atr_14d": 4.4728571428571415,
+    "avg_vol_14d": 14709320.57142857,
+    "avg_turnover_14d": 2406584501.207143,
+    "avg_open_vol_14d": 658169.0714285715,
+    "history_days": 1016
+  },
+  "GESHIP": {
+    "symbol": "GESHIP",
+    "last_close": 1238.0,
+    "atr_14d": 44.764285714285734,
+    "avg_vol_14d": 577813.5,
+    "avg_turnover_14d": 676641098.6214286,
+    "avg_open_vol_14d": 44239.357142857145,
+    "history_days": 1016
+  },
+  "GICRE": {
+    "symbol": "GICRE",
+    "last_close": 371.2,
+    "atr_14d": 10.121428571428567,
+    "avg_vol_14d": 518738.64285714284,
+    "avg_turnover_14d": 192218694.61071452,
+    "avg_open_vol_14d": 25282.0,
+    "history_days": 1016
+  },
+  "GLAND": {
+    "symbol": "GLAND",
+    "last_close": 1880.0,
+    "atr_14d": 68.67142857142856,
+    "avg_vol_14d": 363065.21428571426,
+    "avg_turnover_14d": 652218025.2285713,
+    "avg_open_vol_14d": 26142.714285714286,
+    "history_days": 1016
+  },
+  "GLENMARK": {
+    "symbol": "GLENMARK",
+    "last_close": 1954.0,
+    "atr_14d": 61.35000000000001,
+    "avg_vol_14d": 512211.5714285714,
+    "avg_turnover_14d": 1009216657.7071426,
+    "avg_open_vol_14d": 28035.071428571428,
+    "history_days": 1016
+  },
+  "GMDCLTD": {
+    "symbol": "GMDCLTD",
+    "last_close": 613.9,
+    "atr_14d": 31.43928571428572,
+    "avg_vol_14d": 4818678.857142857,
+    "avg_turnover_14d": 2754434977.035714,
+    "avg_open_vol_14d": 347976.64285714284,
+    "history_days": 1016
+  },
+  "GMRAIRPORT": {
+    "symbol": "GMRAIRPORT",
+    "last_close": 98.15,
+    "atr_14d": 3.2671428571428556,
+    "avg_vol_14d": 15635577.92857143,
+    "avg_turnover_14d": 1483343556.1035714,
+    "avg_open_vol_14d": 566364.0714285715,
+    "history_days": 1016
+  },
+  "GODFRYPHLP": {
+    "symbol": "GODFRYPHLP",
+    "last_close": 2044.0,
+    "atr_14d": 74.62142857142862,
+    "avg_vol_14d": 334841.64285714284,
+    "avg_turnover_14d": 690669231.9785715,
+    "avg_open_vol_14d": 25019.85714285714,
+    "history_days": 1016
+  },
+  "GODIGIT": {
+    "symbol": "GODIGIT",
+    "last_close": 315.1,
+    "atr_14d": 11.017857142857151,
+    "avg_vol_14d": 601137.8571428572,
+    "avg_turnover_14d": 196903243.14285722,
+    "avg_open_vol_14d": 13548.714285714286,
+    "history_days": 425
+  },
+  "GODREJAGRO": {
+    "symbol": "GODREJAGRO",
+    "last_close": 558.95,
+    "atr_14d": 21.60357142857143,
+    "avg_vol_14d": 191364.64285714287,
+    "avg_turnover_14d": 103509449.01071428,
+    "avg_open_vol_14d": 5113.714285714285,
+    "history_days": 1016
+  },
+  "GODREJCP": {
+    "symbol": "GODREJCP",
+    "last_close": 1153.6,
+    "atr_14d": 36.557142857142885,
+    "avg_vol_14d": 1429430.7857142857,
+    "avg_turnover_14d": 1696417560.4714284,
+    "avg_open_vol_14d": 70090.71428571429,
+    "history_days": 1016
+  },
+  "GODREJPROP": {
+    "symbol": "GODREJPROP",
+    "last_close": 1713.1,
+    "atr_14d": 82.26428571428572,
+    "avg_vol_14d": 2024144.857142857,
+    "avg_turnover_14d": 3296292318.5071425,
+    "avg_open_vol_14d": 107990.85714285714,
+    "history_days": 1016
+  },
+  "GPIL": {
+    "symbol": "GPIL",
+    "last_close": 259.8,
+    "atr_14d": 11.422142857142857,
+    "avg_vol_14d": 1804893.2142857143,
+    "avg_turnover_14d": 452185148.4607143,
+    "avg_open_vol_14d": 120877.14285714286,
+    "history_days": 1016
+  },
+  "GRANULES": {
+    "symbol": "GRANULES",
+    "last_close": 583.6,
+    "atr_14d": 23.250000000000007,
+    "avg_vol_14d": 860082.7857142857,
+    "avg_turnover_14d": 488763771.49642855,
+    "avg_open_vol_14d": 48954.0,
+    "history_days": 1016
+  },
+  "GRAPHITE": {
+    "symbol": "GRAPHITE",
+    "last_close": 634.0,
+    "atr_14d": 34.21785714285715,
+    "avg_vol_14d": 1416299.9285714286,
+    "avg_turnover_14d": 893960519.1321429,
+    "avg_open_vol_14d": 73902.28571428571,
+    "history_days": 1016
+  },
+  "GRASIM": {
+    "symbol": "GRASIM",
+    "last_close": 2835.0,
+    "atr_14d": 64.45000000000005,
+    "avg_vol_14d": 763669.9285714285,
+    "avg_turnover_14d": 2138531590.457143,
+    "avg_open_vol_14d": 17883.714285714286,
+    "history_days": 1016
+  },
+  "GRAVITA": {
+    "symbol": "GRAVITA",
+    "last_close": 1661.0,
+    "atr_14d": 82.63571428571427,
+    "avg_vol_14d": 231178.7857142857,
+    "avg_turnover_14d": 364154622.8428572,
+    "avg_open_vol_14d": 17222.214285714286,
+    "history_days": 1016
+  },
+  "GRSE": {
+    "symbol": "GRSE",
+    "last_close": 2530.0,
+    "atr_14d": 146.87142857142862,
+    "avg_vol_14d": 1831365.5,
+    "avg_turnover_14d": 4643808335.478571,
+    "avg_open_vol_14d": 162312.0,
+    "history_days": 1016
+  },
+  "GSPL": {
+    "symbol": "GSPL",
+    "last_close": 298.25,
+    "atr_14d": 9.389285714285714,
+    "avg_vol_14d": 444648.9285714286,
+    "avg_turnover_14d": 133916021.63214314,
+    "avg_open_vol_14d": 21274.071428571428,
+    "history_days": 1016
+  },
+  "GUJGASLTD": {
+    "symbol": "GUJGASLTD",
+    "last_close": 415.4,
+    "atr_14d": 13.46071428571428,
+    "avg_vol_14d": 372660.14285714284,
+    "avg_turnover_14d": 153054855.3607143,
+    "avg_open_vol_14d": 14801.642857142857,
+    "history_days": 1016
+  },
+  "GVT&D": {
+    "symbol": "GVT&D",
+    "last_close": 3500.0,
+    "atr_14d": 156.2571428571429,
+    "avg_vol_14d": 939686.7857142857,
+    "avg_turnover_14d": 2774634941.8285713,
+    "avg_open_vol_14d": 38999.78571428572,
+    "history_days": 1016
+  },
+  "HAL": {
+    "symbol": "HAL",
+    "last_close": 4213.9,
+    "atr_14d": 174.80000000000004,
+    "avg_vol_14d": 1465253.142857143,
+    "avg_turnover_14d": 6500081592.278571,
+    "avg_open_vol_14d": 85980.92857142857,
+    "history_days": 1016
+  },
+  "HAPPSTMNDS": {
+    "symbol": "HAPPSTMNDS",
+    "last_close": 398.0,
+    "atr_14d": 12.37857142857143,
+    "avg_vol_14d": 382864.5,
+    "avg_turnover_14d": 158040355.56071427,
+    "avg_open_vol_14d": 23338.85714285714,
+    "history_days": 1016
+  },
+  "HAVELLS": {
+    "symbol": "HAVELLS",
+    "last_close": 1344.0,
+    "atr_14d": 42.278571428571404,
+    "avg_vol_14d": 1269526.7857142857,
+    "avg_turnover_14d": 1684333839.5,
+    "avg_open_vol_14d": 64488.71428571428,
+    "history_days": 1016
+  },
+  "HBLENGINE": {
+    "symbol": "HBLENGINE",
+    "last_close": 798.9,
+    "atr_14d": 47.62500000000001,
+    "avg_vol_14d": 3158015.4285714286,
+    "avg_turnover_14d": 2402965975.392857,
+    "avg_open_vol_14d": 303863.85714285716,
+    "history_days": 1016
+  },
+  "HCLTECH": {
+    "symbol": "HCLTECH",
+    "last_close": 1617.6,
+    "atr_14d": 41.74285714285718,
+    "avg_vol_14d": 2416553.5,
+    "avg_turnover_14d": 4100887940.0214286,
+    "avg_open_vol_14d": 122323.14285714286,
+    "history_days": 1016
+  },
+  "HDFCAMC": {
+    "symbol": "HDFCAMC",
+    "last_close": 2725.0,
+    "atr_14d": 93.0571428571429,
+    "avg_vol_14d": 1358089.142857143,
+    "avg_turnover_14d": 3459200373.2428565,
+    "avg_open_vol_14d": 87400.35714285714,
+    "history_days": 1016
+  },
+  "HDFCBANK": {
+    "symbol": "HDFCBANK",
+    "last_close": 949.0,
+    "atr_14d": 21.13571428571427,
+    "avg_vol_14d": 35145254.35714286,
+    "avg_turnover_14d": 32644712599.17857,
+    "avg_open_vol_14d": 4378390.785714285,
+    "history_days": 1016
+  },
+  "HDFCLIFE": {
+    "symbol": "HDFCLIFE",
+    "last_close": 721.3,
+    "atr_14d": 15.685714285714287,
+    "avg_vol_14d": 3195014.6428571427,
+    "avg_turnover_14d": 2325069754.2321424,
+    "avg_open_vol_14d": 132073.42857142858,
+    "history_days": 1016
+  },
+  "HEG": {
+    "symbol": "HEG",
+    "last_close": 542.8,
+    "atr_14d": 26.917857142857137,
+    "avg_vol_14d": 1483687.9285714286,
+    "avg_turnover_14d": 827719312.2928572,
+    "avg_open_vol_14d": 98352.92857142857,
+    "history_days": 1016
+  },
+  "HEROMOTOCO": {
+    "symbol": "HEROMOTOCO",
+    "last_close": 5856.0,
+    "atr_14d": 174.92857142857142,
+    "avg_vol_14d": 458966.4285714286,
+    "avg_turnover_14d": 2561413739.071429,
+    "avg_open_vol_14d": 26372.785714285714,
+    "history_days": 1016
+  },
+  "HEXT": {
+    "symbol": "HEXT",
+    "last_close": 692.0,
+    "atr_14d": 24.121428571428567,
+    "avg_vol_14d": 594499.1428571428,
+    "avg_turnover_14d": 420812905.3821429,
+    "avg_open_vol_14d": 14173.0,
+    "history_days": 237
+  },
+  "HFCL": {
+    "symbol": "HFCL",
+    "last_close": 68.7,
+    "atr_14d": 3.585000000000001,
+    "avg_vol_14d": 19916193.57142857,
+    "avg_turnover_14d": 1302791068.787857,
+    "avg_open_vol_14d": 1152558.2142857143,
+    "history_days": 1016
+  },
+  "HINDALCO": {
+    "symbol": "HINDALCO",
+    "last_close": 970.0,
+    "atr_14d": 36.17142857142856,
+    "avg_vol_14d": 8301637.214285715,
+    "avg_turnover_14d": 7982661257.257143,
+    "avg_open_vol_14d": 653720.1428571428,
+    "history_days": 1016
+  },
+  "HINDCOPPER": {
+    "symbol": "HINDCOPPER",
+    "last_close": 612.0,
+    "atr_14d": 52.96071428571429,
+    "avg_vol_14d": 58759565.0,
+    "avg_turnover_14d": 36946527239.807144,
+    "avg_open_vol_14d": 4948044.785714285,
+    "history_days": 1016
+  },
+  "HINDPETRO": {
+    "symbol": "HINDPETRO",
+    "last_close": 460.0,
+    "atr_14d": 16.842857142857135,
+    "avg_vol_14d": 6212310.357142857,
+    "avg_turnover_14d": 2725065793.417857,
+    "avg_open_vol_14d": 417221.0714285714,
+    "history_days": 1016
+  },
+  "HINDUNILVR": {
+    "symbol": "HINDUNILVR",
+    "last_close": 2371.0,
+    "atr_14d": 54.785714285714285,
+    "avg_vol_14d": 1474172.5,
+    "avg_turnover_14d": 3503631310.2714286,
+    "avg_open_vol_14d": 48800.857142857145,
+    "history_days": 1016
+  },
+  "HINDZINC": {
+    "symbol": "HINDZINC",
+    "last_close": 639.8,
+    "atr_14d": 43.057142857142864,
+    "avg_vol_14d": 33398330.714285713,
+    "avg_turnover_14d": 22090801180.68929,
+    "avg_open_vol_14d": 2829140.0714285714,
+    "history_days": 1016
+  },
+  "HOMEFIRST": {
+    "symbol": "HOMEFIRST",
+    "last_close": 1184.6,
+    "atr_14d": 60.328571428571465,
+    "avg_vol_14d": 1101195.5714285714,
+    "avg_turnover_14d": 1309313546.2428572,
+    "avg_open_vol_14d": 53664.57142857143,
+    "history_days": 1016
+  },
+  "HONASA": {
+    "symbol": "HONASA",
+    "last_close": 277.0,
+    "atr_14d": 9.467857142857136,
+    "avg_vol_14d": 320580.78571428574,
+    "avg_turnover_14d": 88518338.22499986,
+    "avg_open_vol_14d": 9296.5,
+    "history_days": 559
+  },
+  "HSCL": {
+    "symbol": "HSCL",
+    "last_close": 458.5,
+    "atr_14d": 19.224999999999994,
+    "avg_vol_14d": 1175705.357142857,
+    "avg_turnover_14d": 539925981.8428571,
+    "avg_open_vol_14d": 86289.78571428571,
+    "history_days": 1016
+  },
+  "HUDCO": {
+    "symbol": "HUDCO",
+    "last_close": 197.0,
+    "atr_14d": 8.419285714285712,
+    "avg_vol_14d": 5328120.5,
+    "avg_turnover_14d": 1049030355.7928572,
+    "avg_open_vol_14d": 308602.9285714286,
+    "history_days": 1016
+  },
+  "HYUNDAI": {
+    "symbol": "HYUNDAI",
+    "last_close": 2189.0,
+    "atr_14d": 66.8285714285715,
+    "avg_vol_14d": 687952.6428571428,
+    "avg_turnover_14d": 1536141364.6857145,
+    "avg_open_vol_14d": 26314.35714285714,
+    "history_days": 321
+  },
+  "ICICIBANK": {
+    "symbol": "ICICIBANK",
+    "last_close": 1406.1,
+    "atr_14d": 32.46428571428573,
+    "avg_vol_14d": 17569586.285714287,
+    "avg_turnover_14d": 24082943543.32143,
+    "avg_open_vol_14d": 1346565.7857142857,
+    "history_days": 1016
+  },
+  "ICICIGI": {
+    "symbol": "ICICIGI",
+    "last_close": 1856.1,
+    "atr_14d": 45.79285714285714,
+    "avg_vol_14d": 1069777.7857142857,
+    "avg_turnover_14d": 1964713198.9785714,
+    "avg_open_vol_14d": 29667.714285714286,
+    "history_days": 1016
+  },
+  "ICICIPRULI": {
+    "symbol": "ICICIPRULI",
+    "last_close": 659.15,
+    "atr_14d": 19.035714285714278,
+    "avg_vol_14d": 1432492.2857142857,
+    "avg_turnover_14d": 939937175.3464286,
+    "avg_open_vol_14d": 73202.28571428571,
+    "history_days": 1016
+  },
+  "IDBI": {
+    "symbol": "IDBI",
+    "last_close": 109.11,
+    "atr_14d": 3.920714285714285,
+    "avg_vol_14d": 13130783.214285715,
+    "avg_turnover_14d": 1307915578.7828572,
+    "avg_open_vol_14d": 981517.3571428572,
+    "history_days": 1016
+  },
+  "IDFCFIRSTB": {
+    "symbol": "IDFCFIRSTB",
+    "last_close": 85.0,
+    "atr_14d": 2.374285714285716,
+    "avg_vol_14d": 27593169.64285714,
+    "avg_turnover_14d": 2290569458.02,
+    "avg_open_vol_14d": 1559446.5714285714,
+    "history_days": 1016
+  },
+  "IEX": {
+    "symbol": "IEX",
+    "last_close": 127.7,
+    "atr_14d": 4.679285714285713,
+    "avg_vol_14d": 12155873.142857144,
+    "avg_turnover_14d": 1587601188.507857,
+    "avg_open_vol_14d": 618598.6428571428,
+    "history_days": 1016
+  },
+  "IFCI": {
+    "symbol": "IFCI",
+    "last_close": 57.99,
+    "atr_14d": 3.4871428571428567,
+    "avg_vol_14d": 55024685.21428572,
+    "avg_turnover_14d": 3244557910.2449994,
+    "avg_open_vol_14d": 4038923.285714286,
+    "history_days": 1016
+  },
+  "IGIL": {
+    "symbol": "IGIL",
+    "last_close": 327.0,
+    "atr_14d": 12.821428571428575,
+    "avg_vol_14d": 1176099.2142857143,
+    "avg_turnover_14d": 373752703.07857144,
+    "avg_open_vol_14d": 90129.21428571429,
+    "history_days": 280
+  },
+  "IGL": {
+    "symbol": "IGL",
+    "last_close": 173.7,
+    "atr_14d": 4.703571428571428,
+    "avg_vol_14d": 1644422.5714285714,
+    "avg_turnover_14d": 291072743.7300003,
+    "avg_open_vol_14d": 73688.14285714286,
+    "history_days": 1016
+  },
+  "IIFL": {
+    "symbol": "IIFL",
+    "last_close": 514.15,
+    "atr_14d": 35.75000000000001,
+    "avg_vol_14d": 5412048.714285715,
+    "avg_turnover_14d": 2901554182.85,
+    "avg_open_vol_14d": 258859.0,
+    "history_days": 1016
+  },
+  "IKS": {
+    "symbol": "IKS",
+    "last_close": 1629.0,
+    "atr_14d": 69.96428571428571,
+    "avg_vol_14d": 199324.92857142858,
+    "avg_turnover_14d": 324674501.04285717,
+    "avg_open_vol_14d": 3786.5,
+    "history_days": 281
+  },
+  "INDGN": {
+    "symbol": "INDGN",
+    "last_close": 480.45,
+    "atr_14d": 16.71071428571428,
+    "avg_vol_14d": 284723.35714285716,
+    "avg_turnover_14d": 137534269.07142857,
+    "avg_open_vol_14d": 19431.571428571428,
+    "history_days": 433
+  },
+  "INDHOTEL": {
+    "symbol": "INDHOTEL",
+    "last_close": 686.5,
+    "atr_14d": 21.939285714285713,
+    "avg_vol_14d": 3639399.5,
+    "avg_turnover_14d": 2406274431.667857,
+    "avg_open_vol_14d": 162653.2142857143,
+    "history_days": 1016
+  },
+  "INDIACEM": {
+    "symbol": "INDIACEM",
+    "last_close": 468.95,
+    "atr_14d": 20.96785714285713,
+    "avg_vol_14d": 465159.5714285714,
+    "avg_turnover_14d": 211489515.48571423,
+    "avg_open_vol_14d": 13641.57142857143,
+    "history_days": 1016
+  },
+  "INDIAMART": {
+    "symbol": "INDIAMART",
+    "last_close": 2261.5,
+    "atr_14d": 86.7642857142858,
+    "avg_vol_14d": 233774.07142857142,
+    "avg_turnover_14d": 521264770.90714294,
+    "avg_open_vol_14d": 17059.285714285714,
+    "history_days": 1016
+  },
+  "INDIANB": {
+    "symbol": "INDIANB",
+    "last_close": 879.75,
+    "atr_14d": 35.475,
+    "avg_vol_14d": 2323688.9285714286,
+    "avg_turnover_14d": 2023362615.9142857,
+    "avg_open_vol_14d": 112753.0,
+    "history_days": 1016
+  },
+  "INDIGO": {
+    "symbol": "INDIGO",
+    "last_close": 4956.0,
+    "atr_14d": 147.75,
+    "avg_vol_14d": 1570124.5714285714,
+    "avg_turnover_14d": 7507839200.678572,
+    "avg_open_vol_14d": 114073.21428571429,
+    "history_days": 1016
+  },
+  "INDUSINDBK": {
+    "symbol": "INDUSINDBK",
+    "last_close": 920.0,
+    "atr_14d": 31.271428571428576,
+    "avg_vol_14d": 5744425.0,
+    "avg_turnover_14d": 5275374683.007143,
+    "avg_open_vol_14d": 540363.5,
+    "history_days": 1016
+  },
+  "INDUSTOWER": {
+    "symbol": "INDUSTOWER",
+    "last_close": 445.5,
+    "atr_14d": 14.835714285714285,
+    "avg_vol_14d": 7724800.857142857,
+    "avg_turnover_14d": 3323001327.75,
+    "avg_open_vol_14d": 357570.71428571426,
+    "history_days": 1016
+  },
+  "INFY": {
+    "symbol": "INFY",
+    "last_close": 1534.0,
+    "atr_14d": 41.30714285714287,
+    "avg_vol_14d": 7983304.428571428,
+    "avg_turnover_14d": 13259870429.735714,
+    "avg_open_vol_14d": 603539.6428571428,
+    "history_days": 1016
+  },
+  "INOXWIND": {
+    "symbol": "INOXWIND",
+    "last_close": 109.66,
+    "atr_14d": 4.268571428571427,
+    "avg_vol_14d": 8560118.92857143,
+    "avg_turnover_14d": 926449792.2964287,
+    "avg_open_vol_14d": 408388.4285714286,
+    "history_days": 1016
+  },
+  "INTELLECT": {
+    "symbol": "INTELLECT",
+    "last_close": 797.0,
+    "atr_14d": 41.6107142857143,
+    "avg_vol_14d": 447495.5714285714,
+    "avg_turnover_14d": 386743484.58214283,
+    "avg_open_vol_14d": 31368.428571428572,
+    "history_days": 1016
+  },
+  "IOC": {
+    "symbol": "IOC",
+    "last_close": 172.62,
+    "atr_14d": 4.053571428571424,
+    "avg_vol_14d": 11813579.785714285,
+    "avg_turnover_14d": 1906573641.152857,
+    "avg_open_vol_14d": 704999.5,
+    "history_days": 1016
+  },
+  "IPCALAB": {
+    "symbol": "IPCALAB",
+    "last_close": 1409.4,
+    "atr_14d": 48.90714285714283,
+    "avg_vol_14d": 159609.07142857142,
+    "avg_turnover_14d": 234509662.6714286,
+    "avg_open_vol_14d": 5213.928571428572,
+    "history_days": 1016
+  },
+  "IRCON": {
+    "symbol": "IRCON",
+    "last_close": 157.49,
+    "atr_14d": 7.1878571428571405,
+    "avg_vol_14d": 4036850.214285714,
+    "avg_turnover_14d": 640567458.1542857,
+    "avg_open_vol_14d": 282559.5714285714,
+    "history_days": 1016
+  },
+  "IRCTC": {
+    "symbol": "IRCTC",
+    "last_close": 620.55,
+    "atr_14d": 17.30000000000001,
+    "avg_vol_14d": 1577554.5714285714,
+    "avg_turnover_14d": 974068552.2785714,
+    "avg_open_vol_14d": 80036.78571428571,
+    "history_days": 1016
+  },
+  "IREDA": {
+    "symbol": "IREDA",
+    "last_close": 132.15,
+    "atr_14d": 4.75142857142857,
+    "avg_vol_14d": 9715406.57142857,
+    "avg_turnover_14d": 1274984335.0028572,
+    "avg_open_vol_14d": 635140.6428571428,
+    "history_days": 544
+  },
+  "IRFC": {
+    "symbol": "IRFC",
+    "last_close": 115.9,
+    "atr_14d": 4.380714285714289,
+    "avg_vol_14d": 23440323.85714286,
+    "avg_turnover_14d": 2740274258.5578566,
+    "avg_open_vol_14d": 1512231.2857142857,
+    "history_days": 1016
+  },
+  "ITC": {
+    "symbol": "ITC",
+    "last_close": 313.85,
+    "atr_14d": 8.121428571428558,
+    "avg_vol_14d": 25851742.92857143,
+    "avg_turnover_14d": 8303909964.400001,
+    "avg_open_vol_14d": 1258269.2857142857,
+    "history_days": 1016
+  },
+  "ITCHOTELS": {
+    "symbol": "ITCHOTELS",
+    "last_close": 185.8,
+    "atr_14d": 6.3149999999999995,
+    "avg_vol_14d": 3771970.714285714,
+    "avg_turnover_14d": 691789127.7042857,
+    "avg_open_vol_14d": 222013.07142857142,
+    "history_days": 253
+  },
+  "ITI": {
+    "symbol": "ITI",
+    "last_close": 291.3,
+    "atr_14d": 10.739285714285712,
+    "avg_vol_14d": 606412.3571428572,
+    "avg_turnover_14d": 176504633.7357143,
+    "avg_open_vol_14d": 40739.28571428572,
+    "history_days": 1016
+  },
+  "J&KBANK": {
+    "symbol": "J&KBANK",
+    "last_close": 105.35,
+    "atr_14d": 3.499285714285713,
+    "avg_vol_14d": 4017182.214285714,
+    "avg_turnover_14d": 417578928.26857144,
+    "avg_open_vol_14d": 255448.7142857143,
+    "history_days": 1016
+  },
+  "JBCHEPHARM": {
+    "symbol": "JBCHEPHARM",
+    "last_close": 1885.6,
+    "atr_14d": 51.02857142857142,
+    "avg_vol_14d": 174263.7142857143,
+    "avg_turnover_14d": 328044449.9285714,
+    "avg_open_vol_14d": 8052.928571428572,
+    "history_days": 1016
+  },
+  "JBMA": {
+    "symbol": "JBMA",
+    "last_close": 593.9,
+    "atr_14d": 26.396428571428576,
+    "avg_vol_14d": 502736.14285714284,
+    "avg_turnover_14d": 282363050.3,
+    "avg_open_vol_14d": 28129.35714285714,
+    "history_days": 1016
+  },
+  "JINDALSAW": {
+    "symbol": "JINDALSAW",
+    "last_close": 187.99,
+    "atr_14d": 10.262142857142853,
+    "avg_vol_14d": 19675823.85714286,
+    "avg_turnover_14d": 3593030664.342143,
+    "avg_open_vol_14d": 1026251.3571428572,
+    "history_days": 1016
+  },
+  "JINDALSTEL": {
+    "symbol": "JINDALSTEL",
+    "last_close": 1163.8,
+    "atr_14d": 39.11428571428569,
+    "avg_vol_14d": 2069351.142857143,
+    "avg_turnover_14d": 2270418906.4785714,
+    "avg_open_vol_14d": 102133.5,
+    "history_days": 1016
+  },
+  "JIOFIN": {
+    "symbol": "JIOFIN",
+    "last_close": 267.85,
+    "atr_14d": 10.135714285714284,
+    "avg_vol_14d": 16748013.0,
+    "avg_turnover_14d": 4370473070.303572,
+    "avg_open_vol_14d": 1065088.5714285714,
+    "history_days": 612
+  },
+  "JKCEMENT": {
+    "symbol": "JKCEMENT",
+    "last_close": 5691.5,
+    "atr_14d": 200.89285714285714,
+    "avg_vol_14d": 156557.92857142858,
+    "avg_turnover_14d": 887125395.7142857,
+    "avg_open_vol_14d": 4952.428571428572,
+    "history_days": 1016
+  },
+  "JKTYRE": {
+    "symbol": "JKTYRE",
+    "last_close": 547.0,
+    "atr_14d": 18.464285714285726,
+    "avg_vol_14d": 895849.8571428572,
+    "avg_turnover_14d": 460604484.7285714,
+    "avg_open_vol_14d": 62941.21428571428,
+    "history_days": 1016
+  },
+  "JMFINANCIL": {
+    "symbol": "JMFINANCIL",
+    "last_close": 131.72,
+    "atr_14d": 5.457857142857138,
+    "avg_vol_14d": 2465615.285714286,
+    "avg_turnover_14d": 318513817.43785715,
+    "avg_open_vol_14d": 134620.7857142857,
+    "history_days": 1016
+  },
+  "JSL": {
+    "symbol": "JSL",
+    "last_close": 783.0,
+    "atr_14d": 37.15714285714286,
+    "avg_vol_14d": 744520.4285714285,
+    "avg_turnover_14d": 592659350.6535714,
+    "avg_open_vol_14d": 28428.928571428572,
+    "history_days": 1016
+  },
+  "JSWENERGY": {
+    "symbol": "JSWENERGY",
+    "last_close": 469.0,
+    "atr_14d": 18.124999999999996,
+    "avg_vol_14d": 4135487.8571428573,
+    "avg_turnover_14d": 1876117511.45,
+    "avg_open_vol_14d": 216230.0,
+    "history_days": 1016
+  },
+  "JSWINFRA": {
+    "symbol": "JSWINFRA",
+    "last_close": 265.5,
+    "atr_14d": 8.617857142857137,
+    "avg_vol_14d": 2140441.8571428573,
+    "avg_turnover_14d": 569071819.582143,
+    "avg_open_vol_14d": 110623.57142857143,
+    "history_days": 583
+  },
+  "JSWSTEEL": {
+    "symbol": "JSWSTEEL",
+    "last_close": 1225.1,
+    "atr_14d": 32.97142857142858,
+    "avg_vol_14d": 2063014.2142857143,
+    "avg_turnover_14d": 2479346888.7785716,
+    "avg_open_vol_14d": 90692.92857142857,
+    "history_days": 1016
+  },
+  "JUBLFOOD": {
+    "symbol": "JUBLFOOD",
+    "last_close": 518.7,
+    "atr_14d": 13.892857142857123,
+    "avg_vol_14d": 1965797.9285714286,
+    "avg_turnover_14d": 990521566.7642859,
+    "avg_open_vol_14d": 42482.357142857145,
+    "history_days": 1016
+  },
+  "JUBLINGREA": {
+    "symbol": "JUBLINGREA",
+    "last_close": 654.0,
+    "atr_14d": 30.310714285714287,
+    "avg_vol_14d": 179908.07142857142,
+    "avg_turnover_14d": 117110891.79642858,
+    "avg_open_vol_14d": 12000.0,
+    "history_days": 1016
+  },
+  "JUBLPHARMA": {
+    "symbol": "JUBLPHARMA",
+    "last_close": 975.0,
+    "atr_14d": 39.07857142857146,
+    "avg_vol_14d": 134583.35714285713,
+    "avg_turnover_14d": 130251971.982143,
+    "avg_open_vol_14d": 4961.5,
+    "history_days": 1016
+  },
+  "JWL": {
+    "symbol": "JWL",
+    "last_close": 308.0,
+    "atr_14d": 18.675000000000008,
+    "avg_vol_14d": 7562053.714285715,
+    "avg_turnover_14d": 2420310711.542857,
+    "avg_open_vol_14d": 312179.9285714286,
+    "history_days": 1016
+  },
+  "JYOTHYLAB": {
+    "symbol": "JYOTHYLAB",
+    "last_close": 243.0,
+    "atr_14d": 6.471428571428569,
+    "avg_vol_14d": 486292.4285714286,
+    "avg_turnover_14d": 121035883.01785715,
+    "avg_open_vol_14d": 22944.35714285714,
+    "history_days": 1016
+  },
+  "JYOTICNC": {
+    "symbol": "JYOTICNC",
+    "last_close": 829.25,
+    "atr_14d": 44.81071428571426,
+    "avg_vol_14d": 387841.78571428574,
+    "avg_turnover_14d": 319895081.58928573,
+    "avg_open_vol_14d": 14839.642857142857,
+    "history_days": 511
+  },
+  "KAJARIACER": {
+    "symbol": "KAJARIACER",
+    "last_close": 912.5,
+    "atr_14d": 32.24285714285714,
+    "avg_vol_14d": 218556.2857142857,
+    "avg_turnover_14d": 203992859.56428573,
+    "avg_open_vol_14d": 6271.428571428572,
+    "history_days": 1016
+  },
+  "KALYANKJIL": {
+    "symbol": "KALYANKJIL",
+    "last_close": 386.5,
+    "atr_14d": 23.23571428571429,
+    "avg_vol_14d": 10120188.92857143,
+    "avg_turnover_14d": 4002045608.6321425,
+    "avg_open_vol_14d": 468436.85714285716,
+    "history_days": 1016
+  },
+  "KARURVYSYA": {
+    "symbol": "KARURVYSYA",
+    "last_close": 317.0,
+    "atr_14d": 13.567857142857138,
+    "avg_vol_14d": 8271105.071428572,
+    "avg_turnover_14d": 2375319540.171428,
+    "avg_open_vol_14d": 349934.0714285714,
+    "history_days": 1016
+  },
+  "KAYNES": {
+    "symbol": "KAYNES",
+    "last_close": 3780.9,
+    "atr_14d": 163.41428571428568,
+    "avg_vol_14d": 1453187.4285714286,
+    "avg_turnover_14d": 5097461727.721429,
+    "avg_open_vol_14d": 80092.14285714286,
+    "history_days": 797
+  },
+  "KEC": {
+    "symbol": "KEC",
+    "last_close": 631.2,
+    "atr_14d": 29.685714285714305,
+    "avg_vol_14d": 674411.3571428572,
+    "avg_turnover_14d": 436070333.5999997,
+    "avg_open_vol_14d": 32119.071428571428,
+    "history_days": 1016
+  },
+  "KEI": {
+    "symbol": "KEI",
+    "last_close": 4401.1,
+    "atr_14d": 182.26428571428568,
+    "avg_vol_14d": 451141.85714285716,
+    "avg_turnover_14d": 1823458533.4214287,
+    "avg_open_vol_14d": 24444.35714285714,
+    "history_days": 1016
+  },
+  "KFINTECH": {
+    "symbol": "KFINTECH",
+    "last_close": 1019.7,
+    "atr_14d": 34.492857142857126,
+    "avg_vol_14d": 712607.3571428572,
+    "avg_turnover_14d": 729177629.4857143,
+    "avg_open_vol_14d": 38249.28571428572,
+    "history_days": 770
+  },
+  "KIMS": {
+    "symbol": "KIMS",
+    "last_close": 610.7,
+    "atr_14d": 18.685714285714287,
+    "avg_vol_14d": 380014.35714285716,
+    "avg_turnover_14d": 230179274.65357143,
+    "avg_open_vol_14d": 13952.642857142857,
+    "history_days": 1016
+  },
+  "KIRLOSENG": {
+    "symbol": "KIRLOSENG",
+    "last_close": 1225.0,
+    "atr_14d": 48.4857142857143,
+    "avg_vol_14d": 192572.7857142857,
+    "avg_turnover_14d": 219325857.67857143,
+    "avg_open_vol_14d": 7553.642857142857,
+    "history_days": 1016
+  },
+  "KOTAKBANK": {
+    "symbol": "KOTAKBANK",
+    "last_close": 412.0,
+    "atr_14d": 10.932142857142859,
+    "avg_vol_14d": 19701524.14285714,
+    "avg_turnover_14d": 8198451292.067857,
+    "avg_open_vol_14d": 1192140.7142857143,
+    "history_days": 1016
+  },
+  "KPIL": {
+    "symbol": "KPIL",
+    "last_close": 1134.5,
+    "atr_14d": 41.70714285714286,
+    "avg_vol_14d": 141654.35714285713,
+    "avg_turnover_14d": 158654771.6571429,
+    "avg_open_vol_14d": 6625.714285714285,
+    "history_days": 1016
+  },
+  "KPITTECH": {
+    "symbol": "KPITTECH",
+    "last_close": 980.0,
+    "atr_14d": 44.235714285714316,
+    "avg_vol_14d": 1191841.7857142857,
+    "avg_turnover_14d": 1269033657.5857143,
+    "avg_open_vol_14d": 42197.78571428572,
+    "history_days": 1016
+  },
+  "KPRMILL": {
+    "symbol": "KPRMILL",
+    "last_close": 992.75,
+    "atr_14d": 57.36785714285713,
+    "avg_vol_14d": 1088790.9285714286,
+    "avg_turnover_14d": 997944332.6535714,
+    "avg_open_vol_14d": 49940.142857142855,
+    "history_days": 1016
+  },
+  "LALPATHLAB": {
+    "symbol": "LALPATHLAB",
+    "last_close": 1403.2,
+    "atr_14d": 46.00714285714282,
+    "avg_vol_14d": 338312.9285714286,
+    "avg_turnover_14d": 473029904.6785714,
+    "avg_open_vol_14d": 9785.92857142857,
+    "history_days": 1016
+  },
+  "LATENTVIEW": {
+    "symbol": "LATENTVIEW",
+    "last_close": 435.8,
+    "atr_14d": 20.18214285714285,
+    "avg_vol_14d": 1638772.9285714286,
+    "avg_turnover_14d": 735835079.0892857,
+    "avg_open_vol_14d": 41098.57142857143,
+    "history_days": 1016
+  },
+  "LAURUSLABS": {
+    "symbol": "LAURUSLABS",
+    "last_close": 976.05,
+    "atr_14d": 42.73571428571429,
+    "avg_vol_14d": 2763945.4285714286,
+    "avg_turnover_14d": 2797923029.414286,
+    "avg_open_vol_14d": 111027.57142857143,
+    "history_days": 1016
+  },
+  "LEMONTREE": {
+    "symbol": "LEMONTREE",
+    "last_close": 129.2,
+    "atr_14d": 6.01357142857143,
+    "avg_vol_14d": 4001812.1428571427,
+    "avg_turnover_14d": 526136071.56,
+    "avg_open_vol_14d": 173821.5,
+    "history_days": 1016
+  },
+  "LICHSGFIN": {
+    "symbol": "LICHSGFIN",
+    "last_close": 516.0,
+    "atr_14d": 15.475000000000007,
+    "avg_vol_14d": 2119301.714285714,
+    "avg_turnover_14d": 1091050634.3,
+    "avg_open_vol_14d": 73998.35714285714,
+    "history_days": 1016
+  },
+  "LICI": {
+    "symbol": "LICI",
+    "last_close": 835.0,
+    "atr_14d": 18.378571428571416,
+    "avg_vol_14d": 1010696.6428571428,
+    "avg_turnover_14d": 825299862.4285715,
+    "avg_open_vol_14d": 41656.42857142857,
+    "history_days": 926
+  },
+  "LLOYDSME": {
+    "symbol": "LLOYDSME",
+    "last_close": 1286.0,
+    "atr_14d": 46.107142857142854,
+    "avg_vol_14d": 359067.21428571426,
+    "avg_turnover_14d": 409706525.00714284,
+    "avg_open_vol_14d": 15766.42857142857,
+    "history_days": 636
+  },
+  "LODHA": {
+    "symbol": "LODHA",
+    "last_close": 1050.95,
+    "atr_14d": 49.94642857142858,
+    "avg_vol_14d": 2537640.4285714286,
+    "avg_turnover_14d": 2434926015.278571,
+    "avg_open_vol_14d": 128764.07142857143,
+    "history_days": 1016
+  },
+  "LT": {
+    "symbol": "LT",
+    "last_close": 4080.2,
+    "atr_14d": 105.04285714285723,
+    "avg_vol_14d": 2394132.9285714286,
+    "avg_turnover_14d": 9262088706.714285,
+    "avg_open_vol_14d": 153256.7857142857,
+    "history_days": 1016
+  },
+  "LTF": {
+    "symbol": "LTF",
+    "last_close": 286.6,
+    "atr_14d": 12.224999999999998,
+    "avg_vol_14d": 7937012.428571428,
+    "avg_turnover_14d": 2304732943.1107144,
+    "avg_open_vol_14d": 513733.5,
+    "history_days": 1016
+  },
+  "LTFOODS": {
+    "symbol": "LTFOODS",
+    "last_close": 406.1,
+    "atr_14d": 17.389285714285723,
+    "avg_vol_14d": 627012.5,
+    "avg_turnover_14d": 237113063.67857143,
+    "avg_open_vol_14d": 39846.357142857145,
+    "history_days": 1016
+  },
+  "LTIM": {
+    "symbol": "LTIM",
+    "last_close": 5691.0,
+    "atr_14d": 198.46428571428572,
+    "avg_vol_14d": 410427.35714285716,
+    "avg_turnover_14d": 2478323825.285714,
+    "avg_open_vol_14d": 25918.928571428572,
+    "history_days": 1016
+  },
+  "LUPIN": {
+    "symbol": "LUPIN",
+    "last_close": 2195.8,
+    "atr_14d": 55.02142857142849,
+    "avg_vol_14d": 821590.9285714285,
+    "avg_turnover_14d": 1772348137.507143,
+    "avg_open_vol_14d": 34125.642857142855,
+    "history_days": 1016
+  },
+  "M&M": {
+    "symbol": "M&M",
+    "last_close": 3574.9,
+    "atr_14d": 119.95714285714287,
+    "avg_vol_14d": 3199068.6428571427,
+    "avg_turnover_14d": 11142331321.985714,
+    "avg_open_vol_14d": 230269.07142857142,
+    "history_days": 1016
+  },
+  "M&MFIN": {
+    "symbol": "M&MFIN",
+    "last_close": 371.0,
+    "atr_14d": 14.103571428571424,
+    "avg_vol_14d": 1993041.142857143,
+    "avg_turnover_14d": 724805224.6285713,
+    "avg_open_vol_14d": 93551.21428571429,
+    "history_days": 1016
+  },
+  "MAHABANK": {
+    "symbol": "MAHABANK",
+    "last_close": 65.4,
+    "atr_14d": 2.617857142857143,
+    "avg_vol_14d": 23882077.64285714,
+    "avg_turnover_14d": 1549931635.2571428,
+    "avg_open_vol_14d": 2209684.1428571427,
+    "history_days": 1016
+  },
+  "MAHSEAMLES": {
+    "symbol": "MAHSEAMLES",
+    "last_close": 536.65,
+    "atr_14d": 14.489285714285712,
+    "avg_vol_14d": 122038.28571428571,
+    "avg_turnover_14d": 63127461.99285714,
+    "avg_open_vol_14d": 9293.0,
+    "history_days": 1016
+  },
+  "MANAPPURAM": {
+    "symbol": "MANAPPURAM",
+    "last_close": 294.25,
+    "atr_14d": 12.439285714285713,
+    "avg_vol_14d": 5037900.071428572,
+    "avg_turnover_14d": 1480873351.0357146,
+    "avg_open_vol_14d": 401808.35714285716,
+    "history_days": 1016
+  },
+  "MANKIND": {
+    "symbol": "MANKIND",
+    "last_close": 2087.2,
+    "atr_14d": 62.071428571428555,
+    "avg_vol_14d": 423989.64285714284,
+    "avg_turnover_14d": 903701373.7214286,
+    "avg_open_vol_14d": 15411.42857142857,
+    "history_days": 684
+  },
+  "MANYAVAR": {
+    "symbol": "MANYAVAR",
+    "last_close": 483.95,
+    "atr_14d": 20.03928571428571,
+    "avg_vol_14d": 144303.5,
+    "avg_turnover_14d": 70694726.10357143,
+    "avg_open_vol_14d": 4444.071428571428,
+    "history_days": 985
+  },
+  "MARICO": {
+    "symbol": "MARICO",
+    "last_close": 730.1,
+    "atr_14d": 15.967857142857147,
+    "avg_vol_14d": 2222526.285714286,
+    "avg_turnover_14d": 1642647014.1642857,
+    "avg_open_vol_14d": 127111.35714285714,
+    "history_days": 1016
+  },
+  "MARUTI": {
+    "symbol": "MARUTI",
+    "last_close": 15009.0,
+    "atr_14d": 482.07142857142856,
+    "avg_vol_14d": 580085.2142857143,
+    "avg_turnover_14d": 8747789540.0,
+    "avg_open_vol_14d": 32175.928571428572,
+    "history_days": 1016
+  },
+  "MAXHEALTH": {
+    "symbol": "MAXHEALTH",
+    "last_close": 1022.5,
+    "atr_14d": 29.364285714285707,
+    "avg_vol_14d": 3412807.5714285714,
+    "avg_turnover_14d": 3363471576.117858,
+    "avg_open_vol_14d": 131608.42857142858,
+    "history_days": 1016
+  },
+  "MAZDOCK": {
+    "symbol": "MAZDOCK",
+    "last_close": 2430.4,
+    "atr_14d": 104.7071428571429,
+    "avg_vol_14d": 1436684.357142857,
+    "avg_turnover_14d": 3492280436.9785714,
+    "avg_open_vol_14d": 88045.35714285714,
+    "history_days": 1016
+  },
+  "MCX": {
+    "symbol": "MCX",
+    "last_close": 2547.3,
+    "atr_14d": 164.56428571428572,
+    "avg_vol_14d": 6691265.857142857,
+    "avg_turnover_14d": 16046467749.285715,
+    "avg_open_vol_14d": 576261.0,
+    "history_days": 1016
+  },
+  "MEDANTA": {
+    "symbol": "MEDANTA",
+    "last_close": 1121.0,
+    "atr_14d": 44.02857142857147,
+    "avg_vol_14d": 212845.92857142858,
+    "avg_turnover_14d": 231986933.5,
+    "avg_open_vol_14d": 8069.071428571428,
+    "history_days": 801
+  },
+  "MFSL": {
+    "symbol": "MFSL",
+    "last_close": 1703.1,
+    "atr_14d": 44.464285714285715,
+    "avg_vol_14d": 570426.5714285715,
+    "avg_turnover_14d": 920262429.5928571,
+    "avg_open_vol_14d": 16716.5,
+    "history_days": 1016
+  },
+  "MGL": {
+    "symbol": "MGL",
+    "last_close": 1078.0,
+    "atr_14d": 30.928571428571438,
+    "avg_vol_14d": 232157.2142857143,
+    "avg_turnover_14d": 247334793.42857143,
+    "avg_open_vol_14d": 16027.642857142857,
+    "history_days": 1016
+  },
+  "MINDACORP": {
+    "symbol": "MINDACORP",
+    "last_close": 582.5,
+    "atr_14d": 26.042857142857134,
+    "avg_vol_14d": 294924.0714285714,
+    "avg_turnover_14d": 163090822.50714284,
+    "avg_open_vol_14d": 9080.857142857143,
+    "history_days": 1016
+  },
+  "MMTC": {
+    "symbol": "MMTC",
+    "last_close": 65.1,
+    "atr_14d": 3.760714285714286,
+    "avg_vol_14d": 16097100.07142857,
+    "avg_turnover_14d": 1102552334.9721427,
+    "avg_open_vol_14d": 811460.5,
+    "history_days": 1016
+  },
+  "MOTHERSON": {
+    "symbol": "MOTHERSON",
+    "last_close": 122.61,
+    "atr_14d": 4.435714285714284,
+    "avg_vol_14d": 15225713.642857144,
+    "avg_turnover_14d": 1725378458.295,
+    "avg_open_vol_14d": 1002782.0,
+    "history_days": 1016
+  },
+  "MOTILALOFS": {
+    "symbol": "MOTILALOFS",
+    "last_close": 789.0,
+    "atr_14d": 43.40357142857142,
+    "avg_vol_14d": 1962097.5,
+    "avg_turnover_14d": 1522106978.65,
+    "avg_open_vol_14d": 88411.71428571429,
+    "history_days": 1016
+  },
+  "MPHASIS": {
+    "symbol": "MPHASIS",
+    "last_close": 2690.0,
+    "atr_14d": 106.60714285714289,
+    "avg_vol_14d": 608506.2857142857,
+    "avg_turnover_14d": 1700584640.8428571,
+    "avg_open_vol_14d": 25128.14285714286,
+    "history_days": 1016
+  },
+  "MRPL": {
+    "symbol": "MRPL",
+    "last_close": 182.5,
+    "atr_14d": 11.78214285714286,
+    "avg_vol_14d": 21939259.07142857,
+    "avg_turnover_14d": 3561491898.2078567,
+    "avg_open_vol_14d": 1258698.642857143,
+    "history_days": 1016
+  },
+  "MUTHOOTFIN": {
+    "symbol": "MUTHOOTFIN",
+    "last_close": 3711.0,
+    "atr_14d": 150.2571428571429,
+    "avg_vol_14d": 726357.6428571428,
+    "avg_turnover_14d": 2748880962.0785713,
+    "avg_open_vol_14d": 47068.28571428572,
+    "history_days": 1016
+  },
+  "NAM-INDIA": {
+    "symbol": "NAM-INDIA",
+    "last_close": 924.5,
+    "atr_14d": 41.028571428571425,
+    "avg_vol_14d": 1117969.7142857143,
+    "avg_turnover_14d": 979117482.3107144,
+    "avg_open_vol_14d": 95674.57142857143,
+    "history_days": 1016
+  },
+  "NATCOPHARM": {
+    "symbol": "NATCOPHARM",
+    "last_close": 842.65,
+    "atr_14d": 27.850000000000023,
+    "avg_vol_14d": 428002.35714285716,
+    "avg_turnover_14d": 358417330.5571426,
+    "avg_open_vol_14d": 36012.92857142857,
+    "history_days": 1016
+  },
+  "NATIONALUM": {
+    "symbol": "NATIONALUM",
+    "last_close": 375.0,
+    "atr_14d": 22.682142857142857,
+    "avg_vol_14d": 23746210.285714287,
+    "avg_turnover_14d": 9001924685.382143,
+    "avg_open_vol_14d": 1891328.0,
+    "history_days": 1016
+  },
+  "NAUKRI": {
+    "symbol": "NAUKRI",
+    "last_close": 1185.5,
+    "atr_14d": 44.76428571428572,
+    "avg_vol_14d": 1404259.2142857143,
+    "avg_turnover_14d": 1798164480.1571429,
+    "avg_open_vol_14d": 62266.92857142857,
+    "history_days": 1016
+  },
+  "NAVA": {
+    "symbol": "NAVA",
+    "last_close": 579.0,
+    "atr_14d": 23.27142857142856,
+    "avg_vol_14d": 274746.9285714286,
+    "avg_turnover_14d": 150866498.49642843,
+    "avg_open_vol_14d": 19255.35714285714,
+    "history_days": 1016
+  },
+  "NAVINFLUOR": {
+    "symbol": "NAVINFLUOR",
+    "last_close": 6336.0,
+    "atr_14d": 236.5,
+    "avg_vol_14d": 174131.0,
+    "avg_turnover_14d": 1051865689.4285715,
+    "avg_open_vol_14d": 8928.714285714286,
+    "history_days": 1016
+  },
+  "NBCC": {
+    "symbol": "NBCC",
+    "last_close": 104.0,
+    "atr_14d": 3.9592857142857136,
+    "avg_vol_14d": 12125333.42857143,
+    "avg_turnover_14d": 1201581578.888572,
+    "avg_open_vol_14d": 795695.1428571428,
+    "history_days": 1016
+  },
+  "NCC": {
+    "symbol": "NCC",
+    "last_close": 155.85,
+    "atr_14d": 5.521428571428574,
+    "avg_vol_14d": 2557566.785714286,
+    "avg_turnover_14d": 373998330.4664286,
+    "avg_open_vol_14d": 144226.7142857143,
+    "history_days": 1016
+  },
+  "NESTLEIND": {
+    "symbol": "NESTLEIND",
+    "last_close": 1295.1,
+    "atr_14d": 34.78571428571432,
+    "avg_vol_14d": 1382537.5,
+    "avg_turnover_14d": 1809572523.75,
+    "avg_open_vol_14d": 54328.71428571428,
+    "history_days": 1016
+  },
+  "NETWEB": {
+    "symbol": "NETWEB",
+    "last_close": 3232.0,
+    "atr_14d": 205.54285714285723,
+    "avg_vol_14d": 1725820.0714285714,
+    "avg_turnover_14d": 5621571304.314286,
+    "avg_open_vol_14d": 159144.57142857142,
+    "history_days": 628
+  },
+  "NEWGEN": {
+    "symbol": "NEWGEN",
+    "last_close": 559.5,
+    "atr_14d": 32.09285714285715,
+    "avg_vol_14d": 1235411.857142857,
+    "avg_turnover_14d": 774103121.0071428,
+    "avg_open_vol_14d": 94408.42857142857,
+    "history_days": 1016
+  },
+  "NH": {
+    "symbol": "NH",
+    "last_close": 1759.0,
+    "atr_14d": 64.38571428571431,
+    "avg_vol_14d": 278529.64285714284,
+    "avg_turnover_14d": 500690387.74285746,
+    "avg_open_vol_14d": 10301.57142857143,
+    "history_days": 1016
+  },
+  "NHPC": {
+    "symbol": "NHPC",
+    "last_close": 78.79,
+    "atr_14d": 2.4092857142857147,
+    "avg_vol_14d": 17716459.35714286,
+    "avg_turnover_14d": 1384706954.9614284,
+    "avg_open_vol_14d": 701232.5,
+    "history_days": 1016
+  },
+  "NIVABUPA": {
+    "symbol": "NIVABUPA",
+    "last_close": 78.6,
+    "atr_14d": 2.3035714285714297,
+    "avg_vol_14d": 1290505.2142857143,
+    "avg_turnover_14d": 101319406.52642857,
+    "avg_open_vol_14d": 112176.57142857143,
+    "history_days": 304
+  },
+  "NLCINDIA": {
+    "symbol": "NLCINDIA",
+    "last_close": 264.2,
+    "atr_14d": 10.69285714285714,
+    "avg_vol_14d": 1803924.642857143,
+    "avg_turnover_14d": 460054219.38571435,
+    "avg_open_vol_14d": 104747.14285714286,
+    "history_days": 1016
+  },
+  "NMDC": {
+    "symbol": "NMDC",
+    "last_close": 85.69,
+    "atr_14d": 3.1392857142857147,
+    "avg_vol_14d": 29172201.285714287,
+    "avg_turnover_14d": 2370944390.125,
+    "avg_open_vol_14d": 1757668.2142857143,
+    "history_days": 1016
+  },
+  "NTPC": {
+    "symbol": "NTPC",
+    "last_close": 366.8,
+    "atr_14d": 10.700000000000001,
+    "avg_vol_14d": 13032354.642857144,
+    "avg_turnover_14d": 4541456524.425,
+    "avg_open_vol_14d": 382405.0714285714,
+    "history_days": 1016
+  },
+  "NTPCGREEN": {
+    "symbol": "NTPCGREEN",
+    "last_close": 87.66,
+    "atr_14d": 2.795714285714285,
+    "avg_vol_14d": 5179585.357142857,
+    "avg_turnover_14d": 459783160.06142855,
+    "avg_open_vol_14d": 312847.35714285716,
+    "history_days": 297
+  },
+  "NUVAMA": {
+    "symbol": "NUVAMA",
+    "last_close": 1388.0,
+    "atr_14d": 68.41428571428574,
+    "avg_vol_14d": 708247.6428571428,
+    "avg_turnover_14d": 944429055.15,
+    "avg_open_vol_14d": 32356.85714285714,
+    "history_days": 587
+  },
+  "NUVOCO": {
+    "symbol": "NUVOCO",
+    "last_close": 347.5,
+    "atr_14d": 11.267857142857126,
+    "avg_vol_14d": 268399.4285714286,
+    "avg_turnover_14d": 92886740.41428569,
+    "avg_open_vol_14d": 17373.571428571428,
+    "history_days": 1016
+  },
+  "NYKAA": {
+    "symbol": "NYKAA",
+    "last_close": 250.0,
+    "atr_14d": 7.377142857142851,
+    "avg_vol_14d": 4727822.0,
+    "avg_turnover_14d": 1136773784.0607135,
+    "avg_open_vol_14d": 180837.7142857143,
+    "history_days": 1016
+  },
+  "OBEROIRLTY": {
+    "symbol": "OBEROIRLTY",
+    "last_close": 1541.2,
+    "atr_14d": 55.271428571428565,
+    "avg_vol_14d": 1064789.2857142857,
+    "avg_turnover_14d": 1603997679.2428572,
+    "avg_open_vol_14d": 44907.28571428572,
+    "history_days": 1016
+  },
+  "OFSS": {
+    "symbol": "OFSS",
+    "last_close": 7509.0,
+    "atr_14d": 232.03571428571428,
+    "avg_vol_14d": 153582.5,
+    "avg_turnover_14d": 1208166908.642857,
+    "avg_open_vol_14d": 10978.285714285714,
+    "history_days": 1016
+  },
+  "OIL": {
+    "symbol": "OIL",
+    "last_close": 506.0,
+    "atr_14d": 20.042857142857134,
+    "avg_vol_14d": 7416572.5,
+    "avg_turnover_14d": 3604958447.853572,
+    "avg_open_vol_14d": 429106.0714285714,
+    "history_days": 1016
+  },
+  "OLECTRA": {
+    "symbol": "OLECTRA",
+    "last_close": 1062.0,
+    "atr_14d": 52.014285714285734,
+    "avg_vol_14d": 515426.4285714286,
+    "avg_turnover_14d": 544687997.957143,
+    "avg_open_vol_14d": 31811.214285714286,
+    "history_days": 1016
+  },
+  "ONESOURCE": {
+    "symbol": "ONESOURCE",
+    "last_close": 1207.2,
+    "atr_14d": 105.77857142857145,
+    "avg_vol_14d": 616844.1428571428,
+    "avg_turnover_14d": 767212211.8357143,
+    "avg_open_vol_14d": 18769.14285714286,
+    "history_days": 256
+  },
+  "ONGC": {
+    "symbol": "ONGC",
+    "last_close": 266.0,
+    "atr_14d": 8.976428571428572,
+    "avg_vol_14d": 21577728.35714286,
+    "avg_turnover_14d": 5597503680.249285,
+    "avg_open_vol_14d": 1098887.642857143,
+    "history_days": 1016
+  },
+  "PATANJALI": {
+    "symbol": "PATANJALI",
+    "last_close": 508.0,
+    "atr_14d": 16.528571428571432,
+    "avg_vol_14d": 2830226.8571428573,
+    "avg_turnover_14d": 1426116779.8178566,
+    "avg_open_vol_14d": 61034.0,
+    "history_days": 1016
+  },
+  "PAYTM": {
+    "symbol": "PAYTM",
+    "last_close": 1206.0,
+    "atr_14d": 68.50000000000001,
+    "avg_vol_14d": 5207944.071428572,
+    "avg_turnover_14d": 6186078841.171428,
+    "avg_open_vol_14d": 237749.35714285713,
+    "history_days": 1016
+  },
+  "PCBL": {
+    "symbol": "PCBL",
+    "last_close": 283.0,
+    "atr_14d": 13.142857142857151,
+    "avg_vol_14d": 2562485.3571428573,
+    "avg_turnover_14d": 743532005.1285714,
+    "avg_open_vol_14d": 63680.92857142857,
+    "history_days": 1016
+  },
+  "PERSISTENT": {
+    "symbol": "PERSISTENT",
+    "last_close": 5979.5,
+    "atr_14d": 223.46428571428572,
+    "avg_vol_14d": 549969.2142857143,
+    "avg_turnover_14d": 3420543012.107143,
+    "avg_open_vol_14d": 32858.857142857145,
+    "history_days": 1016
+  },
+  "PETRONET": {
+    "symbol": "PETRONET",
+    "last_close": 298.0,
+    "atr_14d": 8.474999999999998,
+    "avg_vol_14d": 2624291.6428571427,
+    "avg_turnover_14d": 749072981.1785715,
+    "avg_open_vol_14d": 129029.07142857143,
+    "history_days": 1016
+  },
+  "PFC": {
+    "symbol": "PFC",
+    "last_close": 413.8,
+    "atr_14d": 12.935714285714292,
+    "avg_vol_14d": 9495736.42857143,
+    "avg_turnover_14d": 3586796099.9035716,
+    "avg_open_vol_14d": 405988.0,
+    "history_days": 1016
+  },
+  "PGEL": {
+    "symbol": "PGEL",
+    "last_close": 591.35,
+    "atr_14d": 29.746428571428584,
+    "avg_vol_14d": 2914982.5,
+    "avg_turnover_14d": 1607524691.1571429,
+    "avg_open_vol_14d": 144866.7857142857,
+    "history_days": 1016
+  },
+  "PHOENIXLTD": {
+    "symbol": "PHOENIXLTD",
+    "last_close": 1712.0,
+    "atr_14d": 60.47142857142855,
+    "avg_vol_14d": 591976.5714285715,
+    "avg_turnover_14d": 1020768819.192857,
+    "avg_open_vol_14d": 28988.714285714286,
+    "history_days": 1016
+  },
+  "PIDILITIND": {
+    "symbol": "PIDILITIND",
+    "last_close": 1463.0,
+    "atr_14d": 32.72142857142861,
+    "avg_vol_14d": 750241.5714285715,
+    "avg_turnover_14d": 1080759826.0928571,
+    "avg_open_vol_14d": 19757.214285714286,
+    "history_days": 1016
+  },
+  "PIIND": {
+    "symbol": "PIIND",
+    "last_close": 3143.5,
+    "atr_14d": 103.88571428571429,
+    "avg_vol_14d": 226570.42857142858,
+    "avg_turnover_14d": 716237298.8500001,
+    "avg_open_vol_14d": 10478.5,
+    "history_days": 1016
+  },
+  "PNB": {
+    "symbol": "PNB",
+    "last_close": 123.59,
+    "atr_14d": 4.728571428571426,
+    "avg_vol_14d": 27097108.35714286,
+    "avg_turnover_14d": 3416613143.694286,
+    "avg_open_vol_14d": 1798847.357142857,
+    "history_days": 1016
+  },
+  "PNBHOUSING": {
+    "symbol": "PNBHOUSING",
+    "last_close": 849.5,
+    "atr_14d": 38.19285714285716,
+    "avg_vol_14d": 1693148.7857142857,
+    "avg_turnover_14d": 1436646678.760714,
+    "avg_open_vol_14d": 83986.35714285714,
+    "history_days": 1016
+  },
+  "POLICYBZR": {
+    "symbol": "POLICYBZR",
+    "last_close": 1440.0,
+    "atr_14d": 73.82857142857144,
+    "avg_vol_14d": 2226606.5,
+    "avg_turnover_14d": 3519963493.085714,
+    "avg_open_vol_14d": 82068.92857142857,
+    "history_days": 1016
+  },
+  "POLYCAB": {
+    "symbol": "POLYCAB",
+    "last_close": 7613.0,
+    "atr_14d": 280.14285714285717,
+    "avg_vol_14d": 622245.0714285715,
+    "avg_turnover_14d": 4447183426.392858,
+    "avg_open_vol_14d": 110447.28571428571,
+    "history_days": 1016
+  },
+  "POLYMED": {
+    "symbol": "POLYMED",
+    "last_close": 1515.0,
+    "atr_14d": 67.15,
+    "avg_vol_14d": 214193.2857142857,
+    "avg_turnover_14d": 342119506.53571427,
+    "avg_open_vol_14d": 5007.642857142857,
+    "history_days": 1016
+  },
+  "POONAWALLA": {
+    "symbol": "POONAWALLA",
+    "last_close": 421.0,
+    "atr_14d": 21.871428571428563,
+    "avg_vol_14d": 1683860.857142857,
+    "avg_turnover_14d": 728576648.567857,
+    "avg_open_vol_14d": 139015.85714285713,
+    "history_days": 1016
+  },
+  "POWERGRID": {
+    "symbol": "POWERGRID",
+    "last_close": 289.5,
+    "atr_14d": 7.639285714285721,
+    "avg_vol_14d": 19944898.0,
+    "avg_turnover_14d": 5256920225.589286,
+    "avg_open_vol_14d": 791837.7857142857,
+    "history_days": 1016
+  },
+  "POWERINDIA": {
+    "symbol": "POWERINDIA",
+    "last_close": 19000.0,
+    "atr_14d": 778.6428571428571,
+    "avg_vol_14d": 183167.14285714287,
+    "avg_turnover_14d": 3195714720.142857,
+    "avg_open_vol_14d": 10556.07142857143,
+    "history_days": 1016
+  },
+  "PPLPHARMA": {
+    "symbol": "PPLPHARMA",
+    "last_close": 161.6,
+    "atr_14d": 6.283571428571428,
+    "avg_vol_14d": 3883002.9285714286,
+    "avg_turnover_14d": 605613449.9757143,
+    "avg_open_vol_14d": 307678.0714285714,
+    "history_days": 819
+  },
+  "PRAJIND": {
+    "symbol": "PRAJIND",
+    "last_close": 289.05,
+    "atr_14d": 11.842857142857143,
+    "avg_vol_14d": 728691.0714285715,
+    "avg_turnover_14d": 211408578.30357143,
+    "avg_open_vol_14d": 51968.642857142855,
+    "history_days": 1016
+  },
+  "PREMIERENE": {
+    "symbol": "PREMIERENE",
+    "last_close": 779.8,
+    "atr_14d": 40.26785714285715,
+    "avg_vol_14d": 2656180.5714285714,
+    "avg_turnover_14d": 1938336673.3285713,
+    "avg_open_vol_14d": 238628.35714285713,
+    "history_days": 355
+  },
+  "PRESTIGE": {
+    "symbol": "PRESTIGE",
+    "last_close": 1520.0,
+    "atr_14d": 67.23571428571428,
+    "avg_vol_14d": 1082211.2857142857,
+    "avg_turnover_14d": 1567950560.607143,
+    "avg_open_vol_14d": 47112.5,
+    "history_days": 1016
+  },
+  "PVRINOX": {
+    "symbol": "PVRINOX",
+    "last_close": 1012.05,
+    "atr_14d": 36.63214285714285,
+    "avg_vol_14d": 325642.64285714284,
+    "avg_turnover_14d": 315626001.76071423,
+    "avg_open_vol_14d": 21184.428571428572,
+    "history_days": 1016
+  },
+  "RADICO": {
+    "symbol": "RADICO",
+    "last_close": 2756.8,
+    "atr_14d": 136.46428571428572,
+    "avg_vol_14d": 585862.3571428572,
+    "avg_turnover_14d": 1667001940.9428573,
+    "avg_open_vol_14d": 16802.5,
+    "history_days": 1016
+  },
+  "RAILTEL": {
+    "symbol": "RAILTEL",
+    "last_close": 334.95,
+    "atr_14d": 15.810714285714283,
+    "avg_vol_14d": 1709029.7142857143,
+    "avg_turnover_14d": 581190934.6357143,
+    "avg_open_vol_14d": 121608.85714285714,
+    "history_days": 1016
+  },
+  "RAINBOW": {
+    "symbol": "RAINBOW",
+    "last_close": 1126.0,
+    "atr_14d": 38.214285714285715,
+    "avg_vol_14d": 184102.5,
+    "avg_turnover_14d": 218185080.7357143,
+    "avg_open_vol_14d": 5454.357142857143,
+    "history_days": 931
+  },
+  "RAMCOCEM": {
+    "symbol": "RAMCOCEM",
+    "last_close": 1156.0,
+    "atr_14d": 34.792857142857166,
+    "avg_vol_14d": 298261.35714285716,
+    "avg_turnover_14d": 325010054.2071429,
+    "avg_open_vol_14d": 5968.428571428572,
+    "history_days": 1016
+  },
+  "RBLBANK": {
+    "symbol": "RBLBANK",
+    "last_close": 305.2,
+    "atr_14d": 11.346428571428573,
+    "avg_vol_14d": 7738461.428571428,
+    "avg_turnover_14d": 2338681451.9392858,
+    "avg_open_vol_14d": 643474.0,
+    "history_days": 1016
+  },
+  "RCF": {
+    "symbol": "RCF",
+    "last_close": 136.6,
+    "atr_14d": 4.911428571428575,
+    "avg_vol_14d": 1480966.142857143,
+    "avg_turnover_14d": 198794058.3335714,
+    "avg_open_vol_14d": 100957.21428571429,
+    "history_days": 1016
+  },
+  "RECLTD": {
+    "symbol": "RECLTD",
+    "last_close": 381.05,
+    "atr_14d": 12.335714285714277,
+    "avg_vol_14d": 11367573.0,
+    "avg_turnover_14d": 4153842516.2,
+    "avg_open_vol_14d": 549569.0714285715,
+    "history_days": 1016
+  },
+  "REDINGTON": {
+    "symbol": "REDINGTON",
+    "last_close": 283.2,
+    "atr_14d": 10.98214285714285,
+    "avg_vol_14d": 1683677.5714285714,
+    "avg_turnover_14d": 442653473.7571429,
+    "avg_open_vol_14d": 147837.2142857143,
+    "history_days": 1016
+  },
+  "RELIANCE": {
+    "symbol": "RELIANCE",
+    "last_close": 1455.4,
+    "atr_14d": 39.18571428571431,
+    "avg_vol_14d": 15880945.07142857,
+    "avg_turnover_14d": 22322692045.85,
+    "avg_open_vol_14d": 1317549.0,
+    "history_days": 1016
+  },
+  "RELINFRA": {
+    "symbol": "RELINFRA",
+    "last_close": 132.66,
+    "atr_14d": 7.784285714285713,
+    "avg_vol_14d": 1205367.7142857143,
+    "avg_turnover_14d": 171817616.63285714,
+    "avg_open_vol_14d": 294414.78571428574,
+    "history_days": 994
+  },
+  "RHIM": {
+    "symbol": "RHIM",
+    "last_close": 445.75,
+    "atr_14d": 21.07857142857141,
+    "avg_vol_14d": 286134.64285714284,
+    "avg_turnover_14d": 124275279.55357143,
+    "avg_open_vol_14d": 5209.857142857143,
+    "history_days": 1016
+  },
+  "RITES": {
+    "symbol": "RITES",
+    "last_close": 225.58,
+    "atr_14d": 7.8528571428571405,
+    "avg_vol_14d": 724267.7857142857,
+    "avg_turnover_14d": 161987956.94999996,
+    "avg_open_vol_14d": 52578.28571428572,
+    "history_days": 1016
+  },
+  "RKFORGE": {
+    "symbol": "RKFORGE",
+    "last_close": 558.65,
+    "atr_14d": 23.08928571428572,
+    "avg_vol_14d": 434962.64285714284,
+    "avg_turnover_14d": 226285135.17857143,
+    "avg_open_vol_14d": 27607.785714285714,
+    "history_days": 1016
+  },
+  "RRKABEL": {
+    "symbol": "RRKABEL",
+    "last_close": 1455.0,
+    "atr_14d": 66.85000000000002,
+    "avg_vol_14d": 183521.14285714287,
+    "avg_turnover_14d": 254493300.64285713,
+    "avg_open_vol_14d": 13548.92857142857,
+    "history_days": 591
+  },
+  "RVNL": {
+    "symbol": "RVNL",
+    "last_close": 321.0,
+    "atr_14d": 15.249999999999996,
+    "avg_vol_14d": 12439390.214285715,
+    "avg_turnover_14d": 4126639173.0928574,
+    "avg_open_vol_14d": 959669.4285714285,
+    "history_days": 1016
+  },
+  "SAIL": {
+    "symbol": "SAIL",
+    "last_close": 156.92,
+    "atr_14d": 6.802857142857142,
+    "avg_vol_14d": 29736333.14285714,
+    "avg_turnover_14d": 4505582467.630713,
+    "avg_open_vol_14d": 1383441.2857142857,
+    "history_days": 1016
+  },
+  "SAILIFE": {
+    "symbol": "SAILIFE",
+    "last_close": 807.0,
+    "atr_14d": 33.407142857142865,
+    "avg_vol_14d": 404385.0714285714,
+    "avg_turnover_14d": 339581732.15,
+    "avg_open_vol_14d": 12363.785714285714,
+    "history_days": 282
+  },
+  "SAMMAANCAP": {
+    "symbol": "SAMMAANCAP",
+    "last_close": 149.31,
+    "atr_14d": 4.949999999999997,
+    "avg_vol_14d": 12191298.5,
+    "avg_turnover_14d": 1745281578.3707142,
+    "avg_open_vol_14d": 626399.5714285715,
+    "history_days": 1016
+  },
+  "SAPPHIRE": {
+    "symbol": "SAPPHIRE",
+    "last_close": 200.93,
+    "atr_14d": 8.827142857142857,
+    "avg_vol_14d": 469143.4285714286,
+    "avg_turnover_14d": 91651629.93214285,
+    "avg_open_vol_14d": 17092.428571428572,
+    "history_days": 1016
+  },
+  "SARDAEN": {
+    "symbol": "SARDAEN",
+    "last_close": 520.65,
+    "atr_14d": 16.621428571428563,
+    "avg_vol_14d": 279545.5714285714,
+    "avg_turnover_14d": 134629926.83571428,
+    "avg_open_vol_14d": 15479.5,
+    "history_days": 1016
+  },
+  "SAREGAMA": {
+    "symbol": "SAREGAMA",
+    "last_close": 327.85,
+    "atr_14d": 12.896428571428576,
+    "avg_vol_14d": 347165.0,
+    "avg_turnover_14d": 115853599.68571427,
+    "avg_open_vol_14d": 11947.07142857143,
+    "history_days": 1016
+  },
+  "SBFC": {
+    "symbol": "SBFC",
+    "last_close": 90.25,
+    "atr_14d": 5.302142857142856,
+    "avg_vol_14d": 5622518.571428572,
+    "avg_turnover_14d": 517295660.86785716,
+    "avg_open_vol_14d": 201428.35714285713,
+    "history_days": 615
+  },
+  "SBICARD": {
+    "symbol": "SBICARD",
+    "last_close": 748.1,
+    "atr_14d": 23.960714285714282,
+    "avg_vol_14d": 1625050.7142857143,
+    "avg_turnover_14d": 1260308847.45,
+    "avg_open_vol_14d": 86686.92857142857,
+    "history_days": 1016
+  },
+  "SBILIFE": {
+    "symbol": "SBILIFE",
+    "last_close": 2038.0,
+    "atr_14d": 52.050000000000004,
+    "avg_vol_14d": 1374325.5,
+    "avg_turnover_14d": 2778142207.342857,
+    "avg_open_vol_14d": 61092.0,
+    "history_days": 1016
+  },
+  "SBIN": {
+    "symbol": "SBIN",
+    "last_close": 1067.3,
+    "atr_14d": 29.592857142857106,
+    "avg_vol_14d": 11183723.0,
+    "avg_turnover_14d": 11697403920.535715,
+    "avg_open_vol_14d": 572260.6428571428,
+    "history_days": 1016
+  },
+  "SCHNEIDER": {
+    "symbol": "SCHNEIDER",
+    "last_close": 752.0,
+    "atr_14d": 35.528571428571425,
+    "avg_vol_14d": 784717.0,
+    "avg_turnover_14d": 500688053.6785714,
+    "avg_open_vol_14d": 15256.357142857143,
+    "history_days": 1016
+  },
+  "SCI": {
+    "symbol": "SCI",
+    "last_close": 226.2,
+    "atr_14d": 9.681428571428567,
+    "avg_vol_14d": 2469782.0,
+    "avg_turnover_14d": 532252951.61642885,
+    "avg_open_vol_14d": 129690.14285714286,
+    "history_days": 1016
+  },
+  "SHRIRAMFIN": {
+    "symbol": "SHRIRAMFIN",
+    "last_close": 998.7,
+    "atr_14d": 35.26071428571429,
+    "avg_vol_14d": 7529154.428571428,
+    "avg_turnover_14d": 7514396466.307142,
+    "avg_open_vol_14d": 497502.21428571426,
+    "history_days": 1016
+  },
+  "SHYAMMETL": {
+    "symbol": "SHYAMMETL",
+    "last_close": 856.0,
+    "atr_14d": 29.032142857142862,
+    "avg_vol_14d": 211445.7142857143,
+    "avg_turnover_14d": 175562912.43928573,
+    "avg_open_vol_14d": 6854.0,
+    "history_days": 1016
+  },
+  "SIEMENS": {
+    "symbol": "SIEMENS",
+    "last_close": 3290.0,
+    "atr_14d": 100.71428571428575,
+    "avg_vol_14d": 279842.71428571426,
+    "avg_turnover_14d": 841520170.042857,
+    "avg_open_vol_14d": 13374.57142857143,
+    "history_days": 1016
+  },
+  "SIGNATURE": {
+    "symbol": "SIGNATURE",
+    "last_close": 880.05,
+    "atr_14d": 47.06071428571427,
+    "avg_vol_14d": 777473.4285714285,
+    "avg_turnover_14d": 688774885.7214286,
+    "avg_open_vol_14d": 8936.57142857143,
+    "history_days": 586
+  },
+  "SJVN": {
+    "symbol": "SJVN",
+    "last_close": 74.05,
+    "atr_14d": 2.712142857142857,
+    "avg_vol_14d": 5483572.357142857,
+    "avg_turnover_14d": 400469069.74142855,
+    "avg_open_vol_14d": 304096.71428571426,
+    "history_days": 1016
+  },
+  "SOBHA": {
+    "symbol": "SOBHA",
+    "last_close": 1525.0,
+    "atr_14d": 72.0357142857143,
+    "avg_vol_14d": 190206.85714285713,
+    "avg_turnover_14d": 269351836.37142885,
+    "avg_open_vol_14d": 10543.0,
+    "history_days": 1016
+  },
+  "SOLARINDS": {
+    "symbol": "SOLARINDS",
+    "last_close": 13579.0,
+    "atr_14d": 598.3571428571429,
+    "avg_vol_14d": 187408.14285714287,
+    "avg_turnover_14d": 2485623442.857143,
+    "avg_open_vol_14d": 7470.428571428572,
+    "history_days": 1016
+  },
+  "SONACOMS": {
+    "symbol": "SONACOMS",
+    "last_close": 530.6,
+    "atr_14d": 18.86428571428572,
+    "avg_vol_14d": 3119201.9285714286,
+    "avg_turnover_14d": 1546261463.7892857,
+    "avg_open_vol_14d": 165450.5,
+    "history_days": 1016
+  },
+  "SONATSOFTW": {
+    "symbol": "SONATSOFTW",
+    "last_close": 315.45,
+    "atr_14d": 12.521428571428569,
+    "avg_vol_14d": 581684.3571428572,
+    "avg_turnover_14d": 187509952.98214287,
+    "avg_open_vol_14d": 40419.5,
+    "history_days": 1016
+  },
+  "SRF": {
+    "symbol": "SRF",
+    "last_close": 2926.0,
+    "atr_14d": 112.10000000000001,
+    "avg_vol_14d": 589850.4285714285,
+    "avg_turnover_14d": 1651721722.8857143,
+    "avg_open_vol_14d": 38603.28571428572,
+    "history_days": 1016
+  },
+  "STARHEALTH": {
+    "symbol": "STARHEALTH",
+    "last_close": 468.55,
+    "atr_14d": 14.25357142857143,
+    "avg_vol_14d": 895929.3571428572,
+    "avg_turnover_14d": 406434356.3571429,
+    "avg_open_vol_14d": 18002.0,
+    "history_days": 1016
+  },
+  "SUMICHEM": {
+    "symbol": "SUMICHEM",
+    "last_close": 425.45,
+    "atr_14d": 16.96428571428571,
+    "avg_vol_14d": 426310.5714285714,
+    "avg_turnover_14d": 176192375.57142857,
+    "avg_open_vol_14d": 10224.714285714286,
+    "history_days": 1016
+  },
+  "SUNPHARMA": {
+    "symbol": "SUNPHARMA",
+    "last_close": 1703.0,
+    "atr_14d": 49.685714285714276,
+    "avg_vol_14d": 3731533.714285714,
+    "avg_turnover_14d": 6119298365.092857,
+    "avg_open_vol_14d": 159705.7142857143,
+    "history_days": 1016
+  },
+  "SUNTV": {
+    "symbol": "SUNTV",
+    "last_close": 544.95,
+    "atr_14d": 24.092857142857152,
+    "avg_vol_14d": 219042.5,
+    "avg_turnover_14d": 119096512.61785713,
+    "avg_open_vol_14d": 13357.214285714286,
+    "history_days": 1016
+  },
+  "SUPREMEIND": {
+    "symbol": "SUPREMEIND",
+    "last_close": 3735.0,
+    "atr_14d": 110.80000000000005,
+    "avg_vol_14d": 320983.5,
+    "avg_turnover_14d": 1118010043.9928572,
+    "avg_open_vol_14d": 12223.92857142857,
+    "history_days": 1016
+  },
+  "SWANCORP": {
+    "symbol": "SWANCORP",
+    "last_close": 425.5,
+    "atr_14d": 17.357142857142854,
+    "avg_vol_14d": 1253780.2857142857,
+    "avg_turnover_14d": 516181318.125,
+    "avg_open_vol_14d": 55042.642857142855,
+    "history_days": 1016
+  },
+  "SWIGGY": {
+    "symbol": "SWIGGY",
+    "last_close": 321.5,
+    "atr_14d": 16.050000000000008,
+    "avg_vol_14d": 15910259.642857144,
+    "avg_turnover_14d": 5123853122.974999,
+    "avg_open_vol_14d": 840268.0714285715,
+    "history_days": 305
+  },
+  "SYNGENE": {
+    "symbol": "SYNGENE",
+    "last_close": 473.1,
+    "atr_14d": 23.807142857142853,
+    "avg_vol_14d": 1579065.0,
+    "avg_turnover_14d": 807815912.6142857,
+    "avg_open_vol_14d": 89309.07142857143,
+    "history_days": 1016
+  },
+  "SYRMA": {
+    "symbol": "SYRMA",
+    "last_close": 849.0,
+    "atr_14d": 42.1,
+    "avg_vol_14d": 2156421.785714286,
+    "avg_turnover_14d": 1608114646.3714287,
+    "avg_open_vol_14d": 198647.2142857143,
+    "history_days": 855
+  },
+  "TARIL": {
+    "symbol": "TARIL",
+    "last_close": 256.0,
+    "atr_14d": 11.973571428571432,
+    "avg_vol_14d": 3393615.6428571427,
+    "avg_turnover_14d": 826286459.5035714,
+    "avg_open_vol_14d": 262000.85714285713,
+    "history_days": 1016
+  },
+  "TATACHEM": {
+    "symbol": "TATACHEM",
+    "last_close": 718.0,
+    "atr_14d": 25.80714285714286,
+    "avg_vol_14d": 431874.0714285714,
+    "avg_turnover_14d": 314416058.64285713,
+    "avg_open_vol_14d": 24577.64285714286,
+    "history_days": 1016
+  },
+  "TATACOMM": {
+    "symbol": "TATACOMM",
+    "last_close": 1559.1,
+    "atr_14d": 70.29285714285716,
+    "avg_vol_14d": 493704.4285714286,
+    "avg_turnover_14d": 781005377.6642854,
+    "avg_open_vol_14d": 14003.642857142857,
+    "history_days": 1016
+  },
+  "TATACONSUM": {
+    "symbol": "TATACONSUM",
+    "last_close": 1148.6,
+    "atr_14d": 41.5571428571429,
+    "avg_vol_14d": 1875345.7857142857,
+    "avg_turnover_14d": 2155109153.078572,
+    "avg_open_vol_14d": 64201.57142857143,
+    "history_days": 1016
+  },
+  "TATAELXSI": {
+    "symbol": "TATAELXSI",
+    "last_close": 5500.0,
+    "atr_14d": 171.82142857142858,
+    "avg_vol_14d": 316312.35714285716,
+    "avg_turnover_14d": 1724668319.25,
+    "avg_open_vol_14d": 26559.428571428572,
+    "history_days": 1016
+  },
+  "TATAINVEST": {
+    "symbol": "TATAINVEST",
+    "last_close": 639.9,
+    "atr_14d": 21.832142857142856,
+    "avg_vol_14d": 432977.35714285716,
+    "avg_turnover_14d": 270844470.7285715,
+    "avg_open_vol_14d": 29282.0,
+    "history_days": 1016
+  },
+  "TATAPOWER": {
+    "symbol": "TATAPOWER",
+    "last_close": 371.05,
+    "atr_14d": 9.546428571428569,
+    "avg_vol_14d": 3915002.8571428573,
+    "avg_turnover_14d": 1403046820.25,
+    "avg_open_vol_14d": 204012.42857142858,
+    "history_days": 1016
+  },
+  "TATASTEEL": {
+    "symbol": "TATASTEEL",
+    "last_close": 195.2,
+    "atr_14d": 6.690714285714287,
+    "avg_vol_14d": 34994903.571428575,
+    "avg_turnover_14d": 6689566796.156427,
+    "avg_open_vol_14d": 1700088.0,
+    "history_days": 1016
+  },
+  "TATATECH": {
+    "symbol": "TATATECH",
+    "last_close": 650.4,
+    "atr_14d": 18.275000000000002,
+    "avg_vol_14d": 1149815.7857142857,
+    "avg_turnover_14d": 750399302.225,
+    "avg_open_vol_14d": 116989.28571428571,
+    "history_days": 543
+  },
+  "TCS": {
+    "symbol": "TCS",
+    "last_close": 2999.9,
+    "atr_14d": 70.5857142857143,
+    "avg_vol_14d": 3185255.6428571427,
+    "avg_turnover_14d": 10088496433.97143,
+    "avg_open_vol_14d": 241657.0,
+    "history_days": 1016
+  },
+  "TECHM": {
+    "symbol": "TECHM",
+    "last_close": 1639.0,
+    "atr_14d": 48.557142857142836,
+    "avg_vol_14d": 2707183.5714285714,
+    "avg_turnover_14d": 4621985749.278571,
+    "avg_open_vol_14d": 145156.5,
+    "history_days": 1016
+  },
+  "TECHNOE": {
+    "symbol": "TECHNOE",
+    "last_close": 1056.1,
+    "atr_14d": 44.596428571428575,
+    "avg_vol_14d": 237208.2142857143,
+    "avg_turnover_14d": 230696114.37142858,
+    "avg_open_vol_14d": 8526.642857142857,
+    "history_days": 1016
+  },
+  "TEJASNET": {
+    "symbol": "TEJASNET",
+    "last_close": 350.5,
+    "atr_14d": 21.80357142857142,
+    "avg_vol_14d": 5050935.142857143,
+    "avg_turnover_14d": 1692265920.042857,
+    "avg_open_vol_14d": 276414.78571428574,
+    "history_days": 1016
+  },
+  "THELEELA": {
+    "symbol": "THELEELA",
+    "last_close": 441.05,
+    "atr_14d": 19.35,
+    "avg_vol_14d": 727971.2857142857,
+    "avg_turnover_14d": 308054738.1571428,
+    "avg_open_vol_14d": 12558.42857142857,
+    "history_days": 171
+  },
+  "TIINDIA": {
+    "symbol": "TIINDIA",
+    "last_close": 2634.1,
+    "atr_14d": 89.74999999999997,
+    "avg_vol_14d": 493541.5,
+    "avg_turnover_14d": 1147180344.428572,
+    "avg_open_vol_14d": 16945.214285714286,
+    "history_days": 1016
+  },
+  "TITAGARH": {
+    "symbol": "TITAGARH",
+    "last_close": 795.0,
+    "atr_14d": 31.60714285714285,
+    "avg_vol_14d": 890315.2857142857,
+    "avg_turnover_14d": 712530514.1964285,
+    "avg_open_vol_14d": 49851.92857142857,
+    "history_days": 1016
+  },
+  "TITAN": {
+    "symbol": "TITAN",
+    "last_close": 4135.1,
+    "atr_14d": 108.01428571428553,
+    "avg_vol_14d": 971190.2142857143,
+    "avg_turnover_14d": 3913505431.2,
+    "avg_open_vol_14d": 37335.0,
+    "history_days": 1016
+  },
+  "TMPV": {
+    "symbol": "TMPV",
+    "last_close": 375.4,
+    "atr_14d": 12.71785714285714,
+    "avg_vol_14d": 11572862.785714285,
+    "avg_turnover_14d": 4052891154.45,
+    "avg_open_vol_14d": 690481.5,
+    "history_days": 1016
+  },
+  "TORNTPHARM": {
+    "symbol": "TORNTPHARM",
+    "last_close": 4013.1,
+    "atr_14d": 115.60000000000001,
+    "avg_vol_14d": 295411.0714285714,
+    "avg_turnover_14d": 1177504505.5785716,
+    "avg_open_vol_14d": 17217.285714285714,
+    "history_days": 1016
+  },
+  "TORNTPOWER": {
+    "symbol": "TORNTPOWER",
+    "last_close": 1405.0,
+    "atr_14d": 45.25714285714285,
+    "avg_vol_14d": 335093.71428571426,
+    "avg_turnover_14d": 448305734.9071428,
+    "avg_open_vol_14d": 12133.357142857143,
+    "history_days": 1016
+  },
+  "TRENT": {
+    "symbol": "TRENT",
+    "last_close": 4021.0,
+    "atr_14d": 103.95000000000007,
+    "avg_vol_14d": 862842.2857142857,
+    "avg_turnover_14d": 3289213468.5785713,
+    "avg_open_vol_14d": 33754.5,
+    "history_days": 1016
+  },
+  "TRITURBINE": {
+    "symbol": "TRITURBINE",
+    "last_close": 510.1,
+    "atr_14d": 20.32857142857142,
+    "avg_vol_14d": 634866.0,
+    "avg_turnover_14d": 319015119.446428,
+    "avg_open_vol_14d": 32053.14285714286,
+    "history_days": 1016
+  },
+  "TRIVENI": {
+    "symbol": "TRIVENI",
+    "last_close": 374.5,
+    "atr_14d": 16.02142857142856,
+    "avg_vol_14d": 287022.35714285716,
+    "avg_turnover_14d": 100744099.27857141,
+    "avg_open_vol_14d": 13676.714285714286,
+    "history_days": 1016
+  },
+  "TVSMOTOR": {
+    "symbol": "TVSMOTOR",
+    "last_close": 3717.7,
+    "atr_14d": 119.60714285714292,
+    "avg_vol_14d": 861390.5714285715,
+    "avg_turnover_14d": 3151403850.557143,
+    "avg_open_vol_14d": 40350.357142857145,
+    "history_days": 1016
+  },
+  "UBL": {
+    "symbol": "UBL",
+    "last_close": 1518.0,
+    "atr_14d": 38.86428571428574,
+    "avg_vol_14d": 123649.21428571429,
+    "avg_turnover_14d": 179181353.06428573,
+    "avg_open_vol_14d": 3579.285714285714,
+    "history_days": 1016
+  },
+  "ULTRACEMCO": {
+    "symbol": "ULTRACEMCO",
+    "last_close": 12758.0,
+    "atr_14d": 346.5,
+    "avg_vol_14d": 356742.5714285714,
+    "avg_turnover_14d": 4444541119.357142,
+    "avg_open_vol_14d": 18162.214285714286,
+    "history_days": 1016
+  },
+  "UNIONBANK": {
+    "symbol": "UNIONBANK",
+    "last_close": 176.0,
+    "atr_14d": 7.819999999999999,
+    "avg_vol_14d": 25429893.785714287,
+    "avg_turnover_14d": 4497812885.095,
+    "avg_open_vol_14d": 1408033.4285714286,
+    "history_days": 1016
+  },
+  "UNITDSPR": {
+    "symbol": "UNITDSPR",
+    "last_close": 1359.0,
+    "atr_14d": 31.328571428571404,
+    "avg_vol_14d": 1092489.0,
+    "avg_turnover_14d": 1459147131.4285715,
+    "avg_open_vol_14d": 51545.42857142857,
+    "history_days": 1016
+  },
+  "UNOMINDA": {
+    "symbol": "UNOMINDA",
+    "last_close": 1202.1,
+    "atr_14d": 42.62142857142859,
+    "avg_vol_14d": 758983.2142857143,
+    "avg_turnover_14d": 882884864.6285715,
+    "avg_open_vol_14d": 22671.5,
+    "history_days": 1016
+  },
+  "UPL": {
+    "symbol": "UPL",
+    "last_close": 756.05,
+    "atr_14d": 34.16428571428571,
+    "avg_vol_14d": 4063486.6428571427,
+    "avg_turnover_14d": 2930669791.5107145,
+    "avg_open_vol_14d": 184158.7857142857,
+    "history_days": 1016
+  },
+  "USHAMART": {
+    "symbol": "USHAMART",
+    "last_close": 420.1,
+    "atr_14d": 14.507142857142863,
+    "avg_vol_14d": 421410.0,
+    "avg_turnover_14d": 173498246.5678571,
+    "avg_open_vol_14d": 16793.071428571428,
+    "history_days": 1016
+  },
+  "UTIAMC": {
+    "symbol": "UTIAMC",
+    "last_close": 1061.0,
+    "atr_14d": 39.63214285714286,
+    "avg_vol_14d": 109779.42857142857,
+    "avg_turnover_14d": 110906614.62142858,
+    "avg_open_vol_14d": 4068.5,
+    "history_days": 1016
+  },
+  "VBL": {
+    "symbol": "VBL",
+    "last_close": 444.1,
+    "atr_14d": 16.692857142857143,
+    "avg_vol_14d": 6598518.928571428,
+    "avg_turnover_14d": 3101517259.9035716,
+    "avg_open_vol_14d": 177907.2142857143,
+    "history_days": 1016
+  },
+  "VEDL": {
+    "symbol": "VEDL",
+    "last_close": 688.3,
+    "atr_14d": 35.48214285714287,
+    "avg_vol_14d": 28570469.64285714,
+    "avg_turnover_14d": 19591490850.81786,
+    "avg_open_vol_14d": 2099543.8571428573,
+    "history_days": 1016
+  },
+  "VGUARD": {
+    "symbol": "VGUARD",
+    "last_close": 342.0,
+    "atr_14d": 13.12857142857143,
+    "avg_vol_14d": 466742.4285714286,
+    "avg_turnover_14d": 150760983.94999996,
+    "avg_open_vol_14d": 14478.714285714286,
+    "history_days": 1016
+  },
+  "VIJAYA": {
+    "symbol": "VIJAYA",
+    "last_close": 980.0,
+    "atr_14d": 32.27142857142856,
+    "avg_vol_14d": 113279.57142857143,
+    "avg_turnover_14d": 109833148.04285714,
+    "avg_open_vol_14d": 2605.4285714285716,
+    "history_days": 1016
+  },
+  "VMM": {
+    "symbol": "VMM",
+    "last_close": 120.73,
+    "atr_14d": 4.730714285714287,
+    "avg_vol_14d": 10402333.857142856,
+    "avg_turnover_14d": 1284250872.6185715,
+    "avg_open_vol_14d": 724487.6428571428,
+    "history_days": 282
+  },
+  "VOLTAS": {
+    "symbol": "VOLTAS",
+    "last_close": 1425.8,
+    "atr_14d": 53.09285714285717,
+    "avg_vol_14d": 792395.0714285715,
+    "avg_turnover_14d": 1062012024.4928572,
+    "avg_open_vol_14d": 34545.642857142855,
+    "history_days": 1016
+  },
+  "VTL": {
+    "symbol": "VTL",
+    "last_close": 493.6,
+    "atr_14d": 25.81428571428571,
+    "avg_vol_14d": 1229437.857142857,
+    "avg_turnover_14d": 551119288.707143,
+    "avg_open_vol_14d": 49861.357142857145,
+    "history_days": 1016
+  },
+  "WAAREEENER": {
+    "symbol": "WAAREEENER",
+    "last_close": 3080.0,
+    "atr_14d": 154.6428571428572,
+    "avg_vol_14d": 2547919.285714286,
+    "avg_turnover_14d": 7008410719.071428,
+    "avg_open_vol_14d": 242651.7857142857,
+    "history_days": 317
+  },
+  "WELCORP": {
+    "symbol": "WELCORP",
+    "last_close": 814.0,
+    "atr_14d": 33.346428571428575,
+    "avg_vol_14d": 895876.0714285715,
+    "avg_turnover_14d": 684346385.4892857,
+    "avg_open_vol_14d": 44321.21428571428,
+    "history_days": 1016
+  },
+  "WELSPUNLIV": {
+    "symbol": "WELSPUNLIV",
+    "last_close": 143.92,
+    "atr_14d": 7.192857142857144,
+    "avg_vol_14d": 4647971.714285715,
+    "avg_turnover_14d": 629084586.1428572,
+    "avg_open_vol_14d": 600344.5,
+    "history_days": 1016
+  },
+  "WHIRLPOOL": {
+    "symbol": "WHIRLPOOL",
+    "last_close": 790.0,
+    "atr_14d": 21.43214285714284,
+    "avg_vol_14d": 420468.0714285714,
+    "avg_turnover_14d": 330751004.0535714,
+    "avg_open_vol_14d": 17734.428571428572,
+    "history_days": 1016
+  },
+  "WIPRO": {
+    "symbol": "WIPRO",
+    "last_close": 233.5,
+    "atr_14d": 8.120714285714287,
+    "avg_vol_14d": 17528170.64285714,
+    "avg_turnover_14d": 4262873296.6814294,
+    "avg_open_vol_14d": 1272669.0714285714,
+    "history_days": 1016
+  },
+  "WOCKPHARMA": {
+    "symbol": "WOCKPHARMA",
+    "last_close": 1402.9,
+    "atr_14d": 50.564285714285724,
+    "avg_vol_14d": 428135.21428571426,
+    "avg_turnover_14d": 585379669.7785714,
+    "avg_open_vol_14d": 27563.64285714286,
+    "history_days": 1016
+  },
+  "ZEEL": {
+    "symbol": "ZEEL",
+    "last_close": 84.99,
+    "atr_14d": 3.280000000000001,
+    "avg_vol_14d": 7939390.5,
+    "avg_turnover_14d": 663305548.0271428,
+    "avg_open_vol_14d": 502289.0,
+    "history_days": 1016
+  },
+  "ZENSARTECH": {
+    "symbol": "ZENSARTECH",
+    "last_close": 651.0,
+    "atr_14d": 25.46071428571427,
+    "avg_vol_14d": 531032.3571428572,
+    "avg_turnover_14d": 365073912.62142855,
+    "avg_open_vol_14d": 19437.214285714286,
+    "history_days": 1016
+  },
+  "ZENTEC": {
+    "symbol": "ZENTEC",
+    "last_close": 1335.3,
+    "atr_14d": 69.04285714285717,
+    "avg_vol_14d": 797334.5714285715,
+    "avg_turnover_14d": 1059542952.4428571,
+    "avg_open_vol_14d": 72568.07142857143,
+    "history_days": 1016
+  },
+  "ZYDUSLIFE": {
+    "symbol": "ZYDUSLIFE",
+    "last_close": 905.5,
+    "atr_14d": 19.589285714285715,
+    "avg_vol_14d": 615453.9285714285,
+    "avg_turnover_14d": 543642200.1785715,
+    "avg_open_vol_14d": 34434.57142857143,
+    "history_days": 1016
+  }
+}

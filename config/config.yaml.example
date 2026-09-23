@@ -1,0 +1,82 @@
+# ==============================================================================
+# POWER OF 3 TRADING - CONFIGURATION TEMPLATE
+# Copy this file to config/config.yaml on your machine/server and edit dynamically.
+# config/config.yaml is git-ignored so local changes won't be overwritten by git pull.
+# ==============================================================================
+
+app:
+  name: "PowerOf3_Trading"
+  trading_mode: "PAPER"           # "PAPER" for realistic simulated paper trading, "LIVE" for real execution
+  log_level: "INFO"
+
+# --- TIMINGS (All evaluated strictly in Asia/Kolkata IST) ---
+timings:
+  timezone: "Asia/Kolkata"
+  pre_market_auth_time: "08:45"    # Daily automated Kotak Neo login
+  data_sync_time: "09:00"          # Compute / refresh 30-day baseline stats
+  market_open: "09:15"             # NSE cash market open
+  opening_range_end: "09:20"       # 5-minute opening candle closes
+  entry_start_time: "09:20"        # Earliest time to place breakout orders
+  entry_cutoff_time: "14:15"       # No new entries allowed after 2:15 PM IST
+  forced_square_off_time: "14:45"  # FORCED INTRADAY SQUARE OFF (2:45 PM IST)
+  market_close: "15:30"            # NSE cash market close
+
+# --- UNIVERSE & LIQUIDITY FILTERS (PRE-MARKET) ---
+universe_filters:
+  min_price: 50.0                  # Minimum stock price (INR) to avoid penny stocks
+  max_price: 100000.0              # Maximum stock price (INR)
+  min_avg_volume_14d: 100000       # 14-day average daily share volume
+  min_avg_turnover_14d: 50000000   # 14-day average daily turnover (₹5 Crore)
+  min_atr_14d: 2.0                 # 14-day ATR in INR
+  min_atr_pct: 0.005               # 14-day ATR as % of price (min 0.5%)
+  min_history_days: 14             # Minimum days of history required
+
+# --- TREXQUANT RVOL ORB STRATEGY PARAMETERS ---
+strategy:
+  timeframe_minutes: 5             # 5-minute opening candle (09:15 - 09:20)
+  rvol_lookback_days: 14           # Lookback days for 9:15-9:20 volume baseline
+  min_rvol_threshold: 2.0          # Minimum Relative Volume (2.0x baseline)
+  top_n_stocks: 10                 # Maximum candidates traded per day (ranked by RVOL)
+  require_candle_direction: true   # Bullish 1st candle -> Long; Bearish 1st candle -> Short
+  skip_doji: true                  # Skip stocks where Open == Close on 1st candle
+  
+  # Exit & Stops
+  atr_stop_loss_pct: 0.30          # Stop Loss distance as fraction of 14d ATR (0.30 = 30% ATR)
+  use_trailing_stop: true          # Ratchet trailing stop upward (Long) or downward (Short)
+  trailing_stop_atr_pct: 0.30      # Trailing stop step as fraction of ATR
+  profit_target_pct: null          # Profit target in ATR (null = Ride until trailing stop or 14:45 IST)
+
+# --- RISK MANAGEMENT & CAPITAL SAFETY ---
+risk:
+  initial_capital: 100000.0        # Base capital in INR (e.g. ₹1,00,000)
+  risk_per_trade_pct: 0.01         # 1% risk per trade (e.g. ₹1,000 on ₹1L account)
+  max_capital_per_trade_pct: 0.20  # Max 20% capital in any single position
+  max_portfolio_leverage: 4.0      # Max gross exposure / capital (4.0x)
+  max_open_positions: 10           # Max simultaneous open positions
+  max_daily_loss_pct: 0.10         # 10% Circuit Breaker: Halt & close all if breached
+
+# --- EXECUTION GUARDRAILS (ANTI-BUG / ANTI-FAT-FINGER) ---
+guardrails:
+  order_cooldown_seconds: 60       # Minimum seconds between orders for the same symbol
+  max_order_retries: 3             # Max retry attempts on transient network errors
+  max_slippage_pct: 0.001          # 0.1% max expected slippage for paper fill calculations
+  prevent_double_orders: true      # Enforce strict single active position per symbol
+  enforce_market_hours: true       # Reject all order submissions outside 09:20 - 14:15 IST
+
+# --- REGULATORY FRICTIONS & CHARGES (NSE EQUITIES) ---
+friction:
+  brokerage_per_order: 20.0        # ₹20 flat brokerage per order
+  brokerage_pct: 0.0003            # 0.03% cap
+  stt_pct_sell: 0.00025            # 0.025% STT on intraday sell
+  exchange_txn_charge_pct: 0.0000325 # 0.00325% NSE charge
+  sebi_turnover_pct: 0.000001      # ₹10 per crore
+  stamp_duty_buy_pct: 0.00003      # 0.003% stamp duty on buy
+  gst_pct: 0.18                    # 18% GST on (Brokerage + Exchange + SEBI)
+
+# --- NOTIFICATIONS (TELEGRAM) ---
+telegram:
+  enabled: true
+  send_morning_screener: true      # Broadcast Top-N RVOL candidates at 09:20 IST
+  send_trade_signals: true         # Broadcast entries, stops, and target hits
+  send_hourly_pnl: true            # Broadcast hourly portfolio snapshot
+  send_eod_summary: true           # Broadcast final day report at 15:00 IST
