@@ -505,9 +505,66 @@ class KotakNeoBroker:
                         f"(LTP: ₹{ltp:.2f}, P&L: ₹{pos.unrealized_pnl:,.2f})"
                     )
 
+                # Sync total realized P&L directly from Kotak Neo positions
+                broker_rpnl = sum(float(item.get("rpnl") or item.get("realized") or 0.0) for item in data)
+                if broker_rpnl != 0.0:
+                    self.realized_pnl = round(broker_rpnl, 2)
+
                 self.save_positions_to_cache()
         except Exception as e:
             logger.warning(f"Failed to sync positions from Kotak Neo: {e}")
+
+    def sync_orders_from_broker(self):
+        """Fetches and syncs all orders placed today directly from Kotak Neo."""
+        if not self.neo_client:
+            return
+
+        try:
+            ord_rep = self.neo_client.order_report()
+            data = ord_rep.get("data") if isinstance(ord_rep, dict) else ord_rep
+            if isinstance(data, list):
+                for item in data:
+                    oid = str(item.get("nOrdNo") or item.get("orderId") or "")
+                    if not oid:
+                        continue
+                    raw_sym = item.get("trdSym") or item.get("tradingSymbol") or ""
+                    sym = raw_sym.replace("-EQ", "").strip()
+                    if not sym:
+                        continue
+
+                    tx_type = str(item.get("trnsTp") or item.get("transactionType") or "B").upper()
+                    side = OrderSide.BUY if tx_type in ("B", "BUY") else OrderSide.SELL
+
+                    ord_st_raw = str(item.get("ordSt") or item.get("status") or "").lower()
+                    if ord_st_raw in ("complete", "traded", "filled", "trad"):
+                        status = OrderStatus.FILLED
+                    elif ord_st_raw in ("rejected", "rej"):
+                        status = OrderStatus.REJECTED
+                    elif ord_st_raw in ("cancelled", "can"):
+                        status = OrderStatus.CANCELLED
+                    else:
+                        status = OrderStatus.SUBMITTED
+
+                    qty = int(item.get("qty") or item.get("quantity") or 0)
+                    avg_prc = float(item.get("avgPrc") or item.get("avgPrice") or item.get("prc") or 0.0)
+                    tag = str(item.get("tag") or item.get("ig") or "")
+
+                    if oid not in self.orders or self.orders[oid].status != OrderStatus.FILLED:
+                        self.orders[oid] = Order(
+                            order_id=oid,
+                            symbol=sym,
+                            side=side,
+                            order_type=OrderType.MARKET,
+                            quantity=qty,
+                            average_price=avg_prc,
+                            status=status,
+                            tag=tag,
+                            created_at=now_ist()
+                        )
+                self.save_positions_to_cache()
+                logger.info(f"📋 Synced {len(self.orders)} orders from Kotak Neo order report.")
+        except Exception as e:
+            logger.debug(f"Failed to sync orders from Kotak Neo: {e}")
 
     def save_positions_to_cache(self):
         """Persists open positions and today's orders to disk cache."""
@@ -516,6 +573,7 @@ class KotakNeoBroker:
             cache_dir.mkdir(parents=True, exist_ok=True)
             pos_file = cache_dir / f"positions_{today_ist_str()}.json"
             ord_file = cache_dir / f"orders_{today_ist_str()}.json"
+            summary_file = cache_dir / f"summary_{today_ist_str()}.json"
 
             pos_data = {}
             for sym, p in self.positions.items():
@@ -556,6 +614,12 @@ class KotakNeoBroker:
                 })
             with open(ord_file, "w") as f:
                 json.dump(ord_data, f, indent=2)
+
+            with open(summary_file, "w") as f:
+                json.dump({
+                    "realized_pnl": self.realized_pnl,
+                    "total_charges": self.total_charges
+                }, f, indent=2)
         except Exception as e:
             logger.warning(f"Failed to persist positions/orders: {e}")
 
@@ -565,6 +629,16 @@ class KotakNeoBroker:
             cache_dir = self.cache_dir
             pos_file = cache_dir / f"positions_{today_ist_str()}.json"
             ord_file = cache_dir / f"orders_{today_ist_str()}.json"
+            summary_file = cache_dir / f"summary_{today_ist_str()}.json"
+
+            if summary_file.exists():
+                try:
+                    with open(summary_file, "r") as f:
+                        sdata = json.load(f)
+                    self.realized_pnl = float(sdata.get("realized_pnl", 0.0))
+                    self.total_charges = float(sdata.get("total_charges", 0.0))
+                except Exception as e:
+                    logger.debug(f"Failed to load summary cache: {e}")
 
             if pos_file.exists():
                 with open(pos_file, "r") as f:

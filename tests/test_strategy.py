@@ -33,7 +33,7 @@ def strategy_env():
     guardrails = OrderSafetyLock(guard_cfg, time_mgr)
     risk_mgr = RiskManager(risk_cfg)
     broker = KotakNeoBroker(app_cfg, fric_cfg, load_cache=False)
-    strat = RvolOrbStrategy(strat_cfg)
+    strat = RvolOrbStrategy(strat_cfg, load_cache=False)
 
     strat.bind_context(
         broker=broker,

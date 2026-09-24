@@ -95,9 +95,29 @@ class TradingEngine:
         # Ensure broker always has access to market data manager
         self.broker.market_data = self.market_data
 
-        # Sync open positions from Kotak Neo broker (if live)
+        # Sync open positions, orders, and limits from Kotak Neo broker (if live)
         if self.neo_client:
+            try:
+                limits_resp = self.neo_client.limits()
+                data = limits_resp.get("data") if isinstance(limits_resp, dict) else limits_resp
+                limits_obj = data[0] if isinstance(data, list) and data else (data if isinstance(data, dict) else {})
+                avail_cash = 0.0
+                for k in ("Net", "availableCash", "cash", "collateral", "marginAvailable"):
+                    try:
+                        v = float(limits_obj.get(k) or 0.0)
+                        if v > 0:
+                            avail_cash = v
+                            break
+                    except (ValueError, TypeError):
+                        pass
+                if avail_cash > 0:
+                    self.risk_manager.capital = round(avail_cash, 2)
+                    logger.info(f"💰 Synced live account capital from Kotak Neo limits: ₹{avail_cash:,.2f}")
+            except Exception as e:
+                logger.debug(f"Limits query skipped: {e}")
+
             self.broker.sync_positions_from_broker(self.market_data)
+            self.broker.sync_orders_from_broker()
 
         # Bind strategy dependencies
         self.strategy.bind_context(
@@ -110,18 +130,37 @@ class TradingEngine:
             notifier=self.notifier
         )
         self.strategy.on_start()
+        self.strategy.load_traded_symbols_from_cache()
 
-        # Reconcile guardrails and strategy tracking with loaded/synced positions
+        # Reconcile guardrails and strategy tracking with loaded/synced positions and orders
         from core.models import PositionState
-        for pos in self.broker.get_positions():
+        for sym, pos in self.broker.positions.items():
+            self.strategy.mark_symbol_traded(sym)
             if pos.quantity > 0:
                 self.guardrails.set_state(pos.symbol, PositionState.OPEN, pos.side)
-                self.strategy.traded_symbols.add(pos.symbol)
                 ltp = self.market_data.get_ltp(pos.symbol)
                 if ltp > 0:
                     pos.update_pnl(ltp)
 
-        logger.info("Trading engine initialization complete.")
+        for o in self.broker.get_order_book():
+            if o.status in (OrderStatus.FILLED, OrderStatus.SUBMITTED):
+                self.strategy.mark_symbol_traded(o.symbol)
+
+        # Cross-check executed trades today directly from Kotak Neo
+        if self.neo_client:
+            try:
+                trd_rep = self.neo_client.trade_report()
+                trd_data = trd_rep.get("data") if isinstance(trd_rep, dict) else trd_rep
+                if isinstance(trd_data, list):
+                    for trd in trd_data:
+                        raw_sym = trd.get("trdSym") or trd.get("tradingSymbol") or ""
+                        sym = raw_sym.replace("-EQ", "").strip()
+                        if sym:
+                            self.strategy.mark_symbol_traded(sym)
+            except Exception as e:
+                logger.debug(f"Trade report query skipped: {e}")
+
+        logger.info(f"Trading engine initialization complete. Traded symbols today: {sorted(list(self.strategy.traded_symbols))}")
 
     def run_pre_market_prep(self):
         """Precomputes 14-day baselines for the universe before 09:15 IST."""
@@ -153,7 +192,7 @@ class TradingEngine:
                     self.candidates = loaded_cands
                     self.screener_done = True
                     logger.info(f"Loaded {len(loaded_cands)} screener candidates from cache: {cache_file.name}")
-                    self.strategy.on_screener_ready(loaded_cands)
+                    self.strategy.on_screener_ready(loaded_cands, is_live=False)
                     return
                 else:
                     logger.info("Cached screener file is empty, running fresh screener...")
@@ -296,8 +335,8 @@ class TradingEngine:
             except Exception as e:
                 logger.warning(f"Failed to cache screener: {e}")
 
-            # Notify strategy and Telegram
-            self.strategy.on_screener_ready(top_candidates)
+            # Notify strategy and Telegram (live alert)
+            self.strategy.on_screener_ready(top_candidates, is_live=True)
         else:
             logger.warning("Screener found 0 candidates passing filters. Will re-attempt on next tick.")
 

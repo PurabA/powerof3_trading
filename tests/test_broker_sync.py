@@ -9,7 +9,7 @@ from unittest.mock import MagicMock
 from datetime import datetime, timezone
 
 from config.settings import AppConfig, FrictionConfig, StrategyConfig
-from core.models import Position, PositionSide, OrderSide, OrderType, OrderStatus, PositionState
+from core.models import Position, PositionSide, OrderSide, OrderType, OrderStatus, PositionState, ScreenerCandidate
 from core.timeutils import format_ist_str, IST, now_ist
 from broker.neo_broker import KotakNeoBroker
 from strategies.rvol_orb import RvolOrbStrategy
@@ -139,3 +139,69 @@ def test_target_profit_and_trailing_stop_auto_exit():
     assert call_kwargs["symbol"] == "SBIN"
     assert call_kwargs["side"] == OrderSide.SELL
     assert call_kwargs["tag"] == "CLOSE_TAKE_PROFIT"
+
+
+def test_profit_target_percentage_calculation():
+    # 0.02 notation = 2%
+    cfg = StrategyConfig(profit_target_pct=0.02)
+    strat = RvolOrbStrategy(cfg)
+    assert strat.calculate_target_price(1000.0, PositionSide.LONG) == 1020.0
+    assert strat.calculate_target_price(1000.0, PositionSide.SHORT) == 980.0
+
+    # 2.0 notation = 2%
+    cfg2 = StrategyConfig(profit_target_pct=2.0)
+    strat2 = RvolOrbStrategy(cfg2)
+    assert strat2.calculate_target_price(1000.0, PositionSide.LONG) == 1020.0
+    assert strat2.calculate_target_price(1000.0, PositionSide.SHORT) == 980.0
+
+    # Specific stock test from user logs
+    # CARBORUNIV @ 1355.60 with 2% target
+    assert strat.calculate_target_price(1355.60, PositionSide.LONG) == 1382.71
+    # FIRSTCRY @ 177.02 with 2% target
+    assert strat.calculate_target_price(177.02, PositionSide.SHORT) == 173.48
+
+
+def test_traded_symbols_persistence_and_no_re_entry(tmp_path, monkeypatch):
+    monkeypatch.chdir(tmp_path)
+    cfg = StrategyConfig(profit_target_pct=0.02)
+    strat1 = RvolOrbStrategy(cfg)
+
+    # Mark CARBORUNIV as traded
+    strat1.mark_symbol_traded("CARBORUNIV")
+    assert "CARBORUNIV" in strat1.traded_symbols
+
+    # New strategy instance on simulated server restart
+    strat2 = RvolOrbStrategy(cfg)
+    assert "CARBORUNIV" in strat2.traded_symbols
+
+    # Setup candidate
+    cand = ScreenerCandidate(
+        symbol="CARBORUNIV",
+        neo_symbol="CARBORUNIV-EQ",
+        direction="LONG",
+        opening_high=1315.0,
+        opening_low=1257.0,
+        opening_open=1260.0,
+        opening_close=1315.0,
+        opening_volume=50000,
+        baseline_opening_volume=20000,
+        rvol=47.3,
+        atr_14d=30.76,
+        avg_vol_14d=200000,
+        avg_turnover_14d=100000000,
+        trigger_price=1315.0
+    )
+    strat2.on_screener_ready([cand], is_live=False)
+
+    mock_broker = MagicMock()
+    mock_risk = MagicMock()
+    strat2.broker = mock_broker
+    strat2.risk_manager = mock_risk
+
+    # Price ticks above trigger (1360.0 >= 1315.0)
+    from core.models import Quote
+    strat2.on_tick("CARBORUNIV", Quote(symbol="CARBORUNIV", last_price=1360.0))
+
+    # Should NOT trigger order because it was already traded today!
+    mock_broker.place_order.assert_not_called()
+    mock_risk.calculate_position_size.assert_not_called()
