@@ -142,21 +142,27 @@ def format_screener_table(candidates: List[ScreenerCandidate]) -> Table:
     table.add_column("Rank", justify="center", style="bold")
     table.add_column("Symbol", style="bold white")
     table.add_column("Bias", justify="center")
+    table.add_column("LTP", justify="right", style="bold cyan")
     table.add_column("Trigger Price", justify="right")
     table.add_column("RVOL", justify="right", style="bold yellow")
     table.add_column("14d ATR", justify="right")
     table.add_column("5m Open Range", justify="right")
 
     if not candidates:
-        table.add_row("-", "-", "-", "-", "-", "-", "[dim]Screener runs at 09:20 IST[/dim]")
+        table.add_row("-", "-", "-", "-", "-", "-", "-", "[dim]Screener runs at 09:20 IST[/dim]")
         return table
 
     for i, c in enumerate(candidates, 1):
         bias_style = "bold green" if c.direction == "LONG" else "bold red"
+        ltp_val = getattr(c, "current_ltp", 0.0)
+        if ltp_val <= 0:
+            ltp_val = c.opening_close
+
         table.add_row(
             str(i),
             c.symbol,
             f"[{bias_style}]{c.direction}[/{bias_style}]",
+            f"₹{ltp_val:.2f}",
             f"₹{c.trigger_price:.2f}",
             f"{c.rvol:.1f}x",
             f"₹{c.atr_14d:.2f}",

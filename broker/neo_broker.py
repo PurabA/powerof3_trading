@@ -147,7 +147,7 @@ class KotakNeoBroker:
                 validity="DAY",
                 trading_symbol=neo_sym,
                 transaction_type=tx_type,
-                tag=order.tag[:15] if order.tag else None
+                tag=f"{(order.tag or 'ORD')[:6]}_{uuid.uuid4().hex[:7]}"
             )
 
             if isinstance(resp, dict) and resp.get("nOrdNo"):

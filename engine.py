@@ -334,6 +334,11 @@ class TradingEngine:
 
     def render_dashboard(self):
         """Refreshes terminal UI."""
+        for c in self.candidates:
+            q = self.market_data.get_quote(c.symbol)
+            if q and q.last_price > 0:
+                c.current_ltp = q.last_price
+
         self.dashboard.print_snapshot(
             capital=self.risk_manager.capital,
             realized_pnl=self.broker.realized_pnl,

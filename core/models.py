@@ -140,3 +140,4 @@ class ScreenerCandidate:
     avg_turnover_14d: float
     trigger_price: float
     rank: int = 0
+    current_ltp: float = 0.0
