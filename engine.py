@@ -95,6 +95,9 @@ class TradingEngine:
         # Ensure broker always has access to market data manager
         self.broker.market_data = self.market_data
 
+        # Bind broker to strategy scope
+        self.broker.bind_strategy(self.strategy.name)
+
         # Sync open positions, orders, and limits from Kotak Neo broker (if live)
         if self.neo_client:
             try:
@@ -146,7 +149,7 @@ class TradingEngine:
             if o.status in (OrderStatus.FILLED, OrderStatus.SUBMITTED):
                 self.strategy.mark_symbol_traded(o.symbol)
 
-        # Cross-check executed trades today directly from Kotak Neo
+        # Cross-check executed trades today directly from Kotak Neo belonging to THIS strategy
         if self.neo_client:
             try:
                 trd_rep = self.neo_client.trade_report()
@@ -155,7 +158,17 @@ class TradingEngine:
                     for trd in trd_data:
                         raw_sym = trd.get("trdSym") or trd.get("tradingSymbol") or ""
                         sym = raw_sym.replace("-EQ", "").strip()
-                        if sym:
+                        n_ord_no = str(trd.get("nOrdNo") or trd.get("orderId") or "")
+                        tag = str(trd.get("ordTag") or trd.get("tag") or "")
+
+                        # Only mark if this trade matches this strategy's order ID or strategy tag
+                        is_strat_trade = (
+                            (n_ord_no and n_ord_no in self.broker.orders) or
+                            (self.strategy.name.upper() in tag.upper()) or
+                            (tag.upper().startswith("ORB")) or
+                            (sym in self.strategy.traded_symbols)
+                        )
+                        if sym and is_strat_trade:
                             self.strategy.mark_symbol_traded(sym)
             except Exception as e:
                 logger.debug(f"Trade report query skipped: {e}")
@@ -182,7 +195,8 @@ class TradingEngine:
         if self.screener_done:
             return
 
-        cache_file = Path(f"data/cache/screener_{today_ist_str()}.json")
+        from core.storage import resolve_cache_file, save_json_atomic
+        cache_file = resolve_cache_file("screener", strategy_name=self.strategy.name)
         if cache_file.exists():
             try:
                 with open(cache_file, "r") as f:
@@ -191,7 +205,7 @@ class TradingEngine:
                 if loaded_cands:
                     self.candidates = loaded_cands
                     self.screener_done = True
-                    logger.info(f"Loaded {len(loaded_cands)} screener candidates from cache: {cache_file.name}")
+                    logger.info(f"Loaded {len(loaded_cands)} screener candidates from cache: {cache_file}")
                     self.strategy.on_screener_ready(loaded_cands, is_live=False)
                     return
                 else:
@@ -199,123 +213,104 @@ class TradingEngine:
             except Exception as e:
                 logger.warning(f"Failed to load cached screener ({e}), re-screening...")
 
-        logger.info("⏰ 09:20 IST reached! Executing Trexquant RVOL ORB Screener...")
+        curr_t = self.time_manager.current_time_ist()
+        is_opening_minute = (curr_t.hour == 9 and 20 <= curr_t.minute <= 21)
+        logger.info(
+            f"⏰ Executing Trexquant RVOL ORB Screener for strategy '{self.strategy.name}' "
+            f"at {curr_t.strftime('%H:%M:%S')} IST..."
+        )
         eligible_map = self.historical_data.stock_baselines
         strat_cfg = self.settings.strategy
         evaluated = []
 
-        # 1. LIVE MODE: Query real-time quotes and volume from Kotak Neo API
-        if self.neo_client:
-            logger.info(f"Querying live quotes from Kotak Neo for {len(eligible_map)} baseline stocks...")
-            symbols_to_query = list(eligible_map.keys())
-            quotes_dict = self.market_data.fetch_quotes_batch(symbols_to_query)
+        # If past 09:21 IST (e.g. late boot or server re-run without cache),
+        # live snapshot quotes report cumulative whole-day volume, NOT the opening 5-minute volume!
+        # Therefore, fetch the TRUE 09:15-09:20 opening 5-minute candle.
+        opening_candles = {}
+        if not is_opening_minute and eligible_map:
+            logger.info("Fetching exact 09:15-09:20 5m opening candles for universe baselines...")
+            opening_candles = self.historical_data.fetch_opening_5m_candles(list(eligible_map.keys()))
 
-            for symbol, base in eligible_map.items():
-                quote = quotes_dict.get(symbol)
-                if not quote or quote.last_price <= 0:
-                    continue
+        # Live quotes batch for fallback or current LTP
+        quotes_dict = {}
+        if self.neo_client and eligible_map:
+            quotes_dict = self.market_data.fetch_quotes_batch(list(eligible_map.keys()))
 
-                ltp = quote.last_price
-                op_open = quote.open if quote.open > 0 else ltp
-                op_high = quote.high if quote.high > 0 else ltp
-                op_low = quote.low if quote.low > 0 else ltp
-                op_close = ltp
-                op_vol = quote.volume
+        for symbol, base in eligible_map.items():
+            base_open_vol = base.get("avg_open_vol_14d", 0)
+            if base_open_vol <= 0:
+                continue
 
-                base_open_vol = base.get("avg_open_vol_14d", 0)
-                if base_open_vol <= 0 or op_vol <= 0:
-                    continue
+            op_open = op_high = op_low = op_close = op_vol = 0.0
 
-                rvol = op_vol / base_open_vol
-                if rvol < strat_cfg.min_rvol_threshold:
-                    continue
-
-                if op_close > op_open:
-                    direction = "LONG"
-                    trigger_price = op_high
-                elif op_close < op_open:
-                    direction = "SHORT"
-                    trigger_price = op_low
-                else:
-                    direction = "DOJI"
-                    if strat_cfg.skip_doji:
-                        continue
-                    trigger_price = op_high
-
-                cand = ScreenerCandidate(
-                    symbol=symbol,
-                    neo_symbol=f"{symbol}-EQ",
-                    direction=direction,
-                    opening_high=float(op_high),
-                    opening_low=float(op_low),
-                    opening_open=float(op_open),
-                    opening_close=float(op_close),
-                    opening_volume=op_vol,
-                    baseline_opening_volume=base_open_vol,
-                    rvol=round(float(rvol), 2),
-                    atr_14d=base.get("atr_14d", 0.0),
-                    avg_vol_14d=base.get("avg_vol_14d", 0.0),
-                    avg_turnover_14d=base.get("avg_turnover_14d", 0.0),
-                    trigger_price=float(trigger_price)
-                )
-                evaluated.append(cand)
-
-        # 2. OFFLINE PAPER MODE FALLBACK: If no live broker client connected
-        if not evaluated and not self.neo_client:
-            for symbol, base in eligible_map.items():
+            # Priority 1: Exact 09:15-09:20 5-minute bar
+            if symbol in opening_candles:
+                c = opening_candles[symbol]
+                op_open = c["open"]
+                op_high = c["high"]
+                op_low = c["low"]
+                op_close = c["close"]
+                op_vol = c["volume"]
+            # Priority 2: Live snapshot quote (strictly if right at 09:20 opening, or fallback)
+            elif symbol in quotes_dict:
+                quote = quotes_dict[symbol]
+                if quote and quote.last_price > 0:
+                    ltp = quote.last_price
+                    op_open = quote.open if quote.open > 0 else ltp
+                    op_high = quote.high if quote.high > 0 else ltp
+                    op_low = quote.low if quote.low > 0 else ltp
+                    op_close = ltp
+                    op_vol = quote.volume
+            # Priority 3: Offline cached historical bars
+            else:
                 df = self.historical_data.get_history(symbol)
-                if df.empty:
+                if not df.empty:
+                    last_date = df["Timestamp"].dt.date.iloc[-1]
+                    day_df = df[df["Timestamp"].dt.date == last_date]
+                    if len(day_df) >= 5:
+                        open_5m = day_df.iloc[:5]
+                        op_open = open_5m.iloc[0]["Open"]
+                        op_high = open_5m["High"].max()
+                        op_low = open_5m["Low"].min()
+                        op_close = open_5m.iloc[-1]["Close"]
+                        op_vol = int(open_5m["Volume"].sum())
+
+            if op_vol <= 0 or op_high <= 0 or op_low <= 0:
+                continue
+
+            rvol = op_vol / base_open_vol
+            if rvol < strat_cfg.min_rvol_threshold:
+                continue
+
+            if op_close > op_open:
+                direction = "LONG"
+                trigger_price = op_high
+            elif op_close < op_open:
+                direction = "SHORT"
+                trigger_price = op_low
+            else:
+                direction = "DOJI"
+                if strat_cfg.skip_doji:
                     continue
+                trigger_price = op_high
 
-                last_date = df["Timestamp"].dt.date.iloc[-1]
-                day_df = df[df["Timestamp"].dt.date == last_date]
-                if len(day_df) < 5:
-                    continue
-
-                open_5m = day_df.iloc[:5]
-                op_open = open_5m.iloc[0]["Open"]
-                op_high = open_5m["High"].max()
-                op_low = open_5m["Low"].min()
-                op_close = open_5m.iloc[-1]["Close"]
-                op_vol = int(open_5m["Volume"].sum())
-
-                base_open_vol = base["avg_open_vol_14d"]
-                if base_open_vol <= 0:
-                    continue
-
-                rvol = op_vol / base_open_vol
-                if rvol < strat_cfg.min_rvol_threshold:
-                    continue
-
-                if op_close > op_open:
-                    direction = "LONG"
-                    trigger_price = op_high
-                elif op_close < op_open:
-                    direction = "SHORT"
-                    trigger_price = op_low
-                else:
-                    direction = "DOJI"
-                    if strat_cfg.skip_doji:
-                        continue
-                    trigger_price = op_high
-
-                cand = ScreenerCandidate(
-                    symbol=symbol,
-                    neo_symbol=f"{symbol}-EQ",
-                    direction=direction,
-                    opening_high=float(op_high),
-                    opening_low=float(op_low),
-                    opening_open=float(op_open),
-                    opening_close=float(op_close),
-                    opening_volume=op_vol,
-                    baseline_opening_volume=base_open_vol,
-                    rvol=round(float(rvol), 2),
-                    atr_14d=base["atr_14d"],
-                    avg_vol_14d=base["avg_vol_14d"],
-                    avg_turnover_14d=base["avg_turnover_14d"],
-                    trigger_price=float(trigger_price)
-                )
-                evaluated.append(cand)
+            cand = ScreenerCandidate(
+                symbol=symbol,
+                neo_symbol=f"{symbol}-EQ",
+                direction=direction,
+                opening_high=float(op_high),
+                opening_low=float(op_low),
+                opening_open=float(op_open),
+                opening_close=float(op_close),
+                opening_volume=int(op_vol),
+                baseline_opening_volume=float(base_open_vol),
+                rvol=round(float(rvol), 2),
+                atr_14d=float(base.get("atr_14d", 0.0)),
+                avg_vol_14d=float(base.get("avg_vol_14d", 0.0)),
+                avg_turnover_14d=float(base.get("avg_turnover_14d", 0.0)),
+                trigger_price=float(trigger_price)
+            )
+            evaluated.append(cand)
 
         evaluated.sort(key=lambda x: x.rvol, reverse=True)
         top_candidates = evaluated[:strat_cfg.top_n_stocks]
@@ -325,18 +320,17 @@ class TradingEngine:
         if top_candidates:
             self.candidates = top_candidates
             self.screener_done = True
-            logger.info(f"Screener selected {len(top_candidates)} Top RVOL candidates.")
+            logger.info(f"Screener selected {len(top_candidates)} Top RVOL candidates for '{self.strategy.name}'.")
 
-            # Save screener cache to disk
+            # Save screener cache to disk atomically
             try:
-                with open(cache_file, "w") as f:
-                    json.dump([c.__dict__ for c in top_candidates], f, indent=2)
+                save_json_atomic(cache_file, [c.__dict__ for c in top_candidates])
                 logger.info(f"Cached screener candidates to {cache_file}")
             except Exception as e:
                 logger.warning(f"Failed to cache screener: {e}")
 
-            # Notify strategy and Telegram (live alert)
-            self.strategy.on_screener_ready(top_candidates, is_live=True)
+            # Notify strategy and Telegram (only live broadcast at 09:20 market opening)
+            self.strategy.on_screener_ready(top_candidates, is_live=is_opening_minute)
         else:
             logger.warning("Screener found 0 candidates passing filters. Will re-attempt on next tick.")
 

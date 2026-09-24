@@ -44,25 +44,24 @@ class RvolOrbStrategy(StrategyBase):
         self.save_traded_symbols_to_cache()
 
     def save_traded_symbols_to_cache(self):
-        """Persists the set of traded symbols for today."""
+        """Persists the set of traded symbols for today into data/cache/{date}/{strategy}/traded_symbols.json."""
         try:
-            cache_file = self.cache_dir / f"traded_symbols_{today_ist_str()}.json"
-            cache_file.parent.mkdir(parents=True, exist_ok=True)
-            with open(cache_file, "w") as f:
-                json.dump(sorted(list(self.traded_symbols)), f, indent=2)
+            from core.storage import resolve_cache_file, save_json_atomic
+            cache_file = resolve_cache_file("traded_symbols", strategy_name=self.name, base_dir=self.cache_dir)
+            save_json_atomic(cache_file, sorted(list(self.traded_symbols)))
         except Exception as e:
             logger.debug(f"Failed to save traded symbols cache: {e}")
 
     def load_traded_symbols_from_cache(self):
         """Restores traded symbols from disk cache for today."""
         try:
-            cache_file = self.cache_dir / f"traded_symbols_{today_ist_str()}.json"
-            if cache_file.exists():
-                with open(cache_file, "r") as f:
-                    symbols = json.load(f)
-                if isinstance(symbols, list):
-                    self.traded_symbols.update(symbols)
-                    logger.info(f"Loaded {len(symbols)} previously traded symbols from disk: {symbols}")
+            from core.storage import resolve_cache_file, load_json_safe
+            cache_file = resolve_cache_file("traded_symbols", strategy_name=self.name, base_dir=self.cache_dir)
+            symbols = load_json_safe(cache_file, default=[])
+            if isinstance(symbols, list):
+                self.traded_symbols.update(symbols)
+                if symbols:
+                    logger.info(f"Loaded {len(symbols)} previously traded symbols for strategy '{self.name}': {symbols}")
         except Exception as e:
             logger.debug(f"Failed to load traded symbols cache: {e}")
 

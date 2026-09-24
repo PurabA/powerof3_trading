@@ -42,6 +42,7 @@ class KotakNeoBroker:
         self.is_paper = (app_config.trading_mode.upper() == "PAPER")
         self.market_data = None
 
+        self.strategy_name: Optional[str] = None
         self.orders: Dict[str, Order] = {}
         self.trades: List[Trade] = []
         self.positions: Dict[str, Position] = {}
@@ -51,6 +52,11 @@ class KotakNeoBroker:
         # Load persisted positions and orders from disk
         if load_cache:
             self.load_positions_from_cache()
+
+    def bind_strategy(self, strategy_name: str):
+        """Binds this broker instance to a specific strategy for scoped caching and isolation."""
+        self.strategy_name = strategy_name
+        self.load_positions_from_cache()
 
     def calculate_charges(self, buy_value: float, sell_value: float) -> Dict[str, float]:
         """Calculates exact Indian regulatory charges for intraday cash equity."""
@@ -397,6 +403,17 @@ class KotakNeoBroker:
                     sym = raw_sym.replace("-EQ", "").strip()
                     if not sym:
                         continue
+                    # 1. Product check: Ignore delivery/CNC holdings
+                    prod = str(item.get("prod") or item.get("product") or "").upper()
+                    if prod in ("CNC", "DELIVERY"):
+                        continue
+
+                    # 2. Strategy isolation: If bound to a strategy, only track positions
+                    # belonging to this strategy (already known, or in strategy order history)
+                    if self.strategy_name and sym not in self.positions:
+                        has_strat_order = any(o.symbol == sym for o in self.orders.values())
+                        if not has_strat_order:
+                            continue
 
                     raw_qty = item.get("flNetQty") or item.get("netQty") or item.get("netTrdQtyLot") or 0
                     net_qty = int(raw_qty)
@@ -547,7 +564,19 @@ class KotakNeoBroker:
 
                     qty = int(item.get("qty") or item.get("quantity") or 0)
                     avg_prc = float(item.get("avgPrc") or item.get("avgPrice") or item.get("prc") or 0.0)
-                    tag = str(item.get("tag") or item.get("ig") or "")
+                    tag = str(item.get("tag") or item.get("ig") or item.get("ordTag") or "")
+
+                    # Strategy filter: Ignore orders belonging to other strategies or manual trading
+                    if self.strategy_name:
+                        strat_prefix = self.strategy_name.upper()
+                        is_match = (
+                            strat_prefix in tag.upper() or
+                            tag.upper().startswith("ORB") or
+                            "ORB_" in tag.upper() or
+                            oid in self.orders
+                        )
+                        if not is_match:
+                            continue
 
                     if oid not in self.orders or self.orders[oid].status != OrderStatus.FILLED:
                         self.orders[oid] = Order(
@@ -567,13 +596,12 @@ class KotakNeoBroker:
             logger.debug(f"Failed to sync orders from Kotak Neo: {e}")
 
     def save_positions_to_cache(self):
-        """Persists open positions and today's orders to disk cache."""
+        """Persists open positions, orders, and P&L summary into data/cache/{date}/{strategy}/."""
         try:
-            cache_dir = self.cache_dir
-            cache_dir.mkdir(parents=True, exist_ok=True)
-            pos_file = cache_dir / f"positions_{today_ist_str()}.json"
-            ord_file = cache_dir / f"orders_{today_ist_str()}.json"
-            summary_file = cache_dir / f"summary_{today_ist_str()}.json"
+            from core.storage import resolve_cache_file, save_json_atomic
+            pos_file = resolve_cache_file("positions", strategy_name=self.strategy_name, base_dir=self.cache_dir)
+            ord_file = resolve_cache_file("orders", strategy_name=self.strategy_name, base_dir=self.cache_dir)
+            summary_file = resolve_cache_file("summary", strategy_name=self.strategy_name, base_dir=self.cache_dir)
 
             pos_data = {}
             for sym, p in self.positions.items():
@@ -592,8 +620,7 @@ class KotakNeoBroker:
                     "lowest_price": p.lowest_price,
                     "entry_time": p.entry_time.isoformat() if p.entry_time else None
                 }
-            with open(pos_file, "w") as f:
-                json.dump(pos_data, f, indent=2)
+            save_json_atomic(pos_file, pos_data)
 
             ord_data = []
             for oid, o in self.orders.items():
@@ -612,24 +639,22 @@ class KotakNeoBroker:
                     "tag": o.tag,
                     "created_at": o.created_at.isoformat() if o.created_at else None
                 })
-            with open(ord_file, "w") as f:
-                json.dump(ord_data, f, indent=2)
+            save_json_atomic(ord_file, ord_data)
 
-            with open(summary_file, "w") as f:
-                json.dump({
-                    "realized_pnl": self.realized_pnl,
-                    "total_charges": self.total_charges
-                }, f, indent=2)
+            save_json_atomic(summary_file, {
+                "realized_pnl": self.realized_pnl,
+                "total_charges": self.total_charges
+            })
         except Exception as e:
             logger.warning(f"Failed to persist positions/orders: {e}")
 
     def load_positions_from_cache(self):
         """Restores positions and orders from disk cache."""
         try:
-            cache_dir = self.cache_dir
-            pos_file = cache_dir / f"positions_{today_ist_str()}.json"
-            ord_file = cache_dir / f"orders_{today_ist_str()}.json"
-            summary_file = cache_dir / f"summary_{today_ist_str()}.json"
+            from core.storage import resolve_cache_file
+            pos_file = resolve_cache_file("positions", strategy_name=self.strategy_name, base_dir=self.cache_dir)
+            ord_file = resolve_cache_file("orders", strategy_name=self.strategy_name, base_dir=self.cache_dir)
+            summary_file = resolve_cache_file("summary", strategy_name=self.strategy_name, base_dir=self.cache_dir)
 
             if summary_file.exists():
                 try:

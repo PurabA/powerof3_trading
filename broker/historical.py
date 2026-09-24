@@ -128,8 +128,8 @@ class HistoricalDataManager:
         Pre-computes and caches baseline statistics for all eligible symbols.
         Uses cached disk file for today's date to avoid redundant recalculation.
         """
-        from core.timeutils import today_ist_str
-        cache_file = self.cache_dir / f"baselines_{today_ist_str()}.json"
+        from core.storage import resolve_cache_file, save_json_atomic
+        cache_file = resolve_cache_file("baselines", base_dir=self.cache_dir)
 
         if cache_file.exists():
             try:
@@ -179,8 +179,7 @@ class HistoricalDataManager:
 
         # Save to disk cache
         try:
-            with open(cache_file, "w") as f:
-                json.dump(eligible, f, indent=2)
+            save_json_atomic(cache_file, eligible)
             logger.info(f"Cached {len(eligible)} baselines to {cache_file}")
         except Exception as e:
             logger.warning(f"Failed to write baseline cache: {e}")
@@ -188,3 +187,65 @@ class HistoricalDataManager:
         self.stock_baselines = eligible
         logger.info(f"Pre-market universe filtering complete: {len(eligible)} eligible stocks.")
         return eligible
+
+    def fetch_opening_5m_candles(self, symbols: List[str]) -> Dict[str, Dict[str, float]]:
+        """
+        Fetches the exact 09:15 - 09:20 opening 5-minute bar for today.
+        Guarantees that re-running the engine at 10:00, 11:30, or later uses the true
+        09:15-09:20 candle rather than cumulative day volume or day high/low.
+        """
+        import yfinance as yf
+        from datetime import datetime
+
+        results = {}
+        if not symbols:
+            return results
+
+        chunk_size = 100
+        for i in range(0, len(symbols), chunk_size):
+            chunk = symbols[i:i + chunk_size]
+            tickers = [f"{s}.NS" for s in chunk]
+            try:
+                df = yf.download(tickers, period="1d", interval="5m", progress=False)
+                if df.empty:
+                    continue
+
+                mask = (df.index.time == datetime.strptime("09:15", "%H:%M").time())
+                bars_0915 = df[mask]
+                if bars_0915.empty:
+                    bars_0915 = df.iloc[:1]
+
+                if not bars_0915.empty:
+                    bar = bars_0915.iloc[0]
+                    for s in chunk:
+                        t = f"{s}.NS"
+                        try:
+                            if isinstance(df.columns, pd.MultiIndex):
+                                op_o = float(bar["Open"][t])
+                                op_h = float(bar["High"][t])
+                                op_l = float(bar["Low"][t])
+                                op_c = float(bar["Close"][t])
+                                op_v = float(bar["Volume"][t])
+                            else:
+                                op_o = float(bar["Open"])
+                                op_h = float(bar["High"])
+                                op_l = float(bar["Low"])
+                                op_c = float(bar["Close"])
+                                op_v = float(bar["Volume"])
+
+                            if not np.isnan(op_o) and op_o > 0 and not np.isnan(op_v) and op_v > 0:
+                                results[s] = {
+                                    "open": op_o,
+                                    "high": op_h,
+                                    "low": op_l,
+                                    "close": op_c,
+                                    "volume": int(op_v)
+                                }
+                        except (KeyError, TypeError, ValueError):
+                            continue
+            except Exception as e:
+                logger.warning(f"Error fetching 5m opening candles chunk {i}: {e}")
+
+        logger.info(f"Retrieved exact 09:15-09:20 opening candles for {len(results)}/{len(symbols)} symbols.")
+        return results
+
