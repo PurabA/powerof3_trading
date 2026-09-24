@@ -169,6 +169,9 @@ class StrategyBase(ABC):
             self.guardrails.set_state(symbol, PositionState.CLOSED)
             if self.notifier:
                 self.notifier.notify_trade_exit(pos, order, reason)
+        else:
+            # If exit order failed or was rejected, revert from PENDING_EXIT so exit can be retried
+            self.guardrails.set_state(symbol, PositionState.OPEN, pos.side)
 
         return order
 

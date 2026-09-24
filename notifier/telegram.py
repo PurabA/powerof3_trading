@@ -9,6 +9,7 @@ import requests
 
 from core.models import Order, Position, ScreenerCandidate
 from config.settings import TelegramConfig
+from core.timeutils import format_ist_str
 
 logger = logging.getLogger("TelegramNotifier")
 
@@ -88,7 +89,7 @@ class TelegramNotifier:
         )
         if target:
             msg += f"\n🎯 *Target:* `₹{target:.2f}`"
-        msg += f"\n🔖 *Order ID:* `{order.order_id}`\n⏰ *Time:* `{order.created_at.strftime('%H:%M:%S IST')}`"
+        msg += f"\n🔖 *Order ID:* `{order.order_id}`\n⏰ *Time:* `{format_ist_str(order.created_at)}`"
 
         self.send_broadcast(msg)
 
@@ -112,7 +113,7 @@ class TelegramNotifier:
             f"📈 *Symbol:* `{position.symbol}` ({position.side.value})\n"
             f"📦 *Qty:* `{exit_order.quantity}` | Exit: `₹{exit_order.average_price:.2f}`\n"
             f"💰 *Net P&L:* *₹{pnl:,.2f}*\n"
-            f"⏰ *Time:* `{exit_order.created_at.strftime('%H:%M:%S IST')}`"
+            f"⏰ *Time:* `{format_ist_str(exit_order.created_at)}`"
         )
         self.send_broadcast(msg)
 

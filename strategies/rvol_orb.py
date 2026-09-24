@@ -142,7 +142,24 @@ class RvolOrbStrategy(StrategyBase):
         """
         pos.update_pnl(ltp)
         cand = self.candidates.get(pos.symbol)
-        atr = cand.atr_14d if cand else (pos.entry_price * 0.01)
+        atr = cand.atr_14d if (cand and cand.atr_14d > 0) else (pos.entry_price * 0.01)
+
+        # Auto-initialize stop loss and profit target from config if missing (e.g. synced from broker)
+        if pos.stop_loss is None and self.config.atr_stop_loss_pct:
+            stop_dist = self.config.atr_stop_loss_pct * atr
+            if pos.side == PositionSide.LONG:
+                pos.stop_loss = round(pos.entry_price - stop_dist, 2)
+            else:
+                pos.stop_loss = round(pos.entry_price + stop_dist, 2)
+            if pos.trailing_stop is None:
+                pos.trailing_stop = pos.stop_loss
+
+        if pos.target is None and self.config.profit_target_pct:
+            target_dist = self.config.profit_target_pct * atr
+            if pos.side == PositionSide.LONG:
+                pos.target = round(pos.entry_price + target_dist, 2)
+            else:
+                pos.target = round(pos.entry_price - target_dist, 2)
 
         # LONG POSITION CHECKS
         if pos.side == PositionSide.LONG:

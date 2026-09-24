@@ -5,6 +5,7 @@ from enum import Enum
 from dataclasses import dataclass, field
 from datetime import datetime
 from typing import Optional, Dict, Any
+from core.timeutils import now_ist
 
 
 class OrderSide(str, Enum):
@@ -76,7 +77,7 @@ class Order:
     status: OrderStatus = OrderStatus.PENDING
     filled_quantity: int = 0
     average_price: float = 0.0
-    created_at: datetime = field(default_factory=datetime.now)
+    created_at: datetime = field(default_factory=now_ist)
     message: str = ""
     tag: str = ""
 
@@ -95,7 +96,7 @@ class Position:
     realized_pnl: float = 0.0
     highest_price: float = 0.0
     lowest_price: float = 0.0
-    entry_time: Optional[datetime] = None
+    entry_time: Optional[datetime] = field(default_factory=now_ist)
 
     def update_pnl(self, ltp: float):
         self.current_price = ltp
@@ -117,7 +118,7 @@ class Trade:
     side: OrderSide
     quantity: int
     price: float
-    timestamp: datetime = field(default_factory=datetime.now)
+    timestamp: datetime = field(default_factory=now_ist)
     brokerage: float = 0.0
     taxes: float = 0.0
     pnl: float = 0.0

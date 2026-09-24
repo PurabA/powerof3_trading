@@ -26,6 +26,16 @@ def parse_time_str(time_str: str) -> time:
     return time(hour=int(parts[0]), minute=int(parts[1]))
 
 
+def format_ist_str(dt: Optional[datetime] = None) -> str:
+    """Formats datetime strictly in Asia/Kolkata timezone with IST suffix."""
+    if dt is None:
+        return now_ist().strftime("%H:%M:%S IST")
+    if dt.tzinfo is None:
+        import datetime as dt_mod
+        dt = dt.replace(tzinfo=dt_mod.timezone.utc)
+    return dt.astimezone(IST).strftime("%H:%M:%S IST")
+
+
 class TimeManager:
     """
     Evaluates market schedules and timing gates against strict Asia/Kolkata clock.

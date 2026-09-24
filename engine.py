@@ -84,12 +84,20 @@ class TradingEngine:
                 if self.neo_client:
                     self.broker.neo_client = self.neo_client
                     self.market_data.neo_client = self.neo_client
+                    self.broker.market_data = self.market_data
                     self.is_authenticated = True
                     logger.info("Kotak Neo client initialized and bound to broker.")
             except Exception as e:
                 logger.error(f"Authentication failed during initialization: {e}")
                 if self.settings.app.trading_mode == "LIVE":
                     raise
+
+        # Ensure broker always has access to market data manager
+        self.broker.market_data = self.market_data
+
+        # Sync open positions from Kotak Neo broker (if live)
+        if self.neo_client:
+            self.broker.sync_positions_from_broker(self.market_data)
 
         # Bind strategy dependencies
         self.strategy.bind_context(
@@ -102,6 +110,17 @@ class TradingEngine:
             notifier=self.notifier
         )
         self.strategy.on_start()
+
+        # Reconcile guardrails and strategy tracking with loaded/synced positions
+        from core.models import PositionState
+        for pos in self.broker.get_positions():
+            if pos.quantity > 0:
+                self.guardrails.set_state(pos.symbol, PositionState.OPEN, pos.side)
+                self.strategy.traded_symbols.add(pos.symbol)
+                ltp = self.market_data.get_ltp(pos.symbol)
+                if ltp > 0:
+                    pos.update_pnl(ltp)
+
         logger.info("Trading engine initialization complete.")
 
     def run_pre_market_prep(self):
@@ -305,24 +324,30 @@ class TradingEngine:
             self.squared_off = True
             return
 
-        # 3. Process candidate price updates
+        # 3. Process candidate price updates and live tracking
         tracked_symbols = set([c.symbol for c in self.candidates] + [p.symbol for p in open_positions])
         if not tracked_symbols:
             return
 
-        # Get latest quotes
+        # Continuously refetch live quotes from Kotak Neo for all tracked symbols (candidates + open positions)
+        if self.neo_client:
+            self.market_data.fetch_quotes_batch(list(tracked_symbols))
+
+        # Update candidate prices and process strategy ticks
         for sym in tracked_symbols:
             quote = self.market_data.get_quote(sym)
-            if not quote:
+            if not quote or quote.last_price <= 0:
                 # If no live quote in cache, simulate with trigger/entry price or baseline
                 cand = next((c for c in self.candidates if c.symbol == sym), None)
                 if cand:
-                    # Provide realistic simulation tick
                     ltp = cand.trigger_price
-                    quote = Quote(symbol=sym, last_price=ltp, timestamp=datetime.now())
+                    quote = Quote(symbol=sym, last_price=ltp, timestamp=now_ist())
                     self.market_data.set_quote(quote)
 
-            if quote:
+            if quote and quote.last_price > 0:
+                cand = next((c for c in self.candidates if c.symbol == sym), None)
+                if cand:
+                    cand.current_ltp = quote.last_price
                 self.strategy.on_tick(sym, quote)
 
         # 4. Hourly Telegram P&L Update
@@ -338,6 +363,11 @@ class TradingEngine:
             q = self.market_data.get_quote(c.symbol)
             if q and q.last_price > 0:
                 c.current_ltp = q.last_price
+
+        for p in self.broker.get_positions():
+            q = self.market_data.get_quote(p.symbol)
+            if q and q.last_price > 0:
+                p.update_pnl(q.last_price)
 
         self.dashboard.print_snapshot(
             capital=self.risk_manager.capital,

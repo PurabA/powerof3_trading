@@ -50,6 +50,9 @@ def format_metrics_panel(
     )
 
 
+from core.timeutils import IST, format_ist_str
+
+
 def format_positions_table(positions: List[Position]) -> Table:
     """Generates formatted table for live intraday positions."""
     table = Table(
@@ -64,10 +67,11 @@ def format_positions_table(positions: List[Position]) -> Table:
     table.add_column("LTP", justify="right")
     table.add_column("Stop Loss", justify="right")
     table.add_column("Trailing SL", justify="right")
+    table.add_column("Target", justify="right")
     table.add_column("Unrealized P&L", justify="right")
 
     if not positions:
-        table.add_row("-", "-", "-", "-", "-", "-", "-", "[dim]No active positions[/dim]")
+        table.add_row("-", "-", "-", "-", "-", "-", "-", "-", "[dim]No active positions[/dim]")
         return table
 
     for p in positions:
@@ -83,6 +87,7 @@ def format_positions_table(positions: List[Position]) -> Table:
             f"₹{p.current_price:.2f}",
             f"₹{p.stop_loss:.2f}" if p.stop_loss else "-",
             f"₹{p.trailing_stop:.2f}" if p.trailing_stop else "-",
+            f"₹{p.target:.2f}" if p.target else "-",
             f"[{pnl_style}]{pnl_sign}₹{p.unrealized_pnl:,.2f}[/{pnl_style}]"
         )
     return table
@@ -95,7 +100,7 @@ def format_orders_table(orders: List[Order]) -> Table:
         box=box.SIMPLE_HEAVY,
         expand=True
     )
-    table.add_column("Time", style="dim")
+    table.add_column("Time (IST)", style="dim")
     table.add_column("Order ID", style="bold cyan")
     table.add_column("Symbol", style="bold white")
     table.add_column("Side", justify="center")
@@ -118,9 +123,10 @@ def format_orders_table(orders: List[Order]) -> Table:
             OrderStatus.CANCELLED: "dim"
         }
         st_style = status_styles.get(o.status, "white")
+        t_str = format_ist_str(o.created_at).replace(" IST", "") if o.created_at else "-"
 
         table.add_row(
-            o.created_at.strftime("%H:%M:%S"),
+            t_str,
             o.order_id,
             o.symbol,
             f"[{side_style}]{o.side.value}[/{side_style}]",
