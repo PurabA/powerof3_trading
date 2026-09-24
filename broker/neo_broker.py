@@ -132,10 +132,11 @@ class KotakNeoBroker:
             neo_sym = f"{order.symbol}-EQ"
             ord_type_map = {
                 OrderType.MARKET: "MKT",
-                OrderType.LIMIT: "LMT",
+                OrderType.LIMIT: "L",
                 OrderType.STOP_LOSS: "SL",
                 OrderType.STOP_LOSS_MARKET: "SL-M"
             }
+            tx_type = "B" if order.side == OrderSide.BUY else "S"
 
             resp = self.neo_client.place_order(
                 exchange_segment="nse_cm",
@@ -145,7 +146,7 @@ class KotakNeoBroker:
                 quantity=str(order.quantity),
                 validity="DAY",
                 trading_symbol=neo_sym,
-                transaction_type=order.side.value,
+                transaction_type=tx_type,
                 tag=order.tag[:15] if order.tag else None
             )
 

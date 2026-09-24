@@ -86,7 +86,8 @@ def cmd_order(args):
         ord_type_str = "LMT" if ord_type_in == "2" else "MKT"
     order_type = OrderType.LIMIT if ord_type_str.upper() in ("LMT", "LIMIT") else OrderType.MARKET
 
-    price = getattr(args, "price", 0.0)
+    raw_price = getattr(args, "price", None)
+    price = float(raw_price) if raw_price is not None else 0.0
     if order_type == OrderType.LIMIT and price <= 0:
         price_in = console.input("[bold yellow]Enter Limit Price (INR): [/bold yellow]").strip()
         try:
@@ -96,7 +97,8 @@ def cmd_order(args):
             return
 
     # 4. Resolve Quantity
-    qty = getattr(args, "qty", 0)
+    raw_qty = getattr(args, "qty", None)
+    qty = int(raw_qty) if raw_qty is not None else 0
     if qty <= 0:
         qty_in = console.input("[bold yellow]Enter Quantity (Shares): [/bold yellow]").strip()
         try:
@@ -116,15 +118,27 @@ def cmd_order(args):
         target_in = console.input("[bold yellow]Target Price (Optional, press Enter to skip): [/bold yellow]").strip()
         target_price = float(target_in) if target_in else None
 
+    # Fetch live LTP for confirmation
+    ltp = engine.market_data.get_ltp(symbol)
+    if ltp <= 0 and engine.neo_client:
+        quotes = engine.market_data.fetch_quotes_batch([symbol])
+        q = quotes.get(symbol)
+        ltp = q.last_price if q else 0.0
+
     # Summary confirmation table
     conf_table = Table(title="[bold yellow]⚠️ ORDER CONFIRMATION[/bold yellow]", border_style="yellow")
     conf_table.add_column("Field", style="bold white")
     conf_table.add_column("Value", style="bold cyan")
     conf_table.add_row("Symbol", symbol)
+    if ltp > 0:
+        conf_table.add_row("Current LTP", f"₹{ltp:.2f}")
     conf_table.add_row("Action", f"[bold green]{side.value}[/bold green]" if side == OrderSide.BUY else f"[bold red]{side.value}[/bold red]")
     conf_table.add_row("Order Type", order_type.value)
     conf_table.add_row("Quantity", str(qty))
     conf_table.add_row("Price", f"₹{price:.2f}" if order_type == OrderType.LIMIT else "MARKET")
+    if ltp > 0:
+        approx_val = (price if order_type == OrderType.LIMIT else ltp) * qty
+        conf_table.add_row("Approx Value", f"₹{approx_val:,.2f}")
     if sl_price:
         conf_table.add_row("Stop Loss", f"₹{sl_price:.2f}")
     if target_price:

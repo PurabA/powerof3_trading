@@ -2,147 +2,176 @@
   "360ONE": {
     "symbol": "360ONE",
     "neo_symbol": "360ONE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13061"
   },
   "3MINDIA": {
     "symbol": "3MINDIA",
     "neo_symbol": "3MINDIA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "474"
   },
   "AADHARHFC": {
     "symbol": "AADHARHFC",
     "neo_symbol": "AADHARHFC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "23729"
   },
   "AARTIIND": {
     "symbol": "AARTIIND",
     "neo_symbol": "AARTIIND-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "7"
   },
   "AAVAS": {
     "symbol": "AAVAS",
     "neo_symbol": "AAVAS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "5385"
   },
   "ABB": {
     "symbol": "ABB",
     "neo_symbol": "ABB-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13"
   },
   "ABBOTINDIA": {
     "symbol": "ABBOTINDIA",
     "neo_symbol": "ABBOTINDIA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "17903"
   },
   "ABCAPITAL": {
     "symbol": "ABCAPITAL",
     "neo_symbol": "ABCAPITAL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "21614"
   },
   "ABFRL": {
     "symbol": "ABFRL",
     "neo_symbol": "ABFRL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "30108"
   },
   "ABLBL": {
     "symbol": "ABLBL",
     "neo_symbol": "ABLBL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "756843"
   },
   "ABREL": {
     "symbol": "ABREL",
     "neo_symbol": "ABREL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "625"
   },
   "ABSLAMC": {
     "symbol": "ABSLAMC",
     "neo_symbol": "ABSLAMC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "6018"
   },
   "ACC": {
     "symbol": "ACC",
     "neo_symbol": "ACC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "22"
   },
   "ACE": {
     "symbol": "ACE",
     "neo_symbol": "ACE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13587"
   },
   "ACMESOLAR": {
     "symbol": "ACMESOLAR",
     "neo_symbol": "ACMESOLAR-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "27061"
   },
   "ADANIENSOL": {
     "symbol": "ADANIENSOL",
     "neo_symbol": "ADANIENSOL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "10217"
   },
   "ADANIENT": {
     "symbol": "ADANIENT",
     "neo_symbol": "ADANIENT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "25"
   },
   "ADANIGREEN": {
     "symbol": "ADANIGREEN",
     "neo_symbol": "ADANIGREEN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3563"
   },
   "ADANIPORTS": {
     "symbol": "ADANIPORTS",
     "neo_symbol": "ADANIPORTS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "15083"
   },
   "ADANIPOWER": {
     "symbol": "ADANIPOWER",
     "neo_symbol": "ADANIPOWER-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "17388"
   },
   "AEGISLOG": {
     "symbol": "AEGISLOG",
     "neo_symbol": "AEGISLOG-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "40"
   },
   "AEGISVOPAK": {
     "symbol": "AEGISVOPAK",
     "neo_symbol": "AEGISVOPAK-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "757336"
   },
   "AFCONS": {
     "symbol": "AFCONS",
     "neo_symbol": "AFCONS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "25977"
   },
   "AFFLE": {
     "symbol": "AFFLE",
     "neo_symbol": "AFFLE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11343"
   },
   "AGARWALEYE": {
     "symbol": "AGARWALEYE",
     "neo_symbol": "AGARWALEYE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "29452"
   },
   "AIAENG": {
     "symbol": "AIAENG",
     "neo_symbol": "AIAENG-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13086"
   },
   "AIIL": {
     "symbol": "AIIL",
     "neo_symbol": "AIIL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "23553"
   },
   "AJANTPHARM": {
     "symbol": "AJANTPHARM",
     "neo_symbol": "AJANTPHARM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "8124"
   },
   "AKUMS": {
     "symbol": "AKUMS",
     "neo_symbol": "AKUMS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "24715"
   },
   "AKZOINDIA": {
     "symbol": "AKZOINDIA",
@@ -152,812 +181,974 @@
   "ALKEM": {
     "symbol": "ALKEM",
     "neo_symbol": "ALKEM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11703"
   },
   "ALKYLAMINE": {
     "symbol": "ALKYLAMINE",
     "neo_symbol": "ALKYLAMINE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "4487"
   },
   "ALOKINDS": {
     "symbol": "ALOKINDS",
     "neo_symbol": "ALOKINDS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "17675"
   },
   "AMBER": {
     "symbol": "AMBER",
     "neo_symbol": "AMBER-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1185"
   },
   "AMBUJACEM": {
     "symbol": "AMBUJACEM",
     "neo_symbol": "AMBUJACEM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1270"
   },
   "ANANDRATHI": {
     "symbol": "ANANDRATHI",
     "neo_symbol": "ANANDRATHI-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "7145"
   },
   "ANANTRAJ": {
     "symbol": "ANANTRAJ",
     "neo_symbol": "ANANTRAJ-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13620"
   },
   "ANGELONE": {
     "symbol": "ANGELONE",
     "neo_symbol": "ANGELONE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "324"
   },
   "APARINDS": {
     "symbol": "APARINDS",
     "neo_symbol": "APARINDS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11491"
   },
   "APLAPOLLO": {
     "symbol": "APLAPOLLO",
     "neo_symbol": "APLAPOLLO-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "25780"
   },
   "APLLTD": {
     "symbol": "APLLTD",
     "neo_symbol": "APLLTD-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "25328"
   },
   "APOLLOHOSP": {
     "symbol": "APOLLOHOSP",
     "neo_symbol": "APOLLOHOSP-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "157"
   },
   "APOLLOTYRE": {
     "symbol": "APOLLOTYRE",
     "neo_symbol": "APOLLOTYRE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "163"
   },
   "APTUS": {
     "symbol": "APTUS",
     "neo_symbol": "APTUS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "5435"
   },
   "ARE&M": {
     "symbol": "ARE&M",
     "neo_symbol": "ARE&M-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "100"
   },
   "ASAHIINDIA": {
     "symbol": "ASAHIINDIA",
     "neo_symbol": "ASAHIINDIA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "5378"
   },
   "ASHOKLEY": {
     "symbol": "ASHOKLEY",
     "neo_symbol": "ASHOKLEY-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "212"
   },
   "ASIANPAINT": {
     "symbol": "ASIANPAINT",
     "neo_symbol": "ASIANPAINT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "236"
   },
   "ASTERDM": {
     "symbol": "ASTERDM",
     "neo_symbol": "ASTERDM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1508"
   },
   "ASTRAL": {
     "symbol": "ASTRAL",
     "neo_symbol": "ASTRAL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "14418"
   },
   "ASTRAZEN": {
     "symbol": "ASTRAZEN",
     "neo_symbol": "ASTRAZEN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "5610"
   },
   "ATGL": {
     "symbol": "ATGL",
     "neo_symbol": "ATGL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "6066"
   },
   "ATHERENERG": {
     "symbol": "ATHERENERG",
     "neo_symbol": "ATHERENERG-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "757645"
   },
   "ATUL": {
     "symbol": "ATUL",
     "neo_symbol": "ATUL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "263"
   },
   "AUBANK": {
     "symbol": "AUBANK",
     "neo_symbol": "AUBANK-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "21238"
   },
   "AUROPHARMA": {
     "symbol": "AUROPHARMA",
     "neo_symbol": "AUROPHARMA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "275"
   },
   "AWL": {
     "symbol": "AWL",
     "neo_symbol": "AWL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "8110"
   },
   "AXISBANK": {
     "symbol": "AXISBANK",
     "neo_symbol": "AXISBANK-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "5900"
   },
   "BAJAJ-AUTO": {
     "symbol": "BAJAJ-AUTO",
     "neo_symbol": "BAJAJ-AUTO-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "16669"
   },
   "BAJAJFINSV": {
     "symbol": "BAJAJFINSV",
     "neo_symbol": "BAJAJFINSV-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "16675"
   },
   "BAJAJHFL": {
     "symbol": "BAJAJHFL",
     "neo_symbol": "BAJAJHFL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "25270"
   },
   "BAJAJHLDNG": {
     "symbol": "BAJAJHLDNG",
     "neo_symbol": "BAJAJHLDNG-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "305"
   },
   "BAJFINANCE": {
     "symbol": "BAJFINANCE",
     "neo_symbol": "BAJFINANCE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "317"
   },
   "BALKRISIND": {
     "symbol": "BALKRISIND",
     "neo_symbol": "BALKRISIND-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "335"
   },
   "BALRAMCHIN": {
     "symbol": "BALRAMCHIN",
     "neo_symbol": "BALRAMCHIN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "341"
   },
   "BANDHANBNK": {
     "symbol": "BANDHANBNK",
     "neo_symbol": "BANDHANBNK-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2263"
   },
   "BANKBARODA": {
     "symbol": "BANKBARODA",
     "neo_symbol": "BANKBARODA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "4668"
   },
   "BANKINDIA": {
     "symbol": "BANKINDIA",
     "neo_symbol": "BANKINDIA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "4745"
   },
   "BASF": {
     "symbol": "BASF",
     "neo_symbol": "BASF-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "368"
   },
   "BATAINDIA": {
     "symbol": "BATAINDIA",
     "neo_symbol": "BATAINDIA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "371"
   },
   "BAYERCROP": {
     "symbol": "BAYERCROP",
     "neo_symbol": "BAYERCROP-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "17927"
   },
   "BBTC": {
     "symbol": "BBTC",
     "neo_symbol": "BBTC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "380"
   },
   "BDL": {
     "symbol": "BDL",
     "neo_symbol": "BDL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2144"
   },
   "BEL": {
     "symbol": "BEL",
     "neo_symbol": "BEL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "383"
   },
   "BEML": {
     "symbol": "BEML",
     "neo_symbol": "BEML-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "395"
   },
   "BERGEPAINT": {
     "symbol": "BERGEPAINT",
     "neo_symbol": "BERGEPAINT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "404"
   },
   "BHARATFORG": {
     "symbol": "BHARATFORG",
     "neo_symbol": "BHARATFORG-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "422"
   },
   "BHARTIARTL": {
     "symbol": "BHARTIARTL",
     "neo_symbol": "BHARTIARTL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "10604"
   },
   "BHARTIHEXA": {
     "symbol": "BHARTIHEXA",
     "neo_symbol": "BHARTIHEXA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "23489"
   },
   "BHEL": {
     "symbol": "BHEL",
     "neo_symbol": "BHEL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "438"
   },
   "BIKAJI": {
     "symbol": "BIKAJI",
     "neo_symbol": "BIKAJI-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11966"
   },
   "BIOCON": {
     "symbol": "BIOCON",
     "neo_symbol": "BIOCON-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11373"
   },
   "BLS": {
     "symbol": "BLS",
     "neo_symbol": "BLS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "17279"
   },
   "BLUEDART": {
     "symbol": "BLUEDART",
     "neo_symbol": "BLUEDART-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "495"
   },
   "BLUEJET": {
     "symbol": "BLUEJET",
     "neo_symbol": "BLUEJET-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "19686"
   },
   "BLUESTARCO": {
     "symbol": "BLUESTARCO",
     "neo_symbol": "BLUESTARCO-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "8311"
   },
   "BOSCHLTD": {
     "symbol": "BOSCHLTD",
     "neo_symbol": "BOSCHLTD-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2181"
   },
   "BPCL": {
     "symbol": "BPCL",
     "neo_symbol": "BPCL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "526"
   },
   "BRIGADE": {
     "symbol": "BRIGADE",
     "neo_symbol": "BRIGADE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "15184"
   },
   "BRITANNIA": {
     "symbol": "BRITANNIA",
     "neo_symbol": "BRITANNIA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "547"
   },
   "BSE": {
     "symbol": "BSE",
     "neo_symbol": "BSE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "19585"
   },
   "BSOFT": {
     "symbol": "BSOFT",
     "neo_symbol": "BSOFT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "6994"
   },
   "CAMPUS": {
     "symbol": "CAMPUS",
     "neo_symbol": "CAMPUS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "9362"
   },
   "CAMS": {
     "symbol": "CAMS",
     "neo_symbol": "CAMS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "342"
   },
   "CANBK": {
     "symbol": "CANBK",
     "neo_symbol": "CANBK-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "10794"
   },
   "CANFINHOME": {
     "symbol": "CANFINHOME",
     "neo_symbol": "CANFINHOME-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "583"
   },
   "CAPLIPOINT": {
     "symbol": "CAPLIPOINT",
     "neo_symbol": "CAPLIPOINT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3906"
   },
   "CARBORUNIV": {
     "symbol": "CARBORUNIV",
     "neo_symbol": "CARBORUNIV-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "595"
   },
   "CASTROLIND": {
     "symbol": "CASTROLIND",
     "neo_symbol": "CASTROLIND-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1250"
   },
   "CCL": {
     "symbol": "CCL",
     "neo_symbol": "CCL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11452"
   },
   "CDSL": {
     "symbol": "CDSL",
     "neo_symbol": "CDSL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "21174"
   },
   "CEATLTD": {
     "symbol": "CEATLTD",
     "neo_symbol": "CEATLTD-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "15254"
   },
   "CENTRALBK": {
     "symbol": "CENTRALBK",
     "neo_symbol": "CENTRALBK-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "14894"
   },
   "CENTURYPLY": {
     "symbol": "CENTURYPLY",
     "neo_symbol": "CENTURYPLY-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13305"
   },
   "CERA": {
     "symbol": "CERA",
     "neo_symbol": "CERA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "15039"
   },
   "CESC": {
     "symbol": "CESC",
     "neo_symbol": "CESC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "628"
   },
   "CGCL": {
     "symbol": "CGCL",
     "neo_symbol": "CGCL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "20329"
   },
   "CGPOWER": {
     "symbol": "CGPOWER",
     "neo_symbol": "CGPOWER-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "760"
   },
   "CHALET": {
     "symbol": "CHALET",
     "neo_symbol": "CHALET-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "8546"
   },
   "CHAMBLFERT": {
     "symbol": "CHAMBLFERT",
     "neo_symbol": "CHAMBLFERT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "637"
   },
   "CHENNPETRO": {
     "symbol": "CHENNPETRO",
     "neo_symbol": "CHENNPETRO-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2049"
   },
   "CHOICEIN": {
     "symbol": "CHOICEIN",
     "neo_symbol": "CHOICEIN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "8866"
   },
   "CHOLAFIN": {
     "symbol": "CHOLAFIN",
     "neo_symbol": "CHOLAFIN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "685"
   },
   "CHOLAHLDNG": {
     "symbol": "CHOLAHLDNG",
     "neo_symbol": "CHOLAHLDNG-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "21740"
   },
   "CIPLA": {
     "symbol": "CIPLA",
     "neo_symbol": "CIPLA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "694"
   },
   "CLEAN": {
     "symbol": "CLEAN",
     "neo_symbol": "CLEAN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "5049"
   },
   "COALINDIA": {
     "symbol": "COALINDIA",
     "neo_symbol": "COALINDIA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "20374"
   },
   "COCHINSHIP": {
     "symbol": "COCHINSHIP",
     "neo_symbol": "COCHINSHIP-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "21508"
   },
   "COFORGE": {
     "symbol": "COFORGE",
     "neo_symbol": "COFORGE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11543"
   },
   "COHANCE": {
     "symbol": "COHANCE",
     "neo_symbol": "COHANCE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "17945"
   },
   "COLPAL": {
     "symbol": "COLPAL",
     "neo_symbol": "COLPAL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "15141"
   },
   "CONCOR": {
     "symbol": "CONCOR",
     "neo_symbol": "CONCOR-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "4749"
   },
   "CONCORDBIO": {
     "symbol": "CONCORDBIO",
     "neo_symbol": "CONCORDBIO-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "18060"
   },
   "COROMANDEL": {
     "symbol": "COROMANDEL",
     "neo_symbol": "COROMANDEL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "739"
   },
   "CRAFTSMAN": {
     "symbol": "CRAFTSMAN",
     "neo_symbol": "CRAFTSMAN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2854"
   },
   "CREDITACC": {
     "symbol": "CREDITACC",
     "neo_symbol": "CREDITACC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "4421"
   },
   "CRISIL": {
     "symbol": "CRISIL",
     "neo_symbol": "CRISIL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "757"
   },
   "CROMPTON": {
     "symbol": "CROMPTON",
     "neo_symbol": "CROMPTON-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "17094"
   },
   "CUB": {
     "symbol": "CUB",
     "neo_symbol": "CUB-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "5701"
   },
   "CUMMINSIND": {
     "symbol": "CUMMINSIND",
     "neo_symbol": "CUMMINSIND-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1901"
   },
   "CYIENT": {
     "symbol": "CYIENT",
     "neo_symbol": "CYIENT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "5748"
   },
   "DABUR": {
     "symbol": "DABUR",
     "neo_symbol": "DABUR-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "772"
   },
   "DALBHARAT": {
     "symbol": "DALBHARAT",
     "neo_symbol": "DALBHARAT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "8075"
   },
   "DATAPATTNS": {
     "symbol": "DATAPATTNS",
     "neo_symbol": "DATAPATTNS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "7358"
   },
   "DBREALTY": {
     "symbol": "DBREALTY",
     "neo_symbol": "DBREALTY-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "18124"
   },
   "DCMSHRIRAM": {
     "symbol": "DCMSHRIRAM",
     "neo_symbol": "DCMSHRIRAM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "811"
   },
   "DEEPAKFERT": {
     "symbol": "DEEPAKFERT",
     "neo_symbol": "DEEPAKFERT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "827"
   },
   "DEEPAKNTR": {
     "symbol": "DEEPAKNTR",
     "neo_symbol": "DEEPAKNTR-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "19943"
   },
   "DELHIVERY": {
     "symbol": "DELHIVERY",
     "neo_symbol": "DELHIVERY-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "9599"
   },
   "DEVYANI": {
     "symbol": "DEVYANI",
     "neo_symbol": "DEVYANI-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "5373"
   },
   "DIVISLAB": {
     "symbol": "DIVISLAB",
     "neo_symbol": "DIVISLAB-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "10940"
   },
   "DIXON": {
     "symbol": "DIXON",
     "neo_symbol": "DIXON-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "21690"
   },
   "DLF": {
     "symbol": "DLF",
     "neo_symbol": "DLF-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "14732"
   },
   "DMART": {
     "symbol": "DMART",
     "neo_symbol": "DMART-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "19913"
   },
   "DOMS": {
     "symbol": "DOMS",
     "neo_symbol": "DOMS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "20551"
   },
   "DRREDDY": {
     "symbol": "DRREDDY",
     "neo_symbol": "DRREDDY-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "881"
   },
   "ECLERX": {
     "symbol": "ECLERX",
     "neo_symbol": "ECLERX-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "15179"
   },
   "EICHERMOT": {
     "symbol": "EICHERMOT",
     "neo_symbol": "EICHERMOT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "910"
   },
   "EIDPARRY": {
     "symbol": "EIDPARRY",
     "neo_symbol": "EIDPARRY-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "916"
   },
   "EIHOTEL": {
     "symbol": "EIHOTEL",
     "neo_symbol": "EIHOTEL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "919"
   },
   "ELECON": {
     "symbol": "ELECON",
     "neo_symbol": "ELECON-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13643"
   },
   "ELGIEQUIP": {
     "symbol": "ELGIEQUIP",
     "neo_symbol": "ELGIEQUIP-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "937"
   },
   "EMAMILTD": {
     "symbol": "EMAMILTD",
     "neo_symbol": "EMAMILTD-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13517"
   },
   "EMCURE": {
     "symbol": "EMCURE",
     "neo_symbol": "EMCURE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "24398"
   },
   "ENDURANCE": {
     "symbol": "ENDURANCE",
     "neo_symbol": "ENDURANCE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "18822"
   },
   "ENGINERSIN": {
     "symbol": "ENGINERSIN",
     "neo_symbol": "ENGINERSIN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "4907"
   },
   "ENRIN": {
     "symbol": "ENRIN",
     "neo_symbol": "ENRIN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "756871"
   },
   "ERIS": {
     "symbol": "ERIS",
     "neo_symbol": "ERIS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "21154"
   },
   "ESCORTS": {
     "symbol": "ESCORTS",
     "neo_symbol": "ESCORTS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "958"
   },
   "ETERNAL": {
     "symbol": "ETERNAL",
     "neo_symbol": "ETERNAL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "5097"
   },
   "EXIDEIND": {
     "symbol": "EXIDEIND",
     "neo_symbol": "EXIDEIND-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "676"
   },
   "FACT": {
     "symbol": "FACT",
     "neo_symbol": "FACT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1008"
   },
   "FEDERALBNK": {
     "symbol": "FEDERALBNK",
     "neo_symbol": "FEDERALBNK-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1023"
   },
   "FINCABLES": {
     "symbol": "FINCABLES",
     "neo_symbol": "FINCABLES-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1038"
   },
   "FINPIPE": {
     "symbol": "FINPIPE",
     "neo_symbol": "FINPIPE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1041"
   },
   "FIRSTCRY": {
     "symbol": "FIRSTCRY",
     "neo_symbol": "FIRSTCRY-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "24814"
   },
   "FIVESTAR": {
     "symbol": "FIVESTAR",
     "neo_symbol": "FIVESTAR-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "12032"
   },
   "FLUOROCHEM": {
     "symbol": "FLUOROCHEM",
     "neo_symbol": "FLUOROCHEM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13750"
   },
   "FORCEMOT": {
     "symbol": "FORCEMOT",
     "neo_symbol": "FORCEMOT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11573"
   },
   "FORTIS": {
     "symbol": "FORTIS",
     "neo_symbol": "FORTIS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "14592"
   },
   "FSL": {
     "symbol": "FSL",
     "neo_symbol": "FSL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "14304"
   },
   "GAIL": {
     "symbol": "GAIL",
     "neo_symbol": "GAIL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "4717"
   },
   "GESHIP": {
     "symbol": "GESHIP",
     "neo_symbol": "GESHIP-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13776"
   },
   "GICRE": {
     "symbol": "GICRE",
     "neo_symbol": "GICRE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "277"
   },
   "GILLETTE": {
     "symbol": "GILLETTE",
     "neo_symbol": "GILLETTE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1576"
   },
   "GLAND": {
     "symbol": "GLAND",
     "neo_symbol": "GLAND-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1186"
   },
   "GLAXO": {
     "symbol": "GLAXO",
     "neo_symbol": "GLAXO-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1153"
   },
   "GLENMARK": {
     "symbol": "GLENMARK",
     "neo_symbol": "GLENMARK-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "7406"
   },
   "GMDCLTD": {
     "symbol": "GMDCLTD",
     "neo_symbol": "GMDCLTD-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "5204"
   },
   "GMRAIRPORT": {
     "symbol": "GMRAIRPORT",
     "neo_symbol": "GMRAIRPORT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13528"
   },
   "GODFRYPHLP": {
     "symbol": "GODFRYPHLP",
     "neo_symbol": "GODFRYPHLP-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1181"
   },
   "GODIGIT": {
     "symbol": "GODIGIT",
     "neo_symbol": "GODIGIT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "23799"
   },
   "GODREJAGRO": {
     "symbol": "GODREJAGRO",
     "neo_symbol": "GODREJAGRO-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "144"
   },
   "GODREJCP": {
     "symbol": "GODREJCP",
     "neo_symbol": "GODREJCP-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "10099"
   },
   "GODREJIND": {
     "symbol": "GODREJIND",
     "neo_symbol": "GODREJIND-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "10925"
   },
   "GODREJPROP": {
     "symbol": "GODREJPROP",
     "neo_symbol": "GODREJPROP-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "17875"
   },
   "GPIL": {
     "symbol": "GPIL",
     "neo_symbol": "GPIL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13409"
   },
   "GRANULES": {
     "symbol": "GRANULES",
     "neo_symbol": "GRANULES-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11872"
   },
   "GRAPHITE": {
     "symbol": "GRAPHITE",
     "neo_symbol": "GRAPHITE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "592"
   },
   "GRASIM": {
     "symbol": "GRASIM",
     "neo_symbol": "GRASIM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1232"
   },
   "GRAVITA": {
     "symbol": "GRAVITA",
     "neo_symbol": "GRAVITA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "20534"
   },
   "GRSE": {
     "symbol": "GRSE",
     "neo_symbol": "GRSE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "5475"
   },
   "GSPL": {
     "symbol": "GSPL",
@@ -972,47 +1163,56 @@
   "GVT&D": {
     "symbol": "GVT&D",
     "neo_symbol": "GVT&D-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "16783"
   },
   "HAL": {
     "symbol": "HAL",
     "neo_symbol": "HAL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2303"
   },
   "HAPPSTMNDS": {
     "symbol": "HAPPSTMNDS",
     "neo_symbol": "HAPPSTMNDS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "48"
   },
   "HAVELLS": {
     "symbol": "HAVELLS",
     "neo_symbol": "HAVELLS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "9819"
   },
   "HBLENGINE": {
     "symbol": "HBLENGINE",
     "neo_symbol": "HBLENGINE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13966"
   },
   "HCLTECH": {
     "symbol": "HCLTECH",
     "neo_symbol": "HCLTECH-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "7229"
   },
   "HDFCAMC": {
     "symbol": "HDFCAMC",
     "neo_symbol": "HDFCAMC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "4244"
   },
   "HDFCBANK": {
     "symbol": "HDFCBANK",
     "neo_symbol": "HDFCBANK-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1333"
   },
   "HDFCLIFE": {
     "symbol": "HDFCLIFE",
     "neo_symbol": "HDFCLIFE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "467"
   },
   "HEG": {
     "symbol": "HEG",
@@ -1022,252 +1222,302 @@
   "HEROMOTOCO": {
     "symbol": "HEROMOTOCO",
     "neo_symbol": "HEROMOTOCO-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1348"
   },
   "HEXT": {
     "symbol": "HEXT",
     "neo_symbol": "HEXT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "29666"
   },
   "HFCL": {
     "symbol": "HFCL",
     "neo_symbol": "HFCL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "21954"
   },
   "HINDALCO": {
     "symbol": "HINDALCO",
     "neo_symbol": "HINDALCO-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1363"
   },
   "HINDCOPPER": {
     "symbol": "HINDCOPPER",
     "neo_symbol": "HINDCOPPER-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "17939"
   },
   "HINDPETRO": {
     "symbol": "HINDPETRO",
     "neo_symbol": "HINDPETRO-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1406"
   },
   "HINDUNILVR": {
     "symbol": "HINDUNILVR",
     "neo_symbol": "HINDUNILVR-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1394"
   },
   "HINDZINC": {
     "symbol": "HINDZINC",
     "neo_symbol": "HINDZINC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1424"
   },
   "HOMEFIRST": {
     "symbol": "HOMEFIRST",
     "neo_symbol": "HOMEFIRST-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2056"
   },
   "HONASA": {
     "symbol": "HONASA",
     "neo_symbol": "HONASA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "19813"
   },
   "HONAUT": {
     "symbol": "HONAUT",
     "neo_symbol": "HONAUT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3417"
   },
   "HSCL": {
     "symbol": "HSCL",
     "neo_symbol": "HSCL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "14334"
   },
   "HUDCO": {
     "symbol": "HUDCO",
     "neo_symbol": "HUDCO-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "20825"
   },
   "HYUNDAI": {
     "symbol": "HYUNDAI",
     "neo_symbol": "HYUNDAI-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "25844"
   },
   "ICICIBANK": {
     "symbol": "ICICIBANK",
     "neo_symbol": "ICICIBANK-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "4963"
   },
   "ICICIGI": {
     "symbol": "ICICIGI",
     "neo_symbol": "ICICIGI-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "21770"
   },
   "ICICIPRULI": {
     "symbol": "ICICIPRULI",
     "neo_symbol": "ICICIPRULI-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "18652"
   },
   "IDBI": {
     "symbol": "IDBI",
     "neo_symbol": "IDBI-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1476"
   },
   "IDEA": {
     "symbol": "IDEA",
     "neo_symbol": "IDEA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "14366"
   },
   "IDFCFIRSTB": {
     "symbol": "IDFCFIRSTB",
     "neo_symbol": "IDFCFIRSTB-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11184"
   },
   "IEX": {
     "symbol": "IEX",
     "neo_symbol": "IEX-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "220"
   },
   "IFCI": {
     "symbol": "IFCI",
     "neo_symbol": "IFCI-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1491"
   },
   "IGIL": {
     "symbol": "IGIL",
     "neo_symbol": "IGIL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "28378"
   },
   "IGL": {
     "symbol": "IGL",
     "neo_symbol": "IGL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11262"
   },
   "IIFL": {
     "symbol": "IIFL",
     "neo_symbol": "IIFL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11809"
   },
   "IKS": {
     "symbol": "IKS",
     "neo_symbol": "IKS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "28125"
   },
   "INDGN": {
     "symbol": "INDGN",
     "neo_symbol": "INDGN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "23693"
   },
   "INDHOTEL": {
     "symbol": "INDHOTEL",
     "neo_symbol": "INDHOTEL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1512"
   },
   "INDIACEM": {
     "symbol": "INDIACEM",
     "neo_symbol": "INDIACEM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1515"
   },
   "INDIAMART": {
     "symbol": "INDIAMART",
     "neo_symbol": "INDIAMART-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "10726"
   },
   "INDIANB": {
     "symbol": "INDIANB",
     "neo_symbol": "INDIANB-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "14309"
   },
   "INDIGO": {
     "symbol": "INDIGO",
     "neo_symbol": "INDIGO-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11195"
   },
   "INDUSINDBK": {
     "symbol": "INDUSINDBK",
     "neo_symbol": "INDUSINDBK-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "5258"
   },
   "INDUSTOWER": {
     "symbol": "INDUSTOWER",
     "neo_symbol": "INDUSTOWER-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "29135"
   },
   "INFY": {
     "symbol": "INFY",
     "neo_symbol": "INFY-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1594"
   },
   "INOXINDIA": {
     "symbol": "INOXINDIA",
     "neo_symbol": "INOXINDIA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "20607"
   },
   "INOXWIND": {
     "symbol": "INOXWIND",
     "neo_symbol": "INOXWIND-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "7852"
   },
   "INTELLECT": {
     "symbol": "INTELLECT",
     "neo_symbol": "INTELLECT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "5926"
   },
   "IOB": {
     "symbol": "IOB",
     "neo_symbol": "IOB-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "9348"
   },
   "IOC": {
     "symbol": "IOC",
     "neo_symbol": "IOC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1624"
   },
   "IPCALAB": {
     "symbol": "IPCALAB",
     "neo_symbol": "IPCALAB-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1633"
   },
   "IRB": {
     "symbol": "IRB",
     "neo_symbol": "IRB-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "15313"
   },
   "IRCON": {
     "symbol": "IRCON",
     "neo_symbol": "IRCON-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "4986"
   },
   "IRCTC": {
     "symbol": "IRCTC",
     "neo_symbol": "IRCTC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13611"
   },
   "IREDA": {
     "symbol": "IREDA",
     "neo_symbol": "IREDA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "20261"
   },
   "IRFC": {
     "symbol": "IRFC",
     "neo_symbol": "IRFC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2029"
   },
   "ITC": {
     "symbol": "ITC",
     "neo_symbol": "ITC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1660"
   },
   "ITCHOTELS": {
     "symbol": "ITCHOTELS",
     "neo_symbol": "ITCHOTELS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "29251"
   },
   "ITI": {
     "symbol": "ITI",
     "neo_symbol": "ITI-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1675"
   },
   "J&KBANK": {
     "symbol": "J&KBANK",
     "neo_symbol": "J&KBANK-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "5633"
   },
   "JBCHEPHARM": {
     "symbol": "JBCHEPHARM",
@@ -1277,227 +1527,272 @@
   "JBMA": {
     "symbol": "JBMA",
     "neo_symbol": "JBMA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11655"
   },
   "JINDALSAW": {
     "symbol": "JINDALSAW",
     "neo_symbol": "JINDALSAW-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3024"
   },
   "JINDALSTEL": {
     "symbol": "JINDALSTEL",
     "neo_symbol": "JINDALSTEL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "6733"
   },
   "JIOFIN": {
     "symbol": "JIOFIN",
     "neo_symbol": "JIOFIN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "18143"
   },
   "JKCEMENT": {
     "symbol": "JKCEMENT",
     "neo_symbol": "JKCEMENT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13270"
   },
   "JKTYRE": {
     "symbol": "JKTYRE",
     "neo_symbol": "JKTYRE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "14435"
   },
   "JMFINANCIL": {
     "symbol": "JMFINANCIL",
     "neo_symbol": "JMFINANCIL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13637"
   },
   "JPPOWER": {
     "symbol": "JPPOWER",
     "neo_symbol": "JPPOWER-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11763"
   },
   "JSL": {
     "symbol": "JSL",
     "neo_symbol": "JSL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11236"
   },
   "JSWENERGY": {
     "symbol": "JSWENERGY",
     "neo_symbol": "JSWENERGY-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "17869"
   },
   "JSWINFRA": {
     "symbol": "JSWINFRA",
     "neo_symbol": "JSWINFRA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "19020"
   },
   "JSWSTEEL": {
     "symbol": "JSWSTEEL",
     "neo_symbol": "JSWSTEEL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11723"
   },
   "JUBLFOOD": {
     "symbol": "JUBLFOOD",
     "neo_symbol": "JUBLFOOD-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "18096"
   },
   "JUBLINGREA": {
     "symbol": "JUBLINGREA",
     "neo_symbol": "JUBLINGREA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2783"
   },
   "JUBLPHARMA": {
     "symbol": "JUBLPHARMA",
     "neo_symbol": "JUBLPHARMA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3637"
   },
   "JWL": {
     "symbol": "JWL",
     "neo_symbol": "JWL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "20224"
   },
   "JYOTHYLAB": {
     "symbol": "JYOTHYLAB",
     "neo_symbol": "JYOTHYLAB-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "15146"
   },
   "JYOTICNC": {
     "symbol": "JYOTICNC",
     "neo_symbol": "JYOTICNC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "21334"
   },
   "KAJARIACER": {
     "symbol": "KAJARIACER",
     "neo_symbol": "KAJARIACER-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1808"
   },
   "KALYANKJIL": {
     "symbol": "KALYANKJIL",
     "neo_symbol": "KALYANKJIL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2955"
   },
   "KARURVYSYA": {
     "symbol": "KARURVYSYA",
     "neo_symbol": "KARURVYSYA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1838"
   },
   "KAYNES": {
     "symbol": "KAYNES",
     "neo_symbol": "KAYNES-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "12092"
   },
   "KEC": {
     "symbol": "KEC",
     "neo_symbol": "KEC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13260"
   },
   "KEI": {
     "symbol": "KEI",
     "neo_symbol": "KEI-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13310"
   },
   "KFINTECH": {
     "symbol": "KFINTECH",
     "neo_symbol": "KFINTECH-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13359"
   },
   "KIMS": {
     "symbol": "KIMS",
     "neo_symbol": "KIMS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "4847"
   },
   "KIRLOSBROS": {
     "symbol": "KIRLOSBROS",
     "neo_symbol": "KIRLOSBROS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "18581"
   },
   "KIRLOSENG": {
     "symbol": "KIRLOSENG",
     "neo_symbol": "KIRLOSENG-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "20936"
   },
   "KOTAKBANK": {
     "symbol": "KOTAKBANK",
     "neo_symbol": "KOTAKBANK-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1922"
   },
   "KPIL": {
     "symbol": "KPIL",
     "neo_symbol": "KPIL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1814"
   },
   "KPITTECH": {
     "symbol": "KPITTECH",
     "neo_symbol": "KPITTECH-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "9683"
   },
   "KPRMILL": {
     "symbol": "KPRMILL",
     "neo_symbol": "KPRMILL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "14912"
   },
   "KSB": {
     "symbol": "KSB",
     "neo_symbol": "KSB-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1949"
   },
   "LALPATHLAB": {
     "symbol": "LALPATHLAB",
     "neo_symbol": "LALPATHLAB-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11654"
   },
   "LATENTVIEW": {
     "symbol": "LATENTVIEW",
     "neo_symbol": "LATENTVIEW-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "6818"
   },
   "LAURUSLABS": {
     "symbol": "LAURUSLABS",
     "neo_symbol": "LAURUSLABS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "19234"
   },
   "LEMONTREE": {
     "symbol": "LEMONTREE",
     "neo_symbol": "LEMONTREE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2606"
   },
   "LICHSGFIN": {
     "symbol": "LICHSGFIN",
     "neo_symbol": "LICHSGFIN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1997"
   },
   "LICI": {
     "symbol": "LICI",
     "neo_symbol": "LICI-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "9480"
   },
   "LINDEINDIA": {
     "symbol": "LINDEINDIA",
     "neo_symbol": "LINDEINDIA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1627"
   },
   "LLOYDSME": {
     "symbol": "LLOYDSME",
     "neo_symbol": "LLOYDSME-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "17313"
   },
   "LODHA": {
     "symbol": "LODHA",
     "neo_symbol": "LODHA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3220"
   },
   "LT": {
     "symbol": "LT",
     "neo_symbol": "LT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11483"
   },
   "LTF": {
     "symbol": "LTF",
     "neo_symbol": "LTF-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "24948"
   },
   "LTFOODS": {
     "symbol": "LTFOODS",
     "neo_symbol": "LTFOODS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13816"
   },
   "LTIM": {
     "symbol": "LTIM",
@@ -1507,996 +1802,1195 @@
   "LTTS": {
     "symbol": "LTTS",
     "neo_symbol": "LTTS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "18564"
   },
   "LUPIN": {
     "symbol": "LUPIN",
     "neo_symbol": "LUPIN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "10440"
   },
   "M&M": {
     "symbol": "M&M",
     "neo_symbol": "M&M-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2031"
   },
   "M&MFIN": {
     "symbol": "M&MFIN",
     "neo_symbol": "M&MFIN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13285"
   },
   "MAHABANK": {
     "symbol": "MAHABANK",
     "neo_symbol": "MAHABANK-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11377"
   },
   "MAHSCOOTER": {
     "symbol": "MAHSCOOTER",
     "neo_symbol": "MAHSCOOTER-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2085"
   },
   "MAHSEAMLES": {
     "symbol": "MAHSEAMLES",
     "neo_symbol": "MAHSEAMLES-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2088"
   },
   "MANAPPURAM": {
     "symbol": "MANAPPURAM",
     "neo_symbol": "MANAPPURAM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "19061"
   },
   "MANKIND": {
     "symbol": "MANKIND",
     "neo_symbol": "MANKIND-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "15380"
   },
   "MANYAVAR": {
     "symbol": "MANYAVAR",
     "neo_symbol": "MANYAVAR-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "8167"
   },
   "MAPMYINDIA": {
     "symbol": "MAPMYINDIA",
     "neo_symbol": "MAPMYINDIA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "7227"
   },
   "MARICO": {
     "symbol": "MARICO",
     "neo_symbol": "MARICO-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "4067"
   },
   "MARUTI": {
     "symbol": "MARUTI",
     "neo_symbol": "MARUTI-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "10999"
   },
   "MAXHEALTH": {
     "symbol": "MAXHEALTH",
     "neo_symbol": "MAXHEALTH-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "22377"
   },
   "MAZDOCK": {
     "symbol": "MAZDOCK",
     "neo_symbol": "MAZDOCK-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "509"
   },
   "MCX": {
     "symbol": "MCX",
     "neo_symbol": "MCX-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "31181"
   },
   "MEDANTA": {
     "symbol": "MEDANTA",
     "neo_symbol": "MEDANTA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11956"
   },
   "METROPOLIS": {
     "symbol": "METROPOLIS",
     "neo_symbol": "METROPOLIS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "9581"
   },
   "MFSL": {
     "symbol": "MFSL",
     "neo_symbol": "MFSL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2142"
   },
   "MGL": {
     "symbol": "MGL",
     "neo_symbol": "MGL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "17534"
   },
   "MINDACORP": {
     "symbol": "MINDACORP",
     "neo_symbol": "MINDACORP-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "25897"
   },
   "MMTC": {
     "symbol": "MMTC",
     "neo_symbol": "MMTC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "17957"
   },
   "MOTHERSON": {
     "symbol": "MOTHERSON",
     "neo_symbol": "MOTHERSON-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "4204"
   },
   "MOTILALOFS": {
     "symbol": "MOTILALOFS",
     "neo_symbol": "MOTILALOFS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "14947"
   },
   "MPHASIS": {
     "symbol": "MPHASIS",
     "neo_symbol": "MPHASIS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "4503"
   },
   "MRF": {
     "symbol": "MRF",
     "neo_symbol": "MRF-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2277"
   },
   "MRPL": {
     "symbol": "MRPL",
     "neo_symbol": "MRPL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2283"
   },
   "MSUMI": {
     "symbol": "MSUMI",
     "neo_symbol": "MSUMI-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "8596"
   },
   "MUTHOOTFIN": {
     "symbol": "MUTHOOTFIN",
     "neo_symbol": "MUTHOOTFIN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "23650"
   },
   "NAM-INDIA": {
     "symbol": "NAM-INDIA",
     "neo_symbol": "NAM-INDIA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "357"
   },
   "NATCOPHARM": {
     "symbol": "NATCOPHARM",
     "neo_symbol": "NATCOPHARM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3918"
   },
   "NATIONALUM": {
     "symbol": "NATIONALUM",
     "neo_symbol": "NATIONALUM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "6364"
   },
   "NAUKRI": {
     "symbol": "NAUKRI",
     "neo_symbol": "NAUKRI-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13751"
   },
   "NAVA": {
     "symbol": "NAVA",
     "neo_symbol": "NAVA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "4014"
   },
   "NAVINFLUOR": {
     "symbol": "NAVINFLUOR",
     "neo_symbol": "NAVINFLUOR-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "14672"
   },
   "NBCC": {
     "symbol": "NBCC",
     "neo_symbol": "NBCC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "31415"
   },
   "NCC": {
     "symbol": "NCC",
     "neo_symbol": "NCC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2319"
   },
   "NESTLEIND": {
     "symbol": "NESTLEIND",
     "neo_symbol": "NESTLEIND-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "17963"
   },
   "NETWEB": {
     "symbol": "NETWEB",
     "neo_symbol": "NETWEB-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "17433"
   },
   "NEULANDLAB": {
     "symbol": "NEULANDLAB",
     "neo_symbol": "NEULANDLAB-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2406"
   },
   "NEWGEN": {
     "symbol": "NEWGEN",
     "neo_symbol": "NEWGEN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1164"
   },
   "NH": {
     "symbol": "NH",
     "neo_symbol": "NH-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11840"
   },
   "NHPC": {
     "symbol": "NHPC",
     "neo_symbol": "NHPC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "17400"
   },
   "NIACL": {
     "symbol": "NIACL",
     "neo_symbol": "NIACL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "399"
   },
   "NIVABUPA": {
     "symbol": "NIVABUPA",
     "neo_symbol": "NIVABUPA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "27097"
   },
   "NLCINDIA": {
     "symbol": "NLCINDIA",
     "neo_symbol": "NLCINDIA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "8585"
   },
   "NMDC": {
     "symbol": "NMDC",
     "neo_symbol": "NMDC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "15332"
   },
   "NSLNISP": {
     "symbol": "NSLNISP",
     "neo_symbol": "NSLNISP-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "14180"
   },
   "NTPC": {
     "symbol": "NTPC",
     "neo_symbol": "NTPC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11630"
   },
   "NTPCGREEN": {
     "symbol": "NTPCGREEN",
     "neo_symbol": "NTPCGREEN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "27176"
   },
   "NUVAMA": {
     "symbol": "NUVAMA",
     "neo_symbol": "NUVAMA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "18721"
   },
   "NUVOCO": {
     "symbol": "NUVOCO",
     "neo_symbol": "NUVOCO-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "5426"
   },
   "NYKAA": {
     "symbol": "NYKAA",
     "neo_symbol": "NYKAA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "6545"
   },
   "OBEROIRLTY": {
     "symbol": "OBEROIRLTY",
     "neo_symbol": "OBEROIRLTY-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "20242"
   },
   "OFSS": {
     "symbol": "OFSS",
     "neo_symbol": "OFSS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "10738"
   },
   "OIL": {
     "symbol": "OIL",
     "neo_symbol": "OIL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "17438"
   },
   "OLAELEC": {
     "symbol": "OLAELEC",
     "neo_symbol": "OLAELEC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "24777"
   },
   "OLECTRA": {
     "symbol": "OLECTRA",
     "neo_symbol": "OLECTRA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "10637"
   },
   "ONESOURCE": {
     "symbol": "ONESOURCE",
     "neo_symbol": "ONESOURCE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "29224"
   },
   "ONGC": {
     "symbol": "ONGC",
     "neo_symbol": "ONGC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2475"
   },
   "PAGEIND": {
     "symbol": "PAGEIND",
     "neo_symbol": "PAGEIND-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "14413"
   },
   "PATANJALI": {
     "symbol": "PATANJALI",
     "neo_symbol": "PATANJALI-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "17029"
   },
   "PAYTM": {
     "symbol": "PAYTM",
     "neo_symbol": "PAYTM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "6705"
   },
   "PCBL": {
     "symbol": "PCBL",
     "neo_symbol": "PCBL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2649"
   },
   "PERSISTENT": {
     "symbol": "PERSISTENT",
     "neo_symbol": "PERSISTENT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "18365"
   },
   "PETRONET": {
     "symbol": "PETRONET",
     "neo_symbol": "PETRONET-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11351"
   },
   "PFC": {
     "symbol": "PFC",
     "neo_symbol": "PFC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "14299"
   },
   "PFIZER": {
     "symbol": "PFIZER",
     "neo_symbol": "PFIZER-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2643"
   },
   "PGEL": {
     "symbol": "PGEL",
     "neo_symbol": "PGEL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "25358"
   },
   "PGHH": {
     "symbol": "PGHH",
     "neo_symbol": "PGHH-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2535"
   },
   "PHOENIXLTD": {
     "symbol": "PHOENIXLTD",
     "neo_symbol": "PHOENIXLTD-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "14552"
   },
   "PIDILITIND": {
     "symbol": "PIDILITIND",
     "neo_symbol": "PIDILITIND-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2664"
   },
   "PIIND": {
     "symbol": "PIIND",
     "neo_symbol": "PIIND-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "24184"
   },
   "PNB": {
     "symbol": "PNB",
     "neo_symbol": "PNB-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "10666"
   },
   "PNBHOUSING": {
     "symbol": "PNBHOUSING",
     "neo_symbol": "PNBHOUSING-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "18908"
   },
   "POLICYBZR": {
     "symbol": "POLICYBZR",
     "neo_symbol": "POLICYBZR-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "6656"
   },
   "POLYCAB": {
     "symbol": "POLYCAB",
     "neo_symbol": "POLYCAB-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "9590"
   },
   "POLYMED": {
     "symbol": "POLYMED",
     "neo_symbol": "POLYMED-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "25718"
   },
   "POONAWALLA": {
     "symbol": "POONAWALLA",
     "neo_symbol": "POONAWALLA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11403"
   },
   "POWERGRID": {
     "symbol": "POWERGRID",
     "neo_symbol": "POWERGRID-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "14977"
   },
   "POWERINDIA": {
     "symbol": "POWERINDIA",
     "neo_symbol": "POWERINDIA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "18457"
   },
   "PPLPHARMA": {
     "symbol": "PPLPHARMA",
     "neo_symbol": "PPLPHARMA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11571"
   },
   "PRAJIND": {
     "symbol": "PRAJIND",
     "neo_symbol": "PRAJIND-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2705"
   },
   "PREMIERENE": {
     "symbol": "PREMIERENE",
     "neo_symbol": "PREMIERENE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "25049"
   },
   "PRESTIGE": {
     "symbol": "PRESTIGE",
     "neo_symbol": "PRESTIGE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "20302"
   },
   "PTCIL": {
     "symbol": "PTCIL",
     "neo_symbol": "PTCIL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "16682"
   },
   "PVRINOX": {
     "symbol": "PVRINOX",
     "neo_symbol": "PVRINOX-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13147"
   },
   "RADICO": {
     "symbol": "RADICO",
     "neo_symbol": "RADICO-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "10990"
   },
   "RAILTEL": {
     "symbol": "RAILTEL",
     "neo_symbol": "RAILTEL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2431"
   },
   "RAINBOW": {
     "symbol": "RAINBOW",
     "neo_symbol": "RAINBOW-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "9408"
   },
   "RAMCOCEM": {
     "symbol": "RAMCOCEM",
     "neo_symbol": "RAMCOCEM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2043"
   },
   "RBLBANK": {
     "symbol": "RBLBANK",
     "neo_symbol": "RBLBANK-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "18391"
   },
   "RCF": {
     "symbol": "RCF",
     "neo_symbol": "RCF-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2866"
   },
   "RECLTD": {
     "symbol": "RECLTD",
     "neo_symbol": "RECLTD-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "15355"
   },
   "REDINGTON": {
     "symbol": "REDINGTON",
     "neo_symbol": "REDINGTON-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "14255"
   },
   "RELIANCE": {
     "symbol": "RELIANCE",
     "neo_symbol": "RELIANCE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2885"
   },
   "RELINFRA": {
     "symbol": "RELINFRA",
     "neo_symbol": "RELINFRA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "4791"
   },
   "RHIM": {
     "symbol": "RHIM",
     "neo_symbol": "RHIM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "31163"
   },
   "RITES": {
     "symbol": "RITES",
     "neo_symbol": "RITES-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3761"
   },
   "RKFORGE": {
     "symbol": "RKFORGE",
     "neo_symbol": "RKFORGE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11411"
   },
   "RPOWER": {
     "symbol": "RPOWER",
     "neo_symbol": "RPOWER-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "15259"
   },
   "RRKABEL": {
     "symbol": "RRKABEL",
     "neo_symbol": "RRKABEL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "18566"
   },
   "RVNL": {
     "symbol": "RVNL",
     "neo_symbol": "RVNL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "9552"
   },
   "SAGILITY": {
     "symbol": "SAGILITY",
     "neo_symbol": "SAGILITY-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "27052"
   },
   "SAIL": {
     "symbol": "SAIL",
     "neo_symbol": "SAIL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2963"
   },
   "SAILIFE": {
     "symbol": "SAILIFE",
     "neo_symbol": "SAILIFE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "27839"
   },
   "SAMMAANCAP": {
     "symbol": "SAMMAANCAP",
     "neo_symbol": "SAMMAANCAP-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "30125"
   },
   "SAPPHIRE": {
     "symbol": "SAPPHIRE",
     "neo_symbol": "SAPPHIRE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "6718"
   },
   "SARDAEN": {
     "symbol": "SARDAEN",
     "neo_symbol": "SARDAEN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "17758"
   },
   "SAREGAMA": {
     "symbol": "SAREGAMA",
     "neo_symbol": "SAREGAMA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "4892"
   },
   "SBFC": {
     "symbol": "SBFC",
     "neo_symbol": "SBFC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "18026"
   },
   "SBICARD": {
     "symbol": "SBICARD",
     "neo_symbol": "SBICARD-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "17971"
   },
   "SBILIFE": {
     "symbol": "SBILIFE",
     "neo_symbol": "SBILIFE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "21808"
   },
   "SBIN": {
     "symbol": "SBIN",
     "neo_symbol": "SBIN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3045"
   },
   "SCHAEFFLER": {
     "symbol": "SCHAEFFLER",
     "neo_symbol": "SCHAEFFLER-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1011"
   },
   "SCHNEIDER": {
     "symbol": "SCHNEIDER",
     "neo_symbol": "SCHNEIDER-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "31234"
   },
   "SCI": {
     "symbol": "SCI",
     "neo_symbol": "SCI-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3048"
   },
   "SHREECEM": {
     "symbol": "SHREECEM",
     "neo_symbol": "SHREECEM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3103"
   },
   "SHRIRAMFIN": {
     "symbol": "SHRIRAMFIN",
     "neo_symbol": "SHRIRAMFIN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "4306"
   },
   "SHYAMMETL": {
     "symbol": "SHYAMMETL",
     "neo_symbol": "SHYAMMETL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "4693"
   },
   "SIEMENS": {
     "symbol": "SIEMENS",
     "neo_symbol": "SIEMENS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3150"
   },
   "SIGNATURE": {
     "symbol": "SIGNATURE",
     "neo_symbol": "SIGNATURE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "18743"
   },
   "SJVN": {
     "symbol": "SJVN",
     "neo_symbol": "SJVN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "18883"
   },
   "SKFINDIA": {
     "symbol": "SKFINDIA",
     "neo_symbol": "SKFINDIA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3186"
   },
   "SOBHA": {
     "symbol": "SOBHA",
     "neo_symbol": "SOBHA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13826"
   },
   "SOLARINDS": {
     "symbol": "SOLARINDS",
     "neo_symbol": "SOLARINDS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13332"
   },
   "SONACOMS": {
     "symbol": "SONACOMS",
     "neo_symbol": "SONACOMS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "4684"
   },
   "SONATSOFTW": {
     "symbol": "SONATSOFTW",
     "neo_symbol": "SONATSOFTW-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "6596"
   },
   "SRF": {
     "symbol": "SRF",
     "neo_symbol": "SRF-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3273"
   },
   "STARHEALTH": {
     "symbol": "STARHEALTH",
     "neo_symbol": "STARHEALTH-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "7083"
   },
   "SUMICHEM": {
     "symbol": "SUMICHEM",
     "neo_symbol": "SUMICHEM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "17105"
   },
   "SUNDARMFIN": {
     "symbol": "SUNDARMFIN",
     "neo_symbol": "SUNDARMFIN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3339"
   },
   "SUNDRMFAST": {
     "symbol": "SUNDRMFAST",
     "neo_symbol": "SUNDRMFAST-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3345"
   },
   "SUNPHARMA": {
     "symbol": "SUNPHARMA",
     "neo_symbol": "SUNPHARMA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3351"
   },
   "SUNTV": {
     "symbol": "SUNTV",
     "neo_symbol": "SUNTV-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13404"
   },
   "SUPREMEIND": {
     "symbol": "SUPREMEIND",
     "neo_symbol": "SUPREMEIND-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3363"
   },
   "SUZLON": {
     "symbol": "SUZLON",
     "neo_symbol": "SUZLON-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "12018"
   },
   "SWANCORP": {
     "symbol": "SWANCORP",
     "neo_symbol": "SWANCORP-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "27095"
   },
   "SWIGGY": {
     "symbol": "SWIGGY",
     "neo_symbol": "SWIGGY-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "27066"
   },
   "SYNGENE": {
     "symbol": "SYNGENE",
     "neo_symbol": "SYNGENE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "10243"
   },
   "SYRMA": {
     "symbol": "SYRMA",
     "neo_symbol": "SYRMA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "10793"
   },
   "TARIL": {
     "symbol": "TARIL",
     "neo_symbol": "TARIL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "15174"
   },
   "TATACHEM": {
     "symbol": "TATACHEM",
     "neo_symbol": "TATACHEM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3405"
   },
   "TATACOMM": {
     "symbol": "TATACOMM",
     "neo_symbol": "TATACOMM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3721"
   },
   "TATACONSUM": {
     "symbol": "TATACONSUM",
     "neo_symbol": "TATACONSUM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3432"
   },
   "TATAELXSI": {
     "symbol": "TATAELXSI",
     "neo_symbol": "TATAELXSI-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3411"
   },
   "TATAINVEST": {
     "symbol": "TATAINVEST",
     "neo_symbol": "TATAINVEST-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1621"
   },
   "TATAPOWER": {
     "symbol": "TATAPOWER",
     "neo_symbol": "TATAPOWER-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3426"
   },
   "TATASTEEL": {
     "symbol": "TATASTEEL",
     "neo_symbol": "TATASTEEL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3499"
   },
   "TATATECH": {
     "symbol": "TATATECH",
     "neo_symbol": "TATATECH-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "20293"
   },
   "TBOTEK": {
     "symbol": "TBOTEK",
     "neo_symbol": "TBOTEK-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "23740"
   },
   "TCS": {
     "symbol": "TCS",
     "neo_symbol": "TCS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11536"
   },
   "TECHM": {
     "symbol": "TECHM",
     "neo_symbol": "TECHM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13538"
   },
   "TECHNOE": {
     "symbol": "TECHNOE",
     "neo_symbol": "TECHNOE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "6445"
   },
   "TEJASNET": {
     "symbol": "TEJASNET",
     "neo_symbol": "TEJASNET-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "21131"
   },
   "THELEELA": {
     "symbol": "THELEELA",
     "neo_symbol": "THELEELA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "757014"
   },
   "THERMAX": {
     "symbol": "THERMAX",
     "neo_symbol": "THERMAX-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3475"
   },
   "TIINDIA": {
     "symbol": "TIINDIA",
     "neo_symbol": "TIINDIA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "312"
   },
   "TIMKEN": {
     "symbol": "TIMKEN",
     "neo_symbol": "TIMKEN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "14198"
   },
   "TITAGARH": {
     "symbol": "TITAGARH",
     "neo_symbol": "TITAGARH-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "15414"
   },
   "TITAN": {
     "symbol": "TITAN",
     "neo_symbol": "TITAN-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3506"
   },
   "TMPV": {
     "symbol": "TMPV",
     "neo_symbol": "TMPV-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3456"
   },
   "TORNTPHARM": {
     "symbol": "TORNTPHARM",
     "neo_symbol": "TORNTPHARM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3518"
   },
   "TORNTPOWER": {
     "symbol": "TORNTPOWER",
     "neo_symbol": "TORNTPOWER-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13786"
   },
   "TRENT": {
     "symbol": "TRENT",
     "neo_symbol": "TRENT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1964"
   },
   "TRIDENT": {
     "symbol": "TRIDENT",
     "neo_symbol": "TRIDENT-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "9685"
   },
   "TRITURBINE": {
     "symbol": "TRITURBINE",
     "neo_symbol": "TRITURBINE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "25584"
   },
   "TRIVENI": {
     "symbol": "TRIVENI",
     "neo_symbol": "TRIVENI-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "13081"
   },
   "TTML": {
     "symbol": "TTML",
     "neo_symbol": "TTML-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "8954"
   },
   "TVSMOTOR": {
     "symbol": "TVSMOTOR",
     "neo_symbol": "TVSMOTOR-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "8479"
   },
   "UBL": {
     "symbol": "UBL",
     "neo_symbol": "UBL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "16713"
   },
   "UCOBANK": {
     "symbol": "UCOBANK",
     "neo_symbol": "UCOBANK-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11223"
   },
   "ULTRACEMCO": {
     "symbol": "ULTRACEMCO",
     "neo_symbol": "ULTRACEMCO-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11532"
   },
   "UNIONBANK": {
     "symbol": "UNIONBANK",
     "neo_symbol": "UNIONBANK-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "10753"
   },
   "UNITDSPR": {
     "symbol": "UNITDSPR",
     "neo_symbol": "UNITDSPR-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "10447"
   },
   "UNOMINDA": {
     "symbol": "UNOMINDA",
     "neo_symbol": "UNOMINDA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "14154"
   },
   "UPL": {
     "symbol": "UPL",
     "neo_symbol": "UPL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11287"
   },
   "USHAMART": {
     "symbol": "USHAMART",
     "neo_symbol": "USHAMART-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "8840"
   },
   "UTIAMC": {
     "symbol": "UTIAMC",
     "neo_symbol": "UTIAMC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "527"
   },
   "VBL": {
     "symbol": "VBL",
     "neo_symbol": "VBL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "18921"
   },
   "VEDL": {
     "symbol": "VEDL",
     "neo_symbol": "VEDL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3063"
   },
   "VENTIVE": {
     "symbol": "VENTIVE",
     "neo_symbol": "VENTIVE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "28847"
   },
   "VGUARD": {
     "symbol": "VGUARD",
     "neo_symbol": "VGUARD-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "15362"
   },
   "VIJAYA": {
     "symbol": "VIJAYA",
     "neo_symbol": "VIJAYA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "5585"
   },
   "VMM": {
     "symbol": "VMM",
     "neo_symbol": "VMM-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "27969"
   },
   "VOLTAS": {
     "symbol": "VOLTAS",
     "neo_symbol": "VOLTAS-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3718"
   },
   "VTL": {
     "symbol": "VTL",
     "neo_symbol": "VTL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "2073"
   },
   "WAAREEENER": {
     "symbol": "WAAREEENER",
     "neo_symbol": "WAAREEENER-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "25907"
   },
   "WELCORP": {
     "symbol": "WELCORP",
     "neo_symbol": "WELCORP-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11821"
   },
   "WELSPUNLIV": {
     "symbol": "WELSPUNLIV",
     "neo_symbol": "WELSPUNLIV-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11253"
   },
   "WHIRLPOOL": {
     "symbol": "WHIRLPOOL",
     "neo_symbol": "WHIRLPOOL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "18011"
   },
   "WIPRO": {
     "symbol": "WIPRO",
     "neo_symbol": "WIPRO-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3787"
   },
   "WOCKPHARMA": {
     "symbol": "WOCKPHARMA",
     "neo_symbol": "WOCKPHARMA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "7506"
   },
   "YESBANK": {
     "symbol": "YESBANK",
     "neo_symbol": "YESBANK-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "11915"
   },
   "ZEEL": {
     "symbol": "ZEEL",
     "neo_symbol": "ZEEL-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "3812"
   },
   "ZENSARTECH": {
     "symbol": "ZENSARTECH",
     "neo_symbol": "ZENSARTECH-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "1076"
   },
   "ZENTEC": {
     "symbol": "ZENTEC",
     "neo_symbol": "ZENTEC-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "7508"
   },
   "ZFCVINDIA": {
     "symbol": "ZFCVINDIA",
     "neo_symbol": "ZFCVINDIA-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "16915"
   },
   "ZYDUSLIFE": {
     "symbol": "ZYDUSLIFE",
     "neo_symbol": "ZYDUSLIFE-EQ",
-    "exchange_segment": "nse_cm"
+    "exchange_segment": "nse_cm",
+    "token": "7929"
   }
 }
